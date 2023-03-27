@@ -8,6 +8,9 @@ virgule ",". Cela nous donne la forme suivante :
 
 [P_1],[P_2],[P_3]
 
+### Analyse structurelle des questions : 
+Les questions du questionnaire ont les composants récurrents suivants : 
+
 - [A]  les mots-clés linguistiques utilisés dans la formulation des questions sont : Parmi, donner, indiquer, cocher, on observe, quelle(s), laquelle(s), séléctionner
 - [TF] les mots-clés linguistiques utilisés dans l'affrimation ou la négation sont : exacte(s), juste(s), inexacte(s) fausse(s), vraie(s)
 - [1N] la spécification du nombre des réponses possibles est ouverte sauf dans le cas où il est précisé qu'il y qu'une réponse possible
@@ -16,7 +19,9 @@ virgule ",". Cela nous donne la forme suivante :
 - Parfois, une partie [P_i] est divisé avec : ".",":","?"
 - [NEG] phrase en négation
 
-On cite ci-dessous les differents cas de figures des questions : 
+NB. On peut utiliser les subtitutions ([A],[TF]...etc) pour reclasser les questions d'une manière plus optimale. 
+
+Dans un premier temps, on donne ci-dessous les differents cas de figures des questions : 
 
 ### Classe 1 : 
 
@@ -39,19 +44,19 @@ On cite ci-dessous les differents cas de figures des questions :
 - [Indiquer + info médicale ]
 - [info médicale + . + Indiquer + Spécification (nbr+exacte/fausse) ]
 
-## Classe 4 : 
+### Classe 4 : 
 
 - [info médicale][On observe]
 - [info médicale][On observe + info médicale 2]
 
-## Classe 5 : 
+### Classe 5 : 
 
 - [info médicale]
 - [mot-clé médical]
 - [Spécification genre/type/context (mot-clé médical)][info médicale]
 - [context (mot-clé médical) + . + info médical]
 
-# Classe 6 : 
+### Classe 6 : 
 
 - [Quelle + 1N IMP + NEG info médical ]
 - [Quelle + Spécification (exacte/fausse) + ? + info médicale]
