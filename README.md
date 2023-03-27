@@ -63,3 +63,31 @@ Dans un premier temps, on donne ci-dessous les differents cas de figures des que
 - [Quelle + info médicale]
 - [Quelle + Spécification (vraie(s)/fausse(s))+ mot-clé médical]
 - [Quelle + Spécification (vraie(s)/fausse(s))][mot-clé médical]
+
+
+
+**COMPTE RENDU RÉUNION 27 mars 2023**
+
+-Présentation de la classification effectuée par Toufik (il ajoutera le fichier sur GitHub dans le courant de la semaine)
+-Présentation de la transformation des questions et des réponses correctes, par le biais des conditions, en phrases pour construction de corpus auto-suffisant - tâche effectuée par Corina (à ajouter le code sur GitHub dans le courant de la semaine)
+-Le but est de combiner ces deux tâches pour aboutir à un corpus auquel on ajoutera ensuite les annales fournies. 
+
+
+-Discussion autour du papier disponible dans le readme => L’équipe des organisateurs a déjà travaillé dessus en utilisant le MedBERT anglais et le BERT français = > le MedBERT anglais s’est avéré plus efficace que le BERT généralisé en français, le score de précision est calculé avec deux métriques : Hamming et EMR. Il est d’approximativement 15% de précision avec EMR et 36-38 avec Hamming (cf. Tableau 2 page 4 papier fourni) :
+
+-Proposition de Caroline suite à l’analyse du tableau : utiliser d’autres métriques pour mesurer les résultats. 
+-Conclusion de l’analyse du papier : si Ibtihel, Nour et Oumaima n’ont pas encore travaillé sur les BERTs il faudrait abandonner la tâche car elle a déjà été effectuée par l’équipe. 
+-La construction d’un corpus externe ne fonctionne pas non plus, l’équipe a utilisé un corpus wikipedia et un HAL, cela n’a pas donné de résultats (pour plus de précisions consulter le papier)
+
+Nouvelles tâches pour lundi 3 avril à 14h :
+
+1. Andreea => Demander à sont contact en pharmacologie s’il y une similarité entre les questions et les réponses (approche globale sans analyse précise)
+
+2. Toufik   => avancer sur la classification et mettre ensemble son travail avec celui de Corina (il sera expliqué plus en détail sur GitHub)
+
+3. Corina => avancer sur la transformation des questions et réponses correctes en propositions valides. 
+
+4. Gaël et Julien => méthode de similarité entre les question 
+
+5. Laurie => Contacter l’équipe de DEFT 2023 pour des questions concernant le règlement (on n’a pas la certitude des libertés dont on dispose dans la constitution du corpus)
+
