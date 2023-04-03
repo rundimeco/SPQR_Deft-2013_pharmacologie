@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "deft2023"
+version = "0.1.0"
+description = ""
+authors = ["SPQR Team <corinamchutaux@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.2"
+pandas = "^1.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
