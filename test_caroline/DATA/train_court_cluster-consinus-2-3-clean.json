@@ -1,0 +1,5341 @@
+{
+  "ID 0": {
+    "Centro\u00efde": "base",
+    "Freq. centroide": 17,
+    "Termes": [
+      "alt\u00e9pase",
+      "atpase",
+      "base",
+      "bav",
+      "catalase",
+      "coagulase",
+      "d2",
+      "fortovase",
+      "laser",
+      "lipase",
+      "lyase",
+      "phase",
+      "s.",
+      "sep",
+      "uricase"
+    ]
+  },
+  "ID 1": {
+    "Centro\u00efde": "miconazole",
+    "Freq. centroide": 3,
+    "Termes": [
+      "fluconazole",
+      "itraconazole",
+      "k\u00e9toconazole",
+      "miconazole"
+    ]
+  },
+  "ID 2": {
+    "Centro\u00efde": "chlore",
+    "Freq. centroide": 2,
+    "Termes": [
+      "chlorambucil",
+      "chloraminophene",
+      "chlorate",
+      "chlore",
+      "chloroquine",
+      "chlorpromazine",
+      "chlortalidone",
+      "chlorure",
+      "flore",
+      "ikorel",
+      "perchlorate",
+      "pylori"
+    ]
+  },
+  "ID 3": {
+    "Centro\u00efde": "angle",
+    "Freq. centroide": 3,
+    "Termes": [
+      "angle",
+      "angor",
+      "ganglion",
+      "r\u00e8gle",
+      "sang",
+      "seigle"
+    ]
+  },
+  "ID 4": {
+    "Centro\u00efde": "arnm",
+    "Freq. centroide": 1,
+    "Termes": [
+      "arn",
+      "arnm",
+      "arr\u00eat",
+      "barnetil",
+      "foscarnet",
+      "nm"
+    ]
+  },
+  "ID 5": {
+    "Centro\u00efde": "sensibilit\u00e9",
+    "Freq. centroide": 5,
+    "Termes": [
+      "biodisponibilit\u00e9",
+      "conductibilit\u00e9",
+      "densit\u00e9",
+      "hypersensibilit\u00e9",
+      "possibilit\u00e9",
+      "sens",
+      "sensibilit\u00e9"
+    ]
+  },
+  "ID 6": {
+    "Centro\u00efde": "toxine",
+    "Freq. centroide": 1,
+    "Termes": [
+      "antidigoxine",
+      "c\u00e9l\u00e9coxib",
+      "digitoxine",
+      "digoxine",
+      "endotoxine",
+      "neurotoxine",
+      "toxi",
+      "toxine"
+    ]
+  },
+  "ID 7": {
+    "Centro\u00efde": "alcool",
+    "Freq. centroide": 11,
+    "Termes": [
+      "a+",
+      "alcool",
+      "alcoolisme",
+      "alcoolo",
+      "cobalt",
+      "oo"
+    ]
+  },
+  "ID 8": {
+    "Centro\u00efde": "d\u00e9soxyribonucl\u00e9ase",
+    "Freq. centroide": 1,
+    "Termes": [
+      "d\u00e9soxyribonucl\u00e9ase",
+      "d\u00e9soxyribonucl\u00e9otide",
+      "d\u00e9soxyribose",
+      "nucl\u00e9ase"
+    ]
+  },
+  "ID 9": {
+    "Centro\u00efde": "cytom\u00e9galovirus",
+    "Freq. centroide": 7,
+    "Termes": [
+      "arbovirus",
+      "cytom\u00e9galovirus",
+      "cytom\u00e9galovivru",
+      "ent\u00e9rovirus",
+      "h\u00e9patom\u00e9galie",
+      "virus"
+    ]
+  },
+  "ID 10": {
+    "Centro\u00efde": "flux",
+    "Freq. centroide": 7,
+    "Termes": [
+      "afflux",
+      "fl",
+      "flude",
+      "flumaz\u00e9nil",
+      "flux",
+      "reflux"
+    ]
+  },
+  "ID 11": {
+    "Centro\u00efde": "leucocyte",
+    "Freq. centroide": 1,
+    "Termes": [
+      "leucocyte",
+      "leucocytose",
+      "leucocyturie",
+      "leucorrh\u00e9e"
+    ]
+  },
+  "ID 12": {
+    "Centro\u00efde": "lign\u00e9e",
+    "Freq. centroide": 6,
+    "Termes": [
+      "ann\u00e9e",
+      "donn\u00e9e",
+      "lign\u00e9e",
+      "oligo",
+      "saign\u00e9e"
+    ]
+  },
+  "ID 13": {
+    "Centro\u00efde": "antihypertenseur",
+    "Freq. centroide": 1,
+    "Termes": [
+      "antihypertenseur",
+      "antihypertenseur(",
+      "d\u00e9fense",
+      "perte",
+      "perturb\u00e9("
+    ]
+  },
+  "ID 14": {
+    "Centro\u00efde": "objet",
+    "Freq. centroide": 5,
+    "Termes": [
+      "objectif",
+      "objet",
+      "rejet",
+      "sujet"
+    ]
+  },
+  "ID 15": {
+    "Centro\u00efde": "tension",
+    "Freq. centroide": 5,
+    "Termes": [
+      "angiotensine",
+      "ascension",
+      "compr\u00e9hension",
+      "d\u00e9tenu",
+      "expansion",
+      "hypertension",
+      "hypotension",
+      "intensit\u00e9",
+      "suspension",
+      "tensio",
+      "tension"
+    ]
+  },
+  "ID 16": {
+    "Centro\u00efde": "iode",
+    "Freq. centroide": 5,
+    "Termes": [
+      "anode",
+      "cathode",
+      "code",
+      "diode",
+      "iode",
+      "mode",
+      "p\u00e9riode",
+      "\u00e9pisode"
+    ]
+  },
+  "ID 17": {
+    "Centro\u00efde": "lyse",
+    "Freq. centroide": 1,
+    "Termes": [
+      "analyse",
+      "catalyse",
+      "cytolyse",
+      "glycog\u00e9nolyse",
+      "glycolyse",
+      "hydrolyse",
+      "lipolyse",
+      "lyse",
+      "ost\u00e9olyse",
+      "rhabdomyolyse"
+    ]
+  },
+  "ID 18": {
+    "Centro\u00efde": "malade",
+    "Freq. centroide": 5,
+    "Termes": [
+      "ala",
+      "d\u00e9grader",
+      "malade",
+      "maladie",
+      "stade",
+      "torsade"
+    ]
+  },
+  "ID 19": {
+    "Centro\u00efde": "sartan",
+    "Freq. centroide": 1,
+    "Termes": [
+      "losartan",
+      "sarm",
+      "sartan",
+      "valsartan"
+    ]
+  },
+  "ID 20": {
+    "Centro\u00efde": "glucose",
+    "Freq. centroide": 28,
+    "Termes": [
+      "3-glucane",
+      "glaucome",
+      "glucophage",
+      "glucose",
+      "glucosidase",
+      "glucuronyl",
+      "mycose"
+    ]
+  },
+  "ID 21": {
+    "Centro\u00efde": "changement",
+    "Freq. centroide": 1,
+    "Termes": [
+      "allongement",
+      "changement",
+      "jugement",
+      "\u00e9change",
+      "\u00e9chappement"
+    ]
+  },
+  "ID 22": {
+    "Centro\u00efde": "azote",
+    "Freq. centroide": 8,
+    "Termes": [
+      "azote",
+      "azot\u00e9",
+      "azt",
+      "note"
+    ]
+  },
+  "ID 23": {
+    "Centro\u00efde": "r\u00e9sistance",
+    "Freq. centroide": 2,
+    "Termes": [
+      "insulinor\u00e9sistance",
+      "r\u00e9sidu",
+      "r\u00e9sistance",
+      "r\u00e9sistant",
+      "r\u00e9sistivit\u00e9",
+      "r\u00e9sonnance",
+      "substance"
+    ]
+  },
+  "ID 24": {
+    "Centro\u00efde": "constitution",
+    "Freq. centroide": 2,
+    "Termes": [
+      "constipation",
+      "constituant",
+      "constitue(nt",
+      "constitution",
+      "cons\u00e9cutif(",
+      "reconstitution",
+      "restitution",
+      "substitution"
+    ]
+  },
+  "ID 25": {
+    "Centro\u00efde": "unit\u00e9",
+    "Freq. centroide": 5,
+    "Termes": [
+      "affinit\u00e9",
+      "dignit\u00e9",
+      "flunitrazepam",
+      "immunit\u00e9",
+      "mannitol",
+      "sous-unit\u00e9",
+      "unicit\u00e9",
+      "uniformit\u00e9",
+      "unit\u00e9"
+    ]
+  },
+  "ID 26": {
+    "Centro\u00efde": "urine",
+    "Freq. centroide": 16,
+    "Termes": [
+      "allopurinol",
+      "aspirine",
+      "calcineurine",
+      "exocrine",
+      "gris\u00e9ofulvine",
+      "h\u00e9parine",
+      "origine",
+      "prurit",
+      "ribavirine",
+      "savarine",
+      "s\u00e9rine",
+      "turbine",
+      "urine",
+      "warfarine"
+    ]
+  },
+  "ID 27": {
+    "Centro\u00efde": "\u00e9quilibre",
+    "Freq. centroide": 2,
+    "Termes": [
+      "calibre",
+      "seuil",
+      "\u00e9quilibration",
+      "\u00e9quilibre"
+    ]
+  },
+  "ID 28": {
+    "Centro\u00efde": "ald\u00e9hyde",
+    "Freq. centroide": 1,
+    "Termes": [
+      "ac\u00e9tald\u00e9hyde",
+      "ald\u00e9hyde",
+      "formald\u00e9hyde"
+    ]
+  },
+  "ID 29": {
+    "Centro\u00efde": "thyronine",
+    "Freq. centroide": 1,
+    "Termes": [
+      "m\u00e9thionine",
+      "thyrocalcitonine",
+      "thyronine",
+      "thyroxine",
+      "triiodothyronine",
+      "troponine",
+      "t\u00e9traiodothyronine"
+    ]
+  },
+  "ID 30": {
+    "Centro\u00efde": "clinique",
+    "Freq. centroide": 1,
+    "Termes": [
+      "applique(nt",
+      "chronique",
+      "clinique",
+      "imipraminique",
+      "l\u00e9vulinique",
+      "mono-ethyl\u00e9nique",
+      "technique"
+    ]
+  },
+  "ID 31": {
+    "Centro\u00efde": "adh\u00e9sion",
+    "Freq. centroide": 2,
+    "Termes": [
+      "adh",
+      "adh\u00e9sif",
+      "adh\u00e9sion",
+      "coh\u00e9sion",
+      "l\u00e9sion"
+    ]
+  },
+  "ID 32": {
+    "Centro\u00efde": "pr\u00e9sent",
+    "Freq. centroide": 1,
+    "Termes": [
+      "pr\u00e9sence",
+      "pr\u00e9sent",
+      "pr\u00e9sentateur",
+      "pr\u00e9sentation",
+      "pr\u00e9sente(nt",
+      "pr\u00e9sente(nt)une",
+      "pr\u00e9ventif",
+      "r\u00e9serve",
+      "r\u00e9sum\u00e9"
+    ]
+  },
+  "ID 33": {
+    "Centro\u00efde": "b\u00eatabloquant",
+    "Freq. centroide": 2,
+    "Termes": [
+      "beta-bloquant",
+      "b\u00e9tabloquant",
+      "b\u00eata",
+      "b\u00eata-bloquant",
+      "b\u00eatabloquant",
+      "praziquantel"
+    ]
+  },
+  "ID 34": {
+    "Centro\u00efde": "distribution",
+    "Freq. centroide": 7,
+    "Termes": [
+      "distribution",
+      "redistribution",
+      "tribunal"
+    ]
+  },
+  "ID 35": {
+    "Centro\u00efde": "trinitrine",
+    "Freq. centroide": 5,
+    "Termes": [
+      "amitriptyline",
+      "antineutrino",
+      "halofantrine",
+      "industrie",
+      "neutrino",
+      "nitrite",
+      "trimestre",
+      "trinitrate",
+      "trinitrine"
+    ]
+  },
+  "ID 36": {
+    "Centro\u00efde": "bence",
+    "Freq. centroide": 2,
+    "Termes": [
+      "absence",
+      "bence",
+      "carence",
+      "comp\u00e9tence",
+      "cons\u00e9quence",
+      "existence",
+      "fr\u00e9quence",
+      "influence",
+      "latence",
+      "pr\u00e9valence",
+      "somnolence",
+      "urgence"
+    ]
+  },
+  "ID 37": {
+    "Centro\u00efde": "chromosome",
+    "Freq. centroide": 6,
+    "Termes": [
+      "bathochrome",
+      "chromophore",
+      "chromosome",
+      "cytochrome",
+      "ribosome"
+    ]
+  },
+  "ID 38": {
+    "Centro\u00efde": "bradycardie",
+    "Freq. centroide": 5,
+    "Termes": [
+      "bradycardie",
+      "bradyzo\u00efte",
+      "endocardite",
+      "gradient",
+      "tachycardie"
+    ]
+  },
+  "ID 39": {
+    "Centro\u00efde": "agent",
+    "Freq. centroide": 34,
+    "Termes": [
+      "ag",
+      "agence",
+      "agent",
+      "argent",
+      "d\u00e9gagement",
+      "enrobage",
+      "flagentyl",
+      "genre",
+      "imagerie"
+    ]
+  },
+  "ID 40": {
+    "Centro\u00efde": "rayonnement",
+    "Freq. centroide": 35,
+    "Termes": [
+      "anciennement",
+      "bourdonnement",
+      "environnement",
+      "fonctionnement",
+      "moyenne",
+      "rayon",
+      "rayonnement",
+      "saignement"
+    ]
+  },
+  "ID 41": {
+    "Centro\u00efde": "corpus",
+    "Freq. centroide": 1,
+    "Termes": [
+      "corps",
+      "corpus",
+      "corpuscule",
+      "purpura"
+    ]
+  },
+  "ID 42": {
+    "Centro\u00efde": "glut",
+    "Freq. centroide": 2,
+    "Termes": [
+      "agglutine",
+      "glu",
+      "glut",
+      "glutamate",
+      "glutathion",
+      "liraglutide"
+    ]
+  },
+  "ID 43": {
+    "Centro\u00efde": "m\u00e9dicament",
+    "Freq. centroide": 71,
+    "Termes": [
+      "m\u00e9dicament",
+      "m\u00e9dicament(",
+      "radical"
+    ]
+  },
+  "ID 44": {
+    "Centro\u00efde": "pharmacop\u00e9e",
+    "Freq. centroide": 6,
+    "Termes": [
+      "arm\u00e9e",
+      "pharmacien",
+      "pharmacocin\u00e9tique",
+      "pharmacop\u00e9e"
+    ]
+  },
+  "ID 45": {
+    "Centro\u00efde": "atome",
+    "Freq. centroide": 9,
+    "Termes": [
+      "atome",
+      "h\u00e9t\u00e9roatome",
+      "my\u00e9lome",
+      "phl\u00e9botome"
+    ]
+  },
+  "ID 46": {
+    "Centro\u00efde": "ration",
+    "Freq. centroide": 1,
+    "Termes": [
+      "acceptation",
+      "accommodation",
+      "acc\u00e9l\u00e9ration",
+      "administration",
+      "allocation",
+      "alt\u00e9ration",
+      "appr\u00e9ciation",
+      "association",
+      "att\u00e9nuation",
+      "captation",
+      "coloration",
+      "concentration",
+      "cong\u00e9lation",
+      "consommation",
+      "coop\u00e9ration",
+      "desquamation",
+      "d\u00e9claration",
+      "d\u00e9gradation",
+      "d\u00e9sint\u00e9gration",
+      "expiration",
+      "exploration",
+      "fissuration",
+      "fixation",
+      "glycation",
+      "g\u00e9n\u00e9ration",
+      "hybridation",
+      "hypersudation",
+      "importation",
+      "incorporation",
+      "incubation",
+      "inhalation",
+      "inspiration",
+      "irradiation",
+      "irrigation",
+      "lib\u00e9ration",
+      "l\u00e9gislation",
+      "mac\u00e9ration",
+      "maturation",
+      "microconcentration",
+      "migration",
+      "mutation",
+      "num\u00e9ration",
+      "obligation",
+      "op\u00e9ration",
+      "oxydation",
+      "perturbation",
+      "pond\u00e9ration",
+      "praticien",
+      "prolif\u00e9ration",
+      "prolongation",
+      "pr\u00e9paration",
+      "p\u00e9gylation",
+      "p\u00e9n\u00e9tration",
+      "radiation",
+      "ration",
+      "recommandation",
+      "relation",
+      "relaxation",
+      "rotation",
+      "r\u00e9cup\u00e9ration",
+      "saturation",
+      "situation",
+      "s\u00e9dation",
+      "s\u00e9paration",
+      "titration",
+      "translocation",
+      "ulc\u00e9ration",
+      "variation",
+      "\u00e9ducation",
+      "\u00e9l\u00e9vation",
+      "\u00e9puration",
+      "\u00e9valuation"
+    ]
+  },
+  "ID 47": {
+    "Centro\u00efde": "nif\u00e9dipine",
+    "Freq. centroide": 2,
+    "Termes": [
+      "amlodipine",
+      "nicardipine",
+      "nif\u00e9dipine"
+    ]
+  },
+  "ID 48": {
+    "Centro\u00efde": "r\u00e9ponse",
+    "Freq. centroide": 31,
+    "Termes": [
+      "anse",
+      "conseil",
+      "responsable",
+      "r\u00e9ponse",
+      "r\u00e9ponse("
+    ]
+  },
+  "ID 50": {
+    "Centro\u00efde": "xanthine",
+    "Freq. centroide": 2,
+    "Termes": [
+      "hypoxanthine",
+      "l\u00e9cithine",
+      "machine",
+      "ornithine",
+      "thioxanth\u00e8ne",
+      "xanthine"
+    ]
+  },
+  "ID 51": {
+    "Centro\u00efde": "cavit\u00e9",
+    "Freq. centroide": 2,
+    "Termes": [
+      "abacavir",
+      "avk",
+      "c14",
+      "cave",
+      "cavit\u00e9",
+      "foscavir",
+      "gravit\u00e9"
+    ]
+  },
+  "ID 52": {
+    "Centro\u00efde": "fibrinog\u00e8ne",
+    "Freq. centroide": 4,
+    "Termes": [
+      "afibrinog\u00e9n\u00e9mie",
+      "fibrine",
+      "fibrinog\u00e8ne",
+      "fibrinolyse",
+      "hallucinog\u00e8ne",
+      "hypofibrinog\u00e9n\u00e9mie",
+      "hypofibrinolyse",
+      "pepsinog\u00e8ne",
+      "plasminog\u00e8ne",
+      "pvc",
+      "urobilinog\u00e8ne",
+      "vibrio"
+    ]
+  },
+  "ID 53": {
+    "Centro\u00efde": "nitrobenz\u00e8ne",
+    "Freq. centroide": 1,
+    "Termes": [
+      "benz\u00e8ne",
+      "nitrobenz\u00e8ne"
+    ]
+  },
+  "ID 54": {
+    "Centro\u00efde": "absorbe",
+    "Freq. centroide": 1,
+    "Termes": [
+      "absorbance",
+      "absorbe",
+      "isosorbide",
+      "planorbe",
+      "r\u00e9absorb\u00e9",
+      "sorbitol"
+    ]
+  },
+  "ID 55": {
+    "Centro\u00efde": "hypoglyc\u00e9mie",
+    "Freq. centroide": 5,
+    "Termes": [
+      "glyc\u00e9mie",
+      "hyperglyc\u00e9mie",
+      "hypoglycorachie",
+      "hypoglyc\u00e9miant",
+      "hypoglyc\u00e9mie"
+    ]
+  },
+  "ID 56": {
+    "Centro\u00efde": "mati\u00e8re",
+    "Freq. centroide": 5,
+    "Termes": [
+      "barri\u00e8re",
+      "fi\u00e8vre",
+      "liti\u00e8re",
+      "lumi\u00e8re",
+      "mani\u00e8re",
+      "matin",
+      "mati\u00e8re"
+    ]
+  },
+  "ID 57": {
+    "Centro\u00efde": "d\u00e9presseur",
+    "Freq. centroide": 3,
+    "Termes": [
+      "anti-d\u00e9presseur",
+      "antid\u00e9presseur",
+      "d\u00e9presseur",
+      "expresse",
+      "\u00e9preuve"
+    ]
+  },
+  "ID 59": {
+    "Centro\u00efde": "fumeur",
+    "Freq. centroide": 3,
+    "Termes": [
+      "fumeur",
+      "fum\u00e9e",
+      "l\u00e9gume",
+      "tumeur",
+      "volume"
+    ]
+  },
+  "ID 60": {
+    "Centro\u00efde": "champignon(",
+    "Freq. centroide": 1,
+    "Termes": [
+      "champignon",
+      "champignon("
+    ]
+  },
+  "ID 61": {
+    "Centro\u00efde": "canal",
+    "Freq. centroide": 7,
+    "Termes": [
+      "analg\u00e9sique",
+      "analogue",
+      "analyte",
+      "canal",
+      "canalicule",
+      "canard",
+      "candida",
+      "canid\u00e9",
+      "cannabis"
+    ]
+  },
+  "ID 62": {
+    "Centro\u00efde": "micro",
+    "Freq. centroide": 2,
+    "Termes": [
+      "chylomicron",
+      "micro",
+      "microglie",
+      "microm\u00e8tre",
+      "microsatellite",
+      "microscope",
+      "microsomal",
+      "microtubule"
+    ]
+  },
+  "ID 63": {
+    "Centro\u00efde": "coccu",
+    "Freq. centroide": 4,
+    "Termes": [
+      "coca\u00efne",
+      "coccidie",
+      "coccu",
+      "coccus",
+      "cryptococcose",
+      "echinococcu",
+      "enterococcu",
+      "staphylococccu",
+      "staphylococcus",
+      "streptococcus"
+    ]
+  },
+  "ID 64": {
+    "Centro\u00efde": "ur\u00e9ogen\u00e8se",
+    "Freq. centroide": 7,
+    "Termes": [
+      "ammoniogen\u00e8se",
+      "c\u00e9togen\u00e8se",
+      "glycon\u00e9ogen\u00e8se",
+      "lipogen\u00e8se",
+      "ur\u00e9ogen\u00e8se",
+      "ur\u00e9og\u00e9n\u00e8se"
+    ]
+  },
+  "ID 65": {
+    "Centro\u00efde": "chlorurorachie",
+    "Freq. centroide": 2,
+    "Termes": [
+      "chien",
+      "chlorurorachie",
+      "glycorachie",
+      "hyperchlorurorachie",
+      "t\u00e9trachlorure"
+    ]
+  },
+  "ID 67": {
+    "Centro\u00efde": "nationalisation",
+    "Freq. centroide": 1,
+    "Termes": [
+      "agglutination",
+      "atomisation",
+      "compensation",
+      "d\u00e9localisation",
+      "d\u00e9polarisation",
+      "focalisation",
+      "fonctionnalisation",
+      "hallucination",
+      "immunisation",
+      "internalisation",
+      "ionisation",
+      "localisation",
+      "nationalisation",
+      "neutralisation",
+      "polarisation",
+      "potentialisation",
+      "r\u00e9alisation",
+      "sensation",
+      "tb",
+      "tyndallisation",
+      "vaccination"
+    ]
+  },
+  "ID 68": {
+    "Centro\u00efde": "m\u00e8re",
+    "Freq. centroide": 5,
+    "Termes": [
+      "art\u00e8re",
+      "crit\u00e8re",
+      "dim\u00e8re",
+      "fr\u00e8re",
+      "h\u00e9t\u00e9rodim\u00e8re",
+      "ict\u00e8re",
+      "isom\u00e8re",
+      "m\u00e8re",
+      "phan\u00e8re",
+      "polym\u00e8re",
+      "p\u00e8re",
+      "t\u00e9tram\u00e8re",
+      "ulc\u00e8re"
+    ]
+  },
+  "ID 69": {
+    "Centro\u00efde": "milieu",
+    "Freq. centroide": 30,
+    "Termes": [
+      "lieu",
+      "milieu",
+      "millier",
+      "million",
+      "silice"
+    ]
+  },
+  "ID 71": {
+    "Centro\u00efde": "vasa",
+    "Freq. centroide": 1,
+    "Termes": [
+      "asat",
+      "cas",
+      "vasa"
+    ]
+  },
+  "ID 74": {
+    "Centro\u00efde": "\u00e9talon",
+    "Freq. centroide": 3,
+    "Termes": [
+      "m\u00e9tal",
+      "naloxone",
+      "pari\u00e9tal",
+      "sotalol",
+      "\u00e9talon",
+      "\u00e9talonnage",
+      "\u00e9thalonate"
+    ]
+  },
+  "ID 75": {
+    "Centro\u00efde": "sonde",
+    "Freq. centroide": 1,
+    "Termes": [
+      "fond",
+      "mansoni",
+      "onde",
+      "sondage",
+      "sonde"
+    ]
+  },
+  "ID 76": {
+    "Centro\u00efde": "statine",
+    "Freq. centroide": 1,
+    "Termes": [
+      "atorvastatine",
+      "prostaglandine",
+      "prostate",
+      "simvastatine",
+      "statine",
+      "statut"
+    ]
+  },
+  "ID 78": {
+    "Centro\u00efde": "poids",
+    "Freq. centroide": 9,
+    "Termes": [
+      "froid",
+      "poids",
+      "surpoids"
+    ]
+  },
+  "ID 79": {
+    "Centro\u00efde": "chat",
+    "Freq. centroide": 3,
+    "Termes": [
+      "achat",
+      "chancre",
+      "chat",
+      "cha\u00eene",
+      "vha"
+    ]
+  },
+  "ID 80": {
+    "Centro\u00efde": "pression",
+    "Freq. centroide": 19,
+    "Termes": [
+      "compression",
+      "cresson",
+      "desmopressine",
+      "d\u00e9pression",
+      "essai",
+      "expression",
+      "immunod\u00e9pression",
+      "pression",
+      "professionnel",
+      "progression",
+      "progressive",
+      "r\u00e9trocession"
+    ]
+  },
+  "ID 82": {
+    "Centro\u00efde": "parasympathique",
+    "Freq. centroide": 1,
+    "Termes": [
+      "bio-\u00e9thique",
+      "parasympathique",
+      "parasympathomim\u00e9tique",
+      "parathormone"
+    ]
+  },
+  "ID 83": {
+    "Centro\u00efde": "s\u00e9lectivit\u00e9",
+    "Freq. centroide": 1,
+    "Termes": [
+      "/l",
+      "activit\u00e9",
+      "b6",
+      "collectivit\u00e9",
+      "conjonctivite",
+      "connectivite",
+      "directive",
+      "lectine",
+      "s\u00e9lectif",
+      "s\u00e9lectivit\u00e9"
+    ]
+  },
+  "ID 84": {
+    "Centro\u00efde": "atteinte",
+    "Freq. centroide": 4,
+    "Termes": [
+      "atteint",
+      "atteinte",
+      "goutte",
+      "hotte",
+      "h\u00f4te",
+      "interlocuteur"
+    ]
+  },
+  "ID 85": {
+    "Centro\u00efde": "cycle",
+    "Freq. centroide": 11,
+    "Termes": [
+      "cycle",
+      "cyclo",
+      "h\u00e9t\u00e9rocycle",
+      "macrocycle",
+      "muscle",
+      "obstacle"
+    ]
+  },
+  "ID 86": {
+    "Centro\u00efde": "fluorescence",
+    "Freq. centroide": 22,
+    "Termes": [
+      "adolescent",
+      "chimiluminescence",
+      "fluorescence",
+      "fluorescer",
+      "fluoresc\u00e9ine",
+      "gr\u00e2ce",
+      "immunofluorescence",
+      "pi\u00e8ce",
+      "reviviscence"
+    ]
+  },
+  "ID 87": {
+    "Centro\u00efde": "motoneurone",
+    "Freq. centroide": 2,
+    "Termes": [
+      "amiodarone",
+      "atovaquone",
+      "donneur",
+      "hormone",
+      "isotone",
+      "motoneurone",
+      "mouton",
+      "m\u00e9topyrone",
+      "neurone",
+      "spironalactone",
+      "spironolactone",
+      "zone"
+    ]
+  },
+  "ID 88": {
+    "Centro\u00efde": "s\u00e9tron",
+    "Freq. centroide": 1,
+    "Termes": [
+      "intron",
+      "m\u00e9tronidazole",
+      "neutron",
+      "ondans\u00e9tron",
+      "strongyloide",
+      "s\u00e9tron",
+      "ur\u00e9tro"
+    ]
+  },
+  "ID 89": {
+    "Centro\u00efde": "oxyg\u00e9nase",
+    "Freq. centroide": 1,
+    "Termes": [
+      "monoxyg\u00e9nase",
+      "oxyg\u00e9nase",
+      "oxyg\u00e9nation"
+    ]
+  },
+  "ID 90": {
+    "Centro\u00efde": "pyridine",
+    "Freq. centroide": 1,
+    "Termes": [
+      "cim\u00e9tidine",
+      "clonidine",
+      "dihydropyridine",
+      "histidine",
+      "pyridine",
+      "pyridinoline",
+      "ranitidine",
+      "rifadine",
+      "rilm\u00e9nidine",
+      "thymidine"
+    ]
+  },
+  "ID 91": {
+    "Centro\u00efde": "hydratation",
+    "Freq. centroide": 2,
+    "Termes": [
+      "constatation",
+      "deshydratation",
+      "dilatation",
+      "drag\u00e9e",
+      "d\u00e9shydratation",
+      "hydratation",
+      "hyperhydratation"
+    ]
+  },
+  "ID 92": {
+    "Centro\u00efde": "m\u00e9decine",
+    "Freq. centroide": 1,
+    "Termes": [
+      "biom\u00e9decine",
+      "m\u00e9decin",
+      "m\u00e9decine"
+    ]
+  },
+  "ID 94": {
+    "Centro\u00efde": "c\u00e9fotaxime",
+    "Freq. centroide": 2,
+    "Termes": [
+      "cefotaxime",
+      "c\u00e9fotaxime",
+      "c\u00e9furoxime",
+      "maximum"
+    ]
+  },
+  "ID 96": {
+    "Centro\u00efde": "\u00e9lectrophor\u00e8se",
+    "Freq. centroide": 11,
+    "Termes": [
+      "electrophor\u00e8se",
+      "\u00e9lectophor\u00e8se",
+      "\u00e9lectrophor\u00e8se",
+      "\u00e9lectrophor\u00e9se"
+    ]
+  },
+  "ID 97": {
+    "Centro\u00efde": "h\u00e9mophilie",
+    "Freq. centroide": 6,
+    "Termes": [
+      "haemophilus",
+      "hyper\u00e9osinophilie",
+      "h\u00e9mophilie",
+      "h\u00e9morragie",
+      "polychromatophilie",
+      "syphilis",
+      "\u00e9osinophilie"
+    ]
+  },
+  "ID 98": {
+    "Centro\u00efde": "lithiase",
+    "Freq. centroide": 1,
+    "Termes": [
+      "amibiase",
+      "helminthiase",
+      "hia",
+      "lithiase",
+      "lithium",
+      "lithi\u00e9mie",
+      "mydriase"
+    ]
+  },
+  "ID 99": {
+    "Centro\u00efde": "cours",
+    "Freq. centroide": 51,
+    "Termes": [
+      "couple",
+      "courant",
+      "courbe",
+      "couronne",
+      "cours",
+      "d\u00e9cours",
+      "parcours",
+      "recours"
+    ]
+  },
+  "ID 100": {
+    "Centro\u00efde": "litre",
+    "Freq. centroide": 5,
+    "Termes": [
+      "go\u00eetre",
+      "lit",
+      "litre",
+      "millilitre",
+      "rostre",
+      "titre"
+    ]
+  },
+  "ID 101": {
+    "Centro\u00efde": "trait",
+    "Freq. centroide": 1,
+    "Termes": [
+      "fait",
+      "lait",
+      "raie",
+      "retraite",
+      "titrage",
+      "trait",
+      "traitement",
+      "travail",
+      "vraie("
+    ]
+  },
+  "ID 102": {
+    "Centro\u00efde": "section",
+    "Freq. centroide": 1,
+    "Termes": [
+      "affection",
+      "convection",
+      "correction",
+      "d\u00e9tection",
+      "infection",
+      "injection",
+      "insecte",
+      "insecticide",
+      "protection",
+      "radioprotection",
+      "r\u00e9section",
+      "section",
+      "surinfection",
+      "\u00e9jection"
+    ]
+  },
+  "ID 103": {
+    "Centro\u00efde": "labo",
+    "Freq. centroide": 1,
+    "Termes": [
+      "ab",
+      "hla",
+      "labo",
+      "laboratoire",
+      "pr\u00e9alable",
+      "sabot"
+    ]
+  },
+  "ID 104": {
+    "Centro\u00efde": "globuline",
+    "Freq. centroide": 2,
+    "Termes": [
+      "alpha-2-globuline",
+      "bulbe",
+      "gammaglobuline",
+      "globuline",
+      "glom\u00e9rule",
+      "hypogammaglobulin\u00e9mie",
+      "immunoglobuline",
+      "microglobuline",
+      "thyroglobuline"
+    ]
+  },
+  "ID 105": {
+    "Centro\u00efde": "phosphate",
+    "Freq. centroide": 9,
+    "Termes": [
+      "aphte",
+      "atmosph\u00e8re",
+      "biphosphate",
+      "carbamylphosphate",
+      "diphosphoglyc\u00e9rate",
+      "glucose-6-phosphate",
+      "hyperphosphat\u00e9mie",
+      "hypophosphat\u00e9mie",
+      "ph",
+      "ph=0,0",
+      "phosphatase",
+      "phosphate",
+      "triphosphate"
+    ]
+  },
+  "ID 106": {
+    "Centro\u00efde": "purification",
+    "Freq. centroide": 1,
+    "Termes": [
+      "calcification",
+      "certification",
+      "classification",
+      "d\u00e9toxification",
+      "est\u00e9rification",
+      "identification",
+      "modification",
+      "purification",
+      "quantification",
+      "signification"
+    ]
+  },
+  "ID 107": {
+    "Centro\u00efde": "cuir",
+    "Freq. centroide": 2,
+    "Termes": [
+      "circuit",
+      "cuir",
+      "cuivre",
+      "ir"
+    ]
+  },
+  "ID 108": {
+    "Centro\u00efde": "hypokali\u00e9mie",
+    "Freq. centroide": 4,
+    "Termes": [
+      "hyperkali\u00e9mie",
+      "hypokali\u00e9miant",
+      "hypokali\u00e9mie",
+      "kali\u00e9mie"
+    ]
+  },
+  "ID 109": {
+    "Centro\u00efde": "carct\u00e9ristique",
+    "Freq. centroide": 1,
+    "Termes": [
+      "barbiturique",
+      "caract\u00e9ristique",
+      "carct\u00e9ristique",
+      "infarctus",
+      "risque",
+      "s\u00e9rique"
+    ]
+  },
+  "ID 110": {
+    "Centro\u00efde": "v\u00e9g\u00e9tative",
+    "Freq. centroide": 1,
+    "Termes": [
+      "alternative",
+      "rotative",
+      "v\u00e9g\u00e9tal",
+      "v\u00e9g\u00e9tative"
+    ]
+  },
+  "ID 111": {
+    "Centro\u00efde": "diff\u00e9rence",
+    "Freq. centroide": 5,
+    "Termes": [
+      "diff\u00e9rence",
+      "diff\u00e9renciation",
+      "diff\u00e9rent(",
+      "interf\u00e9rence",
+      "r\u00e9f\u00e9rence",
+      "r\u00e9f\u00e9rentiel"
+    ]
+  },
+  "ID 112": {
+    "Centro\u00efde": "d\u00e9but",
+    "Freq. centroide": 7,
+    "Termes": [
+      "but",
+      "d\u00e9bit",
+      "d\u00e9but"
+    ]
+  },
+  "ID 113": {
+    "Centro\u00efde": "azithromycine",
+    "Freq. centroide": 6,
+    "Termes": [
+      "azithromycine",
+      "clarithromycine",
+      "mitomycine",
+      "streptomycine",
+      "vancomycine",
+      "\u00e9rythromycine"
+    ]
+  },
+  "ID 114": {
+    "Centro\u00efde": "kaliur\u00e8se",
+    "Freq. centroide": 1,
+    "Termes": [
+      "diur\u00e8se",
+      "hyperkaliurie",
+      "kaliur\u00e8se",
+      "pka"
+    ]
+  },
+  "ID 115": {
+    "Centro\u00efde": "fluorim\u00e9trie",
+    "Freq. centroide": 5,
+    "Termes": [
+      "colorim\u00e9trie",
+      "conductim\u00e9trie",
+      "coulom\u00e9trie",
+      "fluorim\u00e9trie",
+      "fluorom\u00e9trie",
+      "gravim\u00e9trie",
+      "mercurim\u00e9trie",
+      "phm\u00e9trie",
+      "spectrofluorim\u00e9trie",
+      "sym\u00e9trie",
+      "trim\u00e9thoprime",
+      "volum\u00e9trie"
+    ]
+  },
+  "ID 116": {
+    "Centro\u00efde": "neuropaludisme",
+    "Freq. centroide": 1,
+    "Termes": [
+      "neuropaludisme",
+      "paludisme",
+      "tropisme"
+    ]
+  },
+  "ID 117": {
+    "Centro\u00efde": "cristallo\u00efde",
+    "Freq. centroide": 2,
+    "Termes": [
+      "collo\u00efde",
+      "cristal",
+      "cristallo\u00efde"
+    ]
+  },
+  "ID 118": {
+    "Centro\u00efde": "cortisol",
+    "Freq. centroide": 8,
+    "Termes": [
+      "cortisol",
+      "cortisolurie",
+      "cortisol\u00e9mie",
+      "expertise",
+      "sol",
+      "sortie"
+    ]
+  },
+  "ID 119": {
+    "Centro\u00efde": "synth\u00e8se",
+    "Freq. centroide": 34,
+    "Termes": [
+      "biosynth\u00e8se",
+      "proth\u00e8se",
+      "synthase",
+      "synth\u00e8se",
+      "synth\u00e9tise"
+    ]
+  },
+  "ID 120": {
+    "Centro\u00efde": "lympho\u00efde",
+    "Freq. centroide": 2,
+    "Termes": [
+      "lymphe",
+      "lymphokine",
+      "lymphome",
+      "lymphop\u00e9nie",
+      "lympho\u00efde",
+      "typho\u00efde"
+    ]
+  },
+  "ID 121": {
+    "Centro\u00efde": "module",
+    "Freq. centroide": 1,
+    "Termes": [
+      "adulte",
+      "capsule",
+      "duod\u00e9num",
+      "g\u00e9lule",
+      "module",
+      "mod\u00e8le",
+      "seule",
+      "tubule"
+    ]
+  },
+  "ID 122": {
+    "Centro\u00efde": "m\u00e9tastase",
+    "Freq. centroide": 2,
+    "Termes": [
+      "ecstasy",
+      "ferroch\u00e9latase",
+      "h\u00e9mostase",
+      "m\u00e9tastase",
+      "veinostase"
+    ]
+  },
+  "ID 123": {
+    "Centro\u00efde": "homme",
+    "Freq. centroide": 28,
+    "Termes": [
+      "commensal",
+      "commerce",
+      "femme",
+      "homme",
+      "mm3",
+      "prud'homme"
+    ]
+  },
+  "ID 125": {
+    "Centro\u00efde": "coque",
+    "Freq. centroide": 2,
+    "Termes": [
+      "b+",
+      "bloqueur",
+      "coque",
+      "diplocoque",
+      "ent\u00e9rocoque",
+      "manque",
+      "m\u00e9ningocoque",
+      "pneumocoque",
+      "staphylocoque",
+      "streptocoque"
+    ]
+  },
+  "ID 126": {
+    "Centro\u00efde": "quinine",
+    "Freq. centroide": 3,
+    "Termes": [
+      "a1",
+      "ad\u00e9nine",
+      "arginine",
+      "bradykinine",
+      "m\u00e9floquine",
+      "quinidine",
+      "quinine",
+      "quinupristine",
+      "r\u00e9nine",
+      "saquinavir"
+    ]
+  },
+  "ID 127": {
+    "Centro\u00efde": "co\u00fbt",
+    "Freq. centroide": 1,
+    "Termes": [
+      "ao\u00fbt",
+      "co\u00fbt",
+      "go\u00fbt",
+      "lsd"
+    ]
+  },
+  "ID 128": {
+    "Centro\u00efde": "aire",
+    "Freq. centroide": 4,
+    "Termes": [
+      "air",
+      "aire",
+      "capillaire",
+      "d\u00e9lire",
+      "interm\u00e9diaire",
+      "leptospire",
+      "m\u00e9moire",
+      "ovaire",
+      "polynucl\u00e9aire",
+      "tissulaire("
+    ]
+  },
+  "ID 129": {
+    "Centro\u00efde": "immunod\u00e9ficience",
+    "Freq. centroide": 7,
+    "Termes": [
+      "d\u00e9ficience",
+      "d\u00e9ficit",
+      "immunod\u00e9ficience",
+      "immunod\u00e9ficient"
+    ]
+  },
+  "ID 130": {
+    "Centro\u00efde": "poisson",
+    "Freq. centroide": 2,
+    "Termes": [
+      "boisson",
+      "cuisson",
+      "fois",
+      "mois",
+      "nourrisson",
+      "poison",
+      "poisson"
+    ]
+  },
+  "ID 132": {
+    "Centro\u00efde": "rein",
+    "Freq. centroide": 16,
+    "Termes": [
+      "freinage",
+      "rein",
+      "sein",
+      "veine"
+    ]
+  },
+  "ID 133": {
+    "Centro\u00efde": "aminoside",
+    "Freq. centroide": 9,
+    "Termes": [
+      "aminoside",
+      "aminoside(",
+      "arabinoside",
+      "capside"
+    ]
+  },
+  "ID 134": {
+    "Centro\u00efde": "h\u00e9mopathie",
+    "Freq. centroide": 1,
+    "Termes": [
+      "ad\u00e9nopathie",
+      "cath\u00e9ter",
+      "glom\u00e9rulopathie",
+      "h\u00e9mopathie",
+      "n\u00e9phropathie",
+      "pneumopathie",
+      "tendinopathie"
+    ]
+  },
+  "ID 135": {
+    "Centro\u00efde": "indium",
+    "Freq. centroide": 1,
+    "Termes": [
+      "clostridium",
+      "holmium",
+      "indiqu\u00e9e(",
+      "indirect",
+      "indium",
+      "individu",
+      "opium",
+      "sodium",
+      "unicordium"
+    ]
+  },
+  "ID 136": {
+    "Centro\u00efde": "cortico",
+    "Freq. centroide": 3,
+    "Termes": [
+      "article",
+      "cohorte",
+      "cortex",
+      "cortico",
+      "corticostimuline",
+      "corticosurr\u00e9nale",
+      "corticosurr\u00e9nlae",
+      "corticoth\u00e9rapie",
+      "corticotropine",
+      "cortico\u00efde",
+      "cort\u00e8ge",
+      "glucocorticoide",
+      "glucocortico\u00efde",
+      "min\u00e9ralocortico\u00efde",
+      "nicorandil",
+      "picornaviridae",
+      "score",
+      "transcortine",
+      "zocor"
+    ]
+  },
+  "ID 137": {
+    "Centro\u00efde": "rencontre",
+    "Freq. centroide": 1,
+    "Termes": [
+      "centre",
+      "contre-",
+      "correspond(ent",
+      "entretien",
+      "montre",
+      "piq\u00fbre",
+      "rencontre",
+      "rencontr\u00e9e("
+    ]
+  },
+  "ID 138": {
+    "Centro\u00efde": "enc\u00e9phalite",
+    "Freq. centroide": 2,
+    "Termes": [
+      "a2",
+      "c\u00e9phaline",
+      "c\u00e9phal\u00e9e",
+      "enc\u00e9phalite",
+      "hydroc\u00e9phalie",
+      "m\u00e9ningoenc\u00e9phalite",
+      "t\u00e9lenc\u00e9phale"
+    ]
+  },
+  "ID 140": {
+    "Centro\u00efde": "tour",
+    "Freq. centroide": 1,
+    "Termes": [
+      "autour",
+      "bourrage",
+      "four",
+      "fourier",
+      "jour",
+      "journ\u00e9e",
+      "pourtour",
+      "retour",
+      "tour",
+      "toux",
+      "ventouse"
+    ]
+  },
+  "ID 141": {
+    "Centro\u00efde": "absorption",
+    "Freq. centroide": 48,
+    "Termes": [
+      "absorption",
+      "adsorption",
+      "malabsorption",
+      "r\u00e9absorption",
+      "r\u00e9sorption",
+      "\u00e9ruption"
+    ]
+  },
+  "ID 142": {
+    "Centro\u00efde": "trace",
+    "Freq. centroide": 2,
+    "Termes": [
+      "crack",
+      "race",
+      "rosace",
+      "trace",
+      "trachome",
+      "tractus",
+      "trajet",
+      "tramadol"
+    ]
+  },
+  "ID 143": {
+    "Centro\u00efde": "appel",
+    "Freq. centroide": 4,
+    "Termes": [
+      "appel",
+      "appellation",
+      "grippe",
+      "rappel"
+    ]
+  },
+  "ID 144": {
+    "Centro\u00efde": "prot\u00e9ine",
+    "Freq. centroide": 54,
+    "Termes": [
+      "apolipoprot\u00e9ine",
+      "apoprot\u00e9ine",
+      "caf\u00e9ine",
+      "chromoprot\u00e9ine",
+      "cyst\u00e9ine",
+      "glycoprot\u00e9ine",
+      "holoprot\u00e9ine",
+      "hyperlipoprot\u00e9in\u00e9mie",
+      "hyperprot\u00e9inorachie",
+      "lipoprot\u00e9ine",
+      "lipoprot\u00e9ine(",
+      "m\u00e9talloprot\u00e9ine",
+      "nh3",
+      "nucl\u00e9oprot\u00e9ine",
+      "prot\u00e9ase",
+      "prot\u00e9ine",
+      "prot\u00e9inogramme",
+      "prot\u00e9inorachie",
+      "prot\u00e9inurie"
+    ]
+  },
+  "ID 145": {
+    "Centro\u00efde": "drogue",
+    "Freq. centroide": 1,
+    "Termes": [
+      "drogue",
+      "muguet",
+      "prodrogue"
+    ]
+  },
+  "ID 146": {
+    "Centro\u00efde": "molarit\u00e9",
+    "Freq. centroide": 1,
+    "Termes": [
+      "lin\u00e9arit\u00e9",
+      "majorit\u00e9",
+      "molarit\u00e9",
+      "osmolalit\u00e9",
+      "osmolarit\u00e9",
+      "polarit\u00e9",
+      "s\u00e9curit\u00e9",
+      "s\u00e9v\u00e9rit\u00e9"
+    ]
+  },
+  "ID 147": {
+    "Centro\u00efde": "gramme",
+    "Freq. centroide": 30,
+    "Termes": [
+      "antibiogramme",
+      "flamme",
+      "gram",
+      "gramme",
+      "gras",
+      "h\u00e9mogramme",
+      "kilogramme",
+      "milligramme",
+      "my\u00e9logramme",
+      "polarogramme"
+    ]
+  },
+  "ID 148": {
+    "Centro\u00efde": "larve",
+    "Freq. centroide": 2,
+    "Termes": [
+      "larva",
+      "larve",
+      "survenue"
+    ]
+  },
+  "ID 149": {
+    "Centro\u00efde": "spectrophotom\u00e9trie",
+    "Freq. centroide": 19,
+    "Termes": [
+      "amp\u00e9rom\u00e9trie",
+      "dromotrope",
+      "photom\u00e8trie",
+      "photom\u00e9trie",
+      "protom\u00e9trie",
+      "spectrom\u00e9trie",
+      "spectrophotom\u00e8tre",
+      "spectrophotom\u00e9trie",
+      "spectrophotom\u00e9trique"
+    ]
+  },
+  "ID 150": {
+    "Centro\u00efde": "augmentent",
+    "Freq. centroide": 1,
+    "Termes": [
+      "augmente",
+      "augmentent",
+      "augment\u00e9(",
+      "consentement",
+      "dent",
+      "enqu\u00eate",
+      "enterobiu",
+      "expriment",
+      "fentanyl",
+      "fragment",
+      "mouvenment",
+      "pente",
+      "pigment",
+      "r\u00e9mittente",
+      "segment",
+      "\u00e9l\u00e9ment"
+    ]
+  },
+  "ID 151": {
+    "Centro\u00efde": "aciclovir",
+    "Freq. centroide": 1,
+    "Termes": [
+      "aciclovir",
+      "ganciclovir",
+      "retrovir",
+      "valaciclovir"
+    ]
+  },
+  "ID 152": {
+    "Centro\u00efde": "syndr\u00f4me",
+    "Freq. centroide": 1,
+    "Termes": [
+      "sympt\u00f4me",
+      "syndrome",
+      "syndr\u00f4me"
+    ]
+  },
+  "ID 153": {
+    "Centro\u00efde": "glycopeptide",
+    "Freq. centroide": 1,
+    "Termes": [
+      "glycopeptide",
+      "glycoside",
+      "glycosurie",
+      "peptide",
+      "peptidoglycane"
+    ]
+  },
+  "ID 154": {
+    "Centro\u00efde": "rendement",
+    "Freq. centroide": 5,
+    "Termes": [
+      "ajustement",
+      "avortement",
+      "curren",
+      "deprenil",
+      "d\u00e9clenchement",
+      "effondrement",
+      "enregistrement",
+      "enroulement",
+      "feldene",
+      "isolement",
+      "mouvement",
+      "parent",
+      "pr\u00e9l\u00e8vement",
+      "remaniement",
+      "rendement",
+      "rev\u00eatement",
+      "\u00e9coulement",
+      "\u00e9tirement"
+    ]
+  },
+  "ID 155": {
+    "Centro\u00efde": "infestation",
+    "Freq. centroide": 1,
+    "Termes": [
+      "auto-infestation",
+      "infestation",
+      "manifestation",
+      "r\u00e9infestation",
+      "tnf"
+    ]
+  },
+  "ID 156": {
+    "Centro\u00efde": "part",
+    "Freq. centroide": 1,
+    "Termes": [
+      "aspartate",
+      "compartiment",
+      "d\u00e9partement",
+      "falciparum",
+      "parkinson",
+      "paroi",
+      "part",
+      "partage",
+      "participe",
+      "particule",
+      "partie",
+      "plupart",
+      "quarte",
+      "quartz"
+    ]
+  },
+  "ID 157": {
+    "Centro\u00efde": "prise",
+    "Freq. centroide": 17,
+    "Termes": [
+      "crise",
+      "favorise",
+      "ma\u00eetrise",
+      "mise",
+      "prise",
+      "reprise",
+      "risordan"
+    ]
+  },
+  "ID 158": {
+    "Centro\u00efde": "voyage",
+    "Freq. centroide": 1,
+    "Termes": [
+      "noyau",
+      "voyage",
+      "voyageur"
+    ]
+  },
+  "ID 159": {
+    "Centro\u00efde": "charge",
+    "Freq. centroide": 6,
+    "Termes": [
+      "charge",
+      "d\u00e9charge",
+      "h\u00e9berge",
+      "largeur",
+      "post-charge",
+      "postcharge",
+      "pr\u00e9charge",
+      "surcharge"
+    ]
+  },
+  "ID 160": {
+    "Centro\u00efde": "glinide",
+    "Freq. centroide": 1,
+    "Termes": [
+      "biguanide",
+      "bum\u00e9tanide",
+      "glinide",
+      "lipide",
+      "liquide",
+      "r\u00e9paglinide"
+    ]
+  },
+  "ID 161": {
+    "Centro\u00efde": "nuit",
+    "Freq. centroide": 2,
+    "Termes": [
+      "bruit",
+      "fuite",
+      "j\u00e9junum",
+      "minuit",
+      "nuit",
+      "suite",
+      "ui"
+    ]
+  },
+  "ID 162": {
+    "Centro\u00efde": "lymphocytose",
+    "Freq. centroide": 2,
+    "Termes": [
+      "dr\u00e9panocytose",
+      "hyperlymphocytose",
+      "lymphocyte",
+      "lymphocytose",
+      "lymphogranulomatose",
+      "phagocytose"
+    ]
+  },
+  "ID 163": {
+    "Centro\u00efde": "m\u00e9dullo",
+    "Freq. centroide": 1,
+    "Termes": [
+      "m\u00e9dulla",
+      "m\u00e9dullo",
+      "m\u00e9dullosurr\u00e9nale"
+    ]
+  },
+  "ID 164": {
+    "Centro\u00efde": "neurom\u00e9diateur",
+    "Freq. centroide": 2,
+    "Termes": [
+      "coordonateur",
+      "euro",
+      "monochromateur",
+      "m\u00e9diateur",
+      "neuromodulateur",
+      "neurom\u00e9diateur",
+      "neurotransmetteur",
+      "promoteur",
+      "teneur",
+      "\u00e9vocateur"
+    ]
+  },
+  "ID 165": {
+    "Centro\u00efde": "lactamine",
+    "Freq. centroide": 1,
+    "Termes": [
+      "b\u00e9talactamine",
+      "b\u00eata-lactamase",
+      "b\u00eata-lactamine",
+      "lactame",
+      "lactamine",
+      "lactammine",
+      "lactate",
+      "prolactine"
+    ]
+  },
+  "ID 166": {
+    "Centro\u00efde": "antagoniste",
+    "Freq. centroide": 11,
+    "Termes": [
+      "agoniste",
+      "antagonisme",
+      "antagoniste",
+      "constante",
+      "liste"
+    ]
+  },
+  "ID 167": {
+    "Centro\u00efde": "n\u00e9cessite",
+    "Freq. centroide": 7,
+    "Termes": [
+      "n\u00e9cessite",
+      "n\u00e9cessite(nt",
+      "vitesse"
+    ]
+  },
+  "ID 168": {
+    "Centro\u00efde": "\u00e9nergie",
+    "Freq. centroide": 13,
+    "Termes": [
+      "allergie",
+      "chirurgie",
+      "ergot",
+      "nerf",
+      "\u00e9nergie"
+    ]
+  },
+  "ID 169": {
+    "Centro\u00efde": "cellulose",
+    "Freq. centroide": 2,
+    "Termes": [
+      "anguillulose",
+      "aspergillose",
+      "carboxym\u00e9thylcellulose",
+      "cellule",
+      "cellulose"
+    ]
+  },
+  "ID 170": {
+    "Centro\u00efde": "production",
+    "Freq. centroide": 8,
+    "Termes": [
+      "conduction",
+      "induction",
+      "introduction",
+      "producteur",
+      "production",
+      "produit",
+      "reproductibilit\u00e9",
+      "reproduction",
+      "r\u00e9duction"
+    ]
+  },
+  "ID 171": {
+    "Centro\u00efde": "n\u00e9oglucog\u00e9n\u00e8se",
+    "Freq. centroide": 2,
+    "Termes": [
+      "c\u00e9tog\u00e9n\u00e8se",
+      "glucog\u00e9n\u00e8se",
+      "glucon\u00e9ogen\u00e8se",
+      "glucon\u00e9og\u00e9n\u00e8se",
+      "glycog\u00e9nogen\u00e8se",
+      "n\u00e9oglucog\u00e9n\u00e8se"
+    ]
+  },
+  "ID 172": {
+    "Centro\u00efde": "p\u00e9nicilline",
+    "Freq. centroide": 4,
+    "Termes": [
+      "aminop\u00e9nicilline",
+      "amoxicilline",
+      "ampicilline",
+      "m\u00e9ticilline",
+      "oxacilline",
+      "pip\u00e9racilline",
+      "p\u00e9nicillinase",
+      "p\u00e9nicilline",
+      "ticarcilline"
+    ]
+  },
+  "ID 173": {
+    "Centro\u00efde": "solution",
+    "Freq. centroide": 72,
+    "Termes": [
+      "dilution",
+      "dissolution",
+      "evolution",
+      "pollution",
+      "pr\u00e9caution",
+      "r\u00e9solution",
+      "r\u00e9volution",
+      "solution",
+      "solut\u00e9",
+      "\u00e9lution",
+      "\u00e9volution"
+    ]
+  },
+  "ID 174": {
+    "Centro\u00efde": "e.coli/ml",
+    "Freq. centroide": 1,
+    "Termes": [
+      "e.",
+      "e.coli/ml"
+    ]
+  },
+  "ID 176": {
+    "Centro\u00efde": "sulfate",
+    "Freq. centroide": 1,
+    "Termes": [
+      "busulfan",
+      "m\u00e9thylsulfate",
+      "sulfam\u00e9thoxazole",
+      "sulfate",
+      "sulfonate"
+    ]
+  },
+  "ID 177": {
+    "Centro\u00efde": "proc\u00e9d\u00e9",
+    "Freq. centroide": 2,
+    "Termes": [
+      "processus",
+      "proc\u00e9d\u00e9",
+      "proc\u00e9d\u00e9("
+    ]
+  },
+  "ID 178": {
+    "Centro\u00efde": "usage",
+    "Freq. centroide": 7,
+    "Termes": [
+      "dosage",
+      "messager",
+      "m\u00e9susage",
+      "passage",
+      "remplissage",
+      "sevrage",
+      "si\u00e8ge",
+      "surdosage",
+      "typage",
+      "usage",
+      "\u00e2ge"
+    ]
+  },
+  "ID 179": {
+    "Centro\u00efde": "potasse",
+    "Freq. centroide": 1,
+    "Termes": [
+      "classe",
+      "masse",
+      "potasse",
+      "potassium"
+    ]
+  },
+  "ID 181": {
+    "Centro\u00efde": "il-2",
+    "Freq. centroide": 2,
+    "Termes": [
+      "il-2",
+      "il-4",
+      "il2",
+      "l-1"
+    ]
+  },
+  "ID 182": {
+    "Centro\u00efde": "hypothyro\u00efdie",
+    "Freq. centroide": 4,
+    "Termes": [
+      "hyperparathyro\u00efdie",
+      "hyperthyro\u00efdie",
+      "hypnozo\u00efte",
+      "hypoparathyro\u00efdie",
+      "hypothalamus",
+      "hypothermie",
+      "hypothyroidisme",
+      "hypothyro\u00efdie",
+      "hypoth\u00e8se",
+      "hypoxie",
+      "post-hypophyse",
+      "pseudohypoparathyro\u00efdie",
+      "thyro\u00efde"
+    ]
+  },
+  "ID 183": {
+    "Centro\u00efde": "exclusion",
+    "Freq. centroide": 4,
+    "Termes": [
+      "conclusion",
+      "diffusion",
+      "e1",
+      "exclusion",
+      "exc\u00e8s",
+      "exon",
+      "extrusion",
+      "occlusion",
+      "perfusion"
+    ]
+  },
+  "ID 185": {
+    "Centro\u00efde": "macrolide",
+    "Freq. centroide": 7,
+    "Termes": [
+      "macroconidie",
+      "macrolide",
+      "macrophage",
+      "polyvinylpyrrolidone",
+      "solide",
+      "tacrolimu"
+    ]
+  },
+  "ID 186": {
+    "Centro\u00efde": "action",
+    "Freq. centroide": 29,
+    "Termes": [
+      "action",
+      "adjonction",
+      "anion",
+      "destruction",
+      "dictionnaire",
+      "extinction",
+      "fonction",
+      "fraction",
+      "infraction",
+      "interaction",
+      "notion",
+      "ponction",
+      "reaction",
+      "r\u00e9action",
+      "r\u00e9fraction"
+    ]
+  },
+  "ID 187": {
+    "Centro\u00efde": "r\u00e9gie",
+    "Freq. centroide": 1,
+    "Termes": [
+      "myalgie",
+      "r\u00e9gie",
+      "r\u00e9gime",
+      "r\u00e9gion"
+    ]
+  },
+  "ID 188": {
+    "Centro\u00efde": "foliac\u00e9",
+    "Freq. centroide": 1,
+    "Termes": [
+      "foliac\u00e9",
+      "nl",
+      "opiac\u00e9",
+      "solian",
+      "tiac"
+    ]
+  },
+  "ID 189": {
+    "Centro\u00efde": "vigilance",
+    "Freq. centroide": 1,
+    "Termes": [
+      "bilan",
+      "blanc",
+      "cancer",
+      "celance",
+      "h\u00e9movigilance",
+      "pharmacovigilance",
+      "surveillance",
+      "t4",
+      "vigilance"
+    ]
+  },
+  "ID 190": {
+    "Centro\u00efde": "giardia",
+    "Freq. centroide": 5,
+    "Termes": [
+      "chlamydia",
+      "diab\u00e8te",
+      "diagnostic",
+      "diaphragme",
+      "diarrh\u00e9e",
+      "giardia",
+      "giardiase",
+      "giardiose",
+      "moutarde"
+    ]
+  },
+  "ID 191": {
+    "Centro\u00efde": "cartographie",
+    "Freq. centroide": 1,
+    "Termes": [
+      "cartographie",
+      "chromatographie",
+      "graphite",
+      "polarographie"
+    ]
+  },
+  "ID 192": {
+    "Centro\u00efde": "spectre",
+    "Freq. centroide": 11,
+    "Termes": [
+      "aspect",
+      "respect",
+      "spectre",
+      "spectrofluorim\u00e8tre",
+      "spectrom\u00e8tre",
+      "spectroscopie"
+    ]
+  },
+  "ID 193": {
+    "Centro\u00efde": "trichomonase",
+    "Freq. centroide": 1,
+    "Termes": [
+      "pseudomonas",
+      "trichomonase",
+      "trichomonose"
+    ]
+  },
+  "ID 194": {
+    "Centro\u00efde": "barette",
+    "Freq. centroide": 2,
+    "Termes": [
+      "barette",
+      "baro",
+      "cigarette",
+      "isobare",
+      "lunette",
+      "navette",
+      "rosette",
+      "tablette"
+    ]
+  },
+  "ID 195": {
+    "Centro\u00efde": "excipient",
+    "Freq. centroide": 2,
+    "Termes": [
+      "client\u00e8le",
+      "excipient",
+      "r\u00e9cipient"
+    ]
+  },
+  "ID 196": {
+    "Centro\u00efde": "valeur",
+    "Freq. centroide": 8,
+    "Termes": [
+      "chaleur",
+      "couleur",
+      "douleur",
+      "galet",
+      "p\u00e2leur",
+      "valeur",
+      "vapeur"
+    ]
+  },
+  "ID 197": {
+    "Centro\u00efde": "ordre",
+    "Freq. centroide": 9,
+    "Termes": [
+      "cadre",
+      "ordre",
+      "poudre",
+      "vdrl"
+    ]
+  },
+  "ID 198": {
+    "Centro\u00efde": "temps",
+    "Freq. centroide": 26,
+    "Termes": [
+      "emploi",
+      "printemps",
+      "temgesic",
+      "temps"
+    ]
+  },
+  "ID 199": {
+    "Centro\u00efde": "blaste",
+    "Freq. centroide": 1,
+    "Termes": [
+      "blaste",
+      "blast\u00e8se",
+      "erythroblaste",
+      "fasturtec",
+      "juste(",
+      "kyste",
+      "lymphoblaste",
+      "my\u00e9loblaste",
+      "\u00e9rythroblaste"
+    ]
+  },
+  "ID 200": {
+    "Centro\u00efde": "polysaccharide",
+    "Freq. centroide": 1,
+    "Termes": [
+      "lipopolysaccharide",
+      "polysaccharide",
+      "saccharidique"
+    ]
+  },
+  "ID 201": {
+    "Centro\u00efde": "formation",
+    "Freq. centroide": 20,
+    "Termes": [
+      "affirmation",
+      "affirmations(",
+      "biotransformation",
+      "conformation",
+      "formation",
+      "information",
+      "transformation"
+    ]
+  },
+  "ID 202": {
+    "Centro\u00efde": "substrat(",
+    "Freq. centroide": 1,
+    "Termes": [
+      "substrat",
+      "substrat("
+    ]
+  },
+  "ID 203": {
+    "Centro\u00efde": "d\u00e9pendance",
+    "Freq. centroide": 9,
+    "Termes": [
+      "descendance",
+      "d\u00e9pendance",
+      "d\u00e9pense",
+      "kda",
+      "pharmacod\u00e9pendance",
+      "tendance"
+    ]
+  },
+  "ID 204": {
+    "Centro\u00efde": "cible",
+    "Freq. centroide": 3,
+    "Termes": [
+      "accessible",
+      "bleu",
+      "cible",
+      "combustible",
+      "ensemble",
+      "ind\u00e9sirable(",
+      "possible(",
+      "variable"
+    ]
+  },
+  "ID 205": {
+    "Centro\u00efde": "r\u00e9nal",
+    "Freq. centroide": 3,
+    "Termes": [
+      "adr\u00e9naline",
+      "ampr\u00e9navir",
+      "noradr\u00e9naline",
+      "p\u00e9nal",
+      "r\u00e9nal",
+      "surr\u00e9nale"
+    ]
+  },
+  "ID 207": {
+    "Centro\u00efde": "d\u00e9riv\u00e9",
+    "Freq. centroide": 23,
+    "Termes": [
+      "d\u00e9rive",
+      "d\u00e9riv\u00e9",
+      "d\u00e9riv\u00e9e"
+    ]
+  },
+  "ID 208": {
+    "Centro\u00efde": "d\u00e9pistage",
+    "Freq. centroide": 9,
+    "Termes": [
+      "d\u00e9pistage",
+      "d\u00e9pist\u00e9e(",
+      "d\u00e9p\u00f4t",
+      "emp\u00e2tage"
+    ]
+  },
+  "ID 209": {
+    "Centro\u00efde": "kinase",
+    "Freq. centroide": 2,
+    "Termes": [
+      "arginase",
+      "glucokinase",
+      "glutaminase",
+      "hexokinase",
+      "kinase",
+      "transaminase"
+    ]
+  },
+  "ID 210": {
+    "Centro\u00efde": "ur\u00e9e",
+    "Freq. centroide": 9,
+    "Termes": [
+      "dur\u00e9e",
+      "entr\u00e9e",
+      "pr\u00e9matur\u00e9",
+      "ur\u00e9e"
+    ]
+  },
+  "ID 213": {
+    "Centro\u00efde": "condition",
+    "Freq. centroide": 5,
+    "Termes": [
+      "addition",
+      "adition",
+      "audition",
+      "comp\u00e9tition",
+      "condition",
+      "conditionnement",
+      "f\u00e9condit\u00e9",
+      "mitochondrie"
+    ]
+  },
+  "ID 214": {
+    "Centro\u00efde": "antibiotique",
+    "Freq. centroide": 27,
+    "Termes": [
+      "antalgique(",
+      "antibioprophylaxie",
+      "antibiotique",
+      "antibiotique(",
+      "antifongique",
+      "antimalarique",
+      "antin\u00e9oplasique",
+      "antithrombotique",
+      "anxiolytique"
+    ]
+  },
+  "ID 215": {
+    "Centro\u00efde": "g\u00e8ne",
+    "Freq. centroide": 16,
+    "Termes": [
+      "alloantig\u00e8ne",
+      "androg\u00e8ne",
+      "antig\u00e8ne",
+      "dioxyg\u00e8ne",
+      "glycog\u00e8ne",
+      "g\u00e8ne",
+      "halog\u00e8n\u00e9",
+      "hydrog\u00e8ne",
+      "hygi\u00e8ne",
+      "ibuprof\u00e8ne",
+      "oestrog\u00e8ne",
+      "oxyg\u00e8ne",
+      "pyrog\u00e8ne",
+      "styr\u00e8ne",
+      "tolu\u00e8ne",
+      "tol\u00e9rog\u00e8ne",
+      "tungst\u00e8ne",
+      "zymog\u00e8ne"
+    ]
+  },
+  "ID 216": {
+    "Centro\u00efde": "utilisation",
+    "Freq. centroide": 19,
+    "Termes": [
+      "acutisation",
+      "autorisation",
+      "elisa",
+      "immobilisation",
+      "mobilisation",
+      "n\u00e9bulisation",
+      "photosensibilisation",
+      "potabilisation",
+      "st\u00e9rilisation",
+      "utilisation",
+      "utilis\u00e9("
+    ]
+  },
+  "ID 218": {
+    "Centro\u00efde": "droite",
+    "Freq. centroide": 3,
+    "Termes": [
+      "droit",
+      "droite",
+      "exploite",
+      "moiti\u00e9",
+      "uromitexan"
+    ]
+  },
+  "ID 219": {
+    "Centro\u00efde": "benzimidazole",
+    "Freq. centroide": 1,
+    "Termes": [
+      "albendazole",
+      "benzimidazole",
+      "flubendazole",
+      "imidazol\u00e9",
+      "tinidazole",
+      "\u00e9z\u00e9timibe"
+    ]
+  },
+  "ID 220": {
+    "Centro\u00efde": "exacte(",
+    "Freq. centroide": 87,
+    "Termes": [
+      "correcte(",
+      "est(sont)exacte(",
+      "exacte(",
+      "exacte(s)?ce",
+      "exactes(",
+      "inexacte("
+    ]
+  },
+  "ID 221": {
+    "Centro\u00efde": "d\u00e9shydrog\u00e9nase",
+    "Freq. centroide": 2,
+    "Termes": [
+      "deshydrognase",
+      "d\u00e9hydrog\u00e9nase",
+      "d\u00e9shydrog\u00e9nase",
+      "hydrog\u00e9nocarbonate"
+    ]
+  },
+  "ID 222": {
+    "Centro\u00efde": "alcalose",
+    "Freq. centroide": 6,
+    "Termes": [
+      "alcalinit\u00e9",
+      "alcalose",
+      "alcalo\u00efde",
+      "calcul",
+      "calomel",
+      "calorie",
+      "f\u00e9cal",
+      "kcal"
+    ]
+  },
+  "ID 223": {
+    "Centro\u00efde": "ultrafiltration",
+    "Freq. centroide": 1,
+    "Termes": [
+      "filtration",
+      "filtre",
+      "infiltrat",
+      "infiltration",
+      "ultra-violet",
+      "ultrafiltration"
+    ]
+  },
+  "ID 224": {
+    "Centro\u00efde": "contraction",
+    "Freq. centroide": 2,
+    "Termes": [
+      "contact",
+      "contraceptif",
+      "contraception",
+      "contractibilit\u00e9",
+      "contractilit\u00e9",
+      "contraction",
+      "contr\u00f4le",
+      "extraction",
+      "intradermor\u00e9action"
+    ]
+  },
+  "ID 225": {
+    "Centro\u00efde": "recherche",
+    "Freq. centroide": 17,
+    "Termes": [
+      "branche",
+      "chef",
+      "crochet",
+      "escherichia",
+      "herp\u00e8s",
+      "perl\u00e8che",
+      "poche",
+      "recherche",
+      "rechute",
+      "s\u00e9cheresse",
+      "torche",
+      "vache"
+    ]
+  },
+  "ID 226": {
+    "Centro\u00efde": "oreille",
+    "Freq. centroide": 2,
+    "Termes": [
+      "oreille",
+      "oreillette",
+      "oreillon"
+    ]
+  },
+  "ID 227": {
+    "Centro\u00efde": "n\u00e9phrite",
+    "Freq. centroide": 1,
+    "Termes": [
+      "n\u00e9phrite",
+      "n\u00e9phron",
+      "ph\u00e9nyl\u00e9phrine",
+      "py\u00e9lon\u00e9phrite"
+    ]
+  },
+  "ID 228": {
+    "Centro\u00efde": "ph\u00e9notype(",
+    "Freq. centroide": 1,
+    "Termes": [
+      "caryotype",
+      "g\u00e9notype",
+      "ph\u00e9notype",
+      "ph\u00e9notype(",
+      "type",
+      "type("
+    ]
+  },
+  "ID 229": {
+    "Centro\u00efde": "rythme",
+    "Freq. centroide": 2,
+    "Termes": [
+      "asthme",
+      "hmg",
+      "pth",
+      "rythme"
+    ]
+  },
+  "ID 230": {
+    "Centro\u00efde": "ferritine",
+    "Freq. centroide": 4,
+    "Termes": [
+      "c.",
+      "fer",
+      "ferritine",
+      "ferritin\u00e9mie",
+      "l'(e",
+      "transferrine"
+    ]
+  },
+  "ID 232": {
+    "Centro\u00efde": "4\u00e8me",
+    "Freq. centroide": 1,
+    "Termes": [
+      "4\u00e8me",
+      "h\u00e8me",
+      "mec",
+      "oed\u00e8me",
+      "syst\u00e8me"
+    ]
+  },
+  "ID 233": {
+    "Centro\u00efde": "nature",
+    "Freq. centroide": 12,
+    "Termes": [
+      "culture",
+      "h\u00e9moculture",
+      "natural",
+      "nature",
+      "recapture",
+      "rupture",
+      "structure",
+      "temp\u00e9rature",
+      "uraturie",
+      "\u00e9criture"
+    ]
+  },
+  "ID 234": {
+    "Centro\u00efde": "autoclavage",
+    "Freq. centroide": 2,
+    "Termes": [
+      "autoclavage",
+      "autoclave",
+      "lavage",
+      "stockage"
+    ]
+  },
+  "ID 235": {
+    "Centro\u00efde": "sultopride",
+    "Freq. centroide": 1,
+    "Termes": [
+      "amisulpride",
+      "captopril",
+      "r\u00e9sultat",
+      "sultopride",
+      "tiapride"
+    ]
+  },
+  "ID 236": {
+    "Centro\u00efde": "mission",
+    "Freq. centroide": 2,
+    "Termes": [
+      "emission",
+      "mission",
+      "transmission",
+      "\u00e9mission"
+    ]
+  },
+  "ID 237": {
+    "Centro\u00efde": "atrophie",
+    "Freq. centroide": 1,
+    "Termes": [
+      "atrophie",
+      "atropine",
+      "chimioprophylaxie",
+      "hypertrophie",
+      "philadelphie",
+      "sophidone"
+    ]
+  },
+  "ID 238": {
+    "Centro\u00efde": "blocage",
+    "Freq. centroide": 2,
+    "Termes": [
+      "avlocardyl",
+      "bloc",
+      "blocage"
+    ]
+  },
+  "ID 239": {
+    "Centro\u00efde": "3,3',5'-",
+    "Freq. centroide": 1,
+    "Termes": [
+      "3,3',5'-",
+      "h(a=3,z=1"
+    ]
+  },
+  "ID 240": {
+    "Centro\u00efde": "appareillage",
+    "Freq. centroide": 1,
+    "Termes": [
+      "appareil",
+      "appareillage",
+      "cartilage",
+      "mouillage",
+      "vieillard"
+    ]
+  },
+  "ID 241": {
+    "Centro\u00efde": "carbone",
+    "Freq. centroide": 16,
+    "Termes": [
+      "acarbose",
+      "bicarbonate",
+      "carbone",
+      "charbon",
+      "d\u00e9carboxylation",
+      "oxycarbonisme",
+      "procarbazine"
+    ]
+  },
+  "ID 242": {
+    "Centro\u00efde": "triglyc\u00e9rid\u00e9mie",
+    "Freq. centroide": 2,
+    "Termes": [
+      "hypertriglyc\u00e9rid\u00e9mie",
+      "triacylglyc\u00e9rol",
+      "triglyc\u00e9ride",
+      "triglyc\u00e9rid\u00e9mie",
+      "trisomie"
+    ]
+  },
+  "ID 244": {
+    "Centro\u00efde": "bande",
+    "Freq. centroide": 5,
+    "Termes": [
+      "bande",
+      "bandelette",
+      "demande",
+      "glande",
+      "grandeur",
+      "sandwich",
+      "viande"
+    ]
+  },
+  "ID 245": {
+    "Centro\u00efde": "assure",
+    "Freq. centroide": 1,
+    "Termes": [
+      "assurance",
+      "assure",
+      "blessure",
+      "commissure",
+      "mesure",
+      "mesure(nt",
+      "morsure",
+      "\u00e9claboussure"
+    ]
+  },
+  "ID 246": {
+    "Centro\u00efde": "forme",
+    "Freq. centroide": 72,
+    "Termes": [
+      "chloroforme",
+      "coliforme",
+      "force",
+      "forme",
+      "formol",
+      "formule",
+      "metformine",
+      "performance"
+    ]
+  },
+  "ID 247": {
+    "Centro\u00efde": "\u00e9chantillonnage",
+    "Freq. centroide": 1,
+    "Termes": [
+      "recapuchonnage",
+      "\u00e9chantillon",
+      "\u00e9chantillonnage"
+    ]
+  },
+  "ID 248": {
+    "Centro\u00efde": "m\u00e9thyl",
+    "Freq. centroide": 1,
+    "Termes": [
+      "dim\u00e9thylformamide",
+      "d\u00e9m\u00e9thylation",
+      "m\u00e9thode",
+      "m\u00e9thotrexate",
+      "m\u00e9thyl",
+      "m\u00e9thylate",
+      "m\u00e9thylation",
+      "m\u00e9thylprednisolone",
+      "thymus",
+      "\u00e9thyl"
+    ]
+  },
+  "ID 249": {
+    "Centro\u00efde": "selle",
+    "Freq. centroide": 10,
+    "Termes": [
+      "celle(",
+      "femelle",
+      "l\u00e9gionelle",
+      "moelle",
+      "salmonelle",
+      "sel",
+      "selle",
+      "varicelle"
+    ]
+  },
+  "ID 250": {
+    "Centro\u00efde": "butyropn\u00e9none",
+    "Freq. centroide": 1,
+    "Termes": [
+      "butyroph\u00e9none",
+      "butyropn\u00e9none",
+      "canr\u00e9none",
+      "x\u00e9non"
+    ]
+  },
+  "ID 251": {
+    "Centro\u00efde": "m\u00e9ningite",
+    "Freq. centroide": 22,
+    "Termes": [
+      "meningitidi",
+      "m\u00e9ningite",
+      "m\u00e9ningo",
+      "salpingite"
+    ]
+  },
+  "ID 252": {
+    "Centro\u00efde": "albumin\u00e9mie",
+    "Freq. centroide": 1,
+    "Termes": [
+      "albumine",
+      "albumin\u00e9mie",
+      "aluminium",
+      "an\u00e9mie",
+      "glucagon\u00e9mie",
+      "humira",
+      "hyperalbumin\u00e9mie",
+      "hypoalbumin\u00e9mie",
+      "h\u00e9parin\u00e9mie",
+      "insulin\u00e9mie",
+      "micro-albuminurie",
+      "pr\u00e9albumine"
+    ]
+  },
+  "ID 253": {
+    "Centro\u00efde": "position",
+    "Freq. centroide": 6,
+    "Termes": [
+      "acquisition",
+      "composition",
+      "dispositif",
+      "exposition",
+      "inhibition",
+      "position",
+      "positon",
+      "proposition",
+      "proposition("
+    ]
+  },
+  "ID 255": {
+    "Centro\u00efde": "amide",
+    "Freq. centroide": 2,
+    "Termes": [
+      "amide",
+      "amidon",
+      "amiloride",
+      "benzamide",
+      "furos\u00e9mide",
+      "glibenclamide",
+      "indapamide",
+      "lincosamide",
+      "niclosamide",
+      "nicotinamide",
+      "sulfamide",
+      "thalidomide"
+    ]
+  },
+  "ID 256": {
+    "Centro\u00efde": "beta-thalass\u00e9mie",
+    "Freq. centroide": 1,
+    "Termes": [
+      "beta-thalass\u00e9mie",
+      "b\u00eata-thalass\u00e9mie",
+      "thalass\u00e9mie"
+    ]
+  },
+  "ID 257": {
+    "Centro\u00efde": "tol\u00e9rance",
+    "Freq. centroide": 1,
+    "Termes": [
+      "avance",
+      "chol\u00e9ra",
+      "clairance",
+      "d\u00e9livrance",
+      "esp\u00e9rance",
+      "intol\u00e9rance",
+      "tol\u00e9rance"
+    ]
+  },
+  "ID 258": {
+    "Centro\u00efde": "naus\u00e9e",
+    "Freq. centroide": 4,
+    "Termes": [
+      "cause",
+      "naus\u00e9e",
+      "pouss\u00e9e",
+      "vis\u00e9e"
+    ]
+  },
+  "ID 259": {
+    "Centro\u00efde": "nucl\u00e9otide",
+    "Freq. centroide": 1,
+    "Termes": [
+      "5'nucl\u00e9otidase",
+      "dinucl\u00e9otide",
+      "mononucl\u00e9ose",
+      "nucl\u00e9ide",
+      "nucl\u00e9oside",
+      "nucl\u00e9otidase",
+      "nucl\u00e9otide",
+      "polynucl\u00e9ose",
+      "protide",
+      "radionucl\u00e9ide",
+      "ribonucl\u00e9otide"
+    ]
+  },
+  "ID 260": {
+    "Centro\u00efde": "agr\u00e9gation",
+    "Freq. centroide": 2,
+    "Termes": [
+      "aggr\u00e9gante",
+      "agr\u00e9gation",
+      "degr\u00e9",
+      "d\u00e9sagr\u00e9gation"
+    ]
+  },
+  "ID 261": {
+    "Centro\u00efde": "h\u00e9moglobine",
+    "Freq. centroide": 40,
+    "Termes": [
+      "carboxyh\u00e9moglobine",
+      "globine",
+      "haptoglobine",
+      "h\u00e9moglobine",
+      "myoglobine",
+      "m\u00e9th\u00e9moglobine",
+      "oxyh\u00e9moglobine"
+    ]
+  },
+  "ID 262": {
+    "Centro\u00efde": "gamma",
+    "Freq. centroide": 4,
+    "Termes": [
+      "amm",
+      "gamma",
+      "gammac",
+      "gammaglutamyl",
+      "gammagt",
+      "gamme",
+      "mmhg"
+    ]
+  },
+  "ID 263": {
+    "Centro\u00efde": "isopropanol",
+    "Freq. centroide": 6,
+    "Termes": [
+      "anoph\u00e8le",
+      "isopropanol",
+      "isotope",
+      "misoprostol",
+      "propanone",
+      "propos",
+      "propranolol",
+      "propri\u00e9t\u00e9"
+    ]
+  },
+  "ID 264": {
+    "Centro\u00efde": "ceftazidine",
+    "Freq. centroide": 1,
+    "Termes": [
+      "ceftazidime",
+      "ceftazidine",
+      "ceftriaxone",
+      "zidovudine"
+    ]
+  },
+  "ID 266": {
+    "Centro\u00efde": "abaissement",
+    "Freq. centroide": 5,
+    "Termes": [
+      "abaissement",
+      "accroissement",
+      "gaba",
+      "pansement",
+      "ralentissement",
+      "tm",
+      "vomissement",
+      "\u00e9largissement",
+      "\u00e9tablissement"
+    ]
+  },
+  "ID 267": {
+    "Centro\u00efde": "voie",
+    "Freq. centroide": 72,
+    "Termes": [
+      "devoir",
+      "foie",
+      "pouvoir",
+      "voie",
+      "voit"
+    ]
+  },
+  "ID 268": {
+    "Centro\u00efde": "excitation",
+    "Freq. centroide": 9,
+    "Termes": [
+      "agitation",
+      "exception",
+      "excitateur",
+      "excitation",
+      "explicitation",
+      "irritation",
+      "pr\u00e9cipitation"
+    ]
+  },
+  "ID 269": {
+    "Centro\u00efde": "trypsine",
+    "Freq. centroide": 1,
+    "Termes": [
+      "chymotrypsine",
+      "pepsine",
+      "r\u00e9sine",
+      "trypsine",
+      "tryptophane",
+      "\u00df-"
+    ]
+  },
+  "ID 270": {
+    "Centro\u00efde": "r\u00e9chauffage",
+    "Freq. centroide": 1,
+    "Termes": [
+      "chauffage",
+      "r\u00e9chauffage",
+      "s\u00e9chage"
+    ]
+  },
+  "ID 271": {
+    "Centro\u00efde": "psycholeptique",
+    "Freq. centroide": 1,
+    "Termes": [
+      "neuroleptique",
+      "psycholeptique",
+      "psychose"
+    ]
+  },
+  "ID 272": {
+    "Centro\u00efde": "officine",
+    "Freq. centroide": 1,
+    "Termes": [
+      "amphot\u00e9ricine",
+      "coefficient",
+      "colchicine",
+      "doxorubicine",
+      "epirubicine",
+      "n\u00e9tilmicine",
+      "officine",
+      "rifampicine"
+    ]
+  },
+  "ID 274": {
+    "Centro\u00efde": "greffe",
+    "Freq. centroide": 2,
+    "Termes": [
+      "allogreffe",
+      "effet",
+      "greffe",
+      "greffon"
+    ]
+  },
+  "ID 275": {
+    "Centro\u00efde": "conversion",
+    "Freq. centroide": 8,
+    "Termes": [
+      "conversion",
+      "convulsion",
+      "interconversion",
+      "s\u00e9roconversion"
+    ]
+  },
+  "ID 276": {
+    "Centro\u00efde": "soin",
+    "Freq. centroide": 5,
+    "Termes": [
+      "besoin",
+      "h\u00e9roine",
+      "soif",
+      "soin",
+      "soir",
+      "t\u00e9moin"
+    ]
+  },
+  "ID 277": {
+    "Centro\u00efde": "m\u00e9lange",
+    "Freq. centroide": 19,
+    "Termes": [
+      "danger",
+      "d\u00e9lai",
+      "langue",
+      "m\u00e9lange",
+      "m\u00e9lanodermie"
+    ]
+  },
+  "ID 278": {
+    "Centro\u00efde": "anti-poliomy\u00e9litique",
+    "Freq. centroide": 1,
+    "Termes": [
+      "anti-poliomy\u00e9litique",
+      "anti-rub\u00e9olique",
+      "poliomy\u00e9lite",
+      "politique"
+    ]
+  },
+  "ID 279": {
+    "Centro\u00efde": "myocyte",
+    "Freq. centroide": 1,
+    "Termes": [
+      "adipocyte",
+      "ent\u00e9rocyte",
+      "histiocyte",
+      "h\u00e9patocyte",
+      "mastocyte",
+      "monocyte",
+      "myocarde",
+      "myocyte",
+      "m\u00e9gacaryocyte",
+      "oocyste",
+      "pneumocyte",
+      "podocyte",
+      "r\u00e9ticulocyte",
+      "thymocyte"
+    ]
+  },
+  "ID 280": {
+    "Centro\u00efde": "carbure",
+    "Freq. centroide": 4,
+    "Termes": [
+      "arbre",
+      "carburant",
+      "carbure",
+      "hydrocarbure"
+    ]
+  },
+  "ID 281": {
+    "Centro\u00efde": "acidit\u00e9",
+    "Freq. centroide": 2,
+    "Termes": [
+      "acidit\u00e9",
+      "facilit\u00e9",
+      "h\u00e9r\u00e9dit\u00e9",
+      "limpidit\u00e9",
+      "morbidit\u00e9",
+      "rigidit\u00e9",
+      "r\u00e9cidive"
+    ]
+  },
+  "ID 282": {
+    "Centro\u00efde": "m\u00e9tabolite",
+    "Freq. centroide": 9,
+    "Termes": [
+      "antim\u00e9tabolite",
+      "catabolite",
+      "colite",
+      "embolie",
+      "m\u00e9tabolisation",
+      "m\u00e9tabolisme",
+      "m\u00e9tabolite"
+    ]
+  },
+  "ID 283": {
+    "Centro\u00efde": "permet",
+    "Freq. centroide": 6,
+    "Termes": [
+      "fermeture",
+      "germe",
+      "isotherme",
+      "met",
+      "perle",
+      "permanganate",
+      "permet",
+      "permet(tent",
+      "terme"
+    ]
+  },
+  "ID 285": {
+    "Centro\u00efde": "question",
+    "Freq. centroide": 1,
+    "Termes": [
+      "digestion",
+      "estimation",
+      "ingestion",
+      "question",
+      "questionnaire",
+      "questran"
+    ]
+  },
+  "ID 286": {
+    "Centro\u00efde": "immuno",
+    "Freq. centroide": 2,
+    "Termes": [
+      "immun",
+      "immuno",
+      "immunocomp\u00e9tent",
+      "immunodosage",
+      "immunod\u00e9prim\u00e9",
+      "immunophiline",
+      "immunostimulation"
+    ]
+  },
+  "ID 287": {
+    "Centro\u00efde": "hyponatr\u00e9mie",
+    "Freq. centroide": 5,
+    "Termes": [
+      "extr\u00e9mit\u00e9",
+      "hypochlor\u00e9mie",
+      "hyponatriurie",
+      "hyponatr\u00e9mie",
+      "hyposid\u00e9r\u00e9mie",
+      "natr\u00e9mie",
+      "pseudo-hyponatr\u00e9mie",
+      "ur\u00e9mie"
+    ]
+  },
+  "ID 288": {
+    "Centro\u00efde": "beta",
+    "Freq. centroide": 1,
+    "Termes": [
+      "beta",
+      "beta-2",
+      "foetus",
+      "retard\u00e9"
+    ]
+  },
+  "ID 289": {
+    "Centro\u00efde": "gentamycine",
+    "Freq. centroide": 1,
+    "Termes": [
+      "gentalline",
+      "gentamicine",
+      "gentamycine",
+      "glycine",
+      "josamycine",
+      "kanamycine",
+      "pentazocine",
+      "pristinamycine",
+      "rovamycine",
+      "spiramycine",
+      "tobramycine",
+      "vibramycine"
+    ]
+  },
+  "ID 291": {
+    "Centro\u00efde": "alanine",
+    "Freq. centroide": 3,
+    "Termes": [
+      "alanine",
+      "allanto\u00efne",
+      "amanitine",
+      "angine",
+      "animal",
+      "balanite",
+      "calcitonine",
+      "dihydralazine",
+      "guanine",
+      "olanzapine",
+      "ph\u00e9nylalanine",
+      "t\u00e9icoplanine"
+    ]
+  },
+  "ID 292": {
+    "Centro\u00efde": "nutrition",
+    "Freq. centroide": 14,
+    "Termes": [
+      "apparition",
+      "diminution",
+      "disparition",
+      "d\u00e9nutrition",
+      "malnutrition",
+      "nutriment",
+      "nutrition"
+    ]
+  },
+  "ID 293": {
+    "Centro\u00efde": "calciurie",
+    "Freq. centroide": 2,
+    "Termes": [
+      "calcif\u00e9rol",
+      "calcitriol",
+      "calcium",
+      "calciurie",
+      "calendrier",
+      "hypercalciurie",
+      "ost\u00e9ocalcine",
+      "pollakiurie"
+    ]
+  },
+  "ID 294": {
+    "Centro\u00efde": "cytosine",
+    "Freq. centroide": 2,
+    "Termes": [
+      "ad\u00e9nosine",
+      "aracytine",
+      "cytarabine",
+      "cytokine",
+      "cytosine",
+      "guanosine",
+      "prazosine",
+      "tyrosine"
+    ]
+  },
+  "ID 295": {
+    "Centro\u00efde": "mol\u00e9cule",
+    "Freq. centroide": 54,
+    "Termes": [
+      "macromol\u00e9cule",
+      "mol\u00e9cule",
+      "mol\u00e9cule("
+    ]
+  },
+  "ID 296": {
+    "Centro\u00efde": "pointe",
+    "Freq. centroide": 2,
+    "Termes": [
+      "intercalant",
+      "intercostau",
+      "interdisciplinarit\u00e9",
+      "point",
+      "pointe",
+      "poin\u00e7on",
+      "ponte"
+    ]
+  },
+  "ID 297": {
+    "Centro\u00efde": "baisse",
+    "Freq. centroide": 8,
+    "Termes": [
+      "baisse",
+      "graisse",
+      "grossesse",
+      "neisseria",
+      "pissenlit",
+      "tissu",
+      "vaisseau",
+      "\u00e9paisse",
+      "\u00e9paisseur"
+    ]
+  },
+  "ID 298": {
+    "Centro\u00efde": "morphine",
+    "Freq. centroide": 9,
+    "Termes": [
+      "bupr\u00e9norphine",
+      "hydromorphone",
+      "morphine",
+      "morphinique",
+      "morphino",
+      "morphinomim\u00e9tique",
+      "m\u00e9thylmorphine",
+      "polymorphisme"
+    ]
+  },
+  "ID 299": {
+    "Centro\u00efde": "flagelle",
+    "Freq. centroide": 1,
+    "Termes": [
+      "flagelle",
+      "flagell\u00e9",
+      "flagyl",
+      "gel",
+      "pelliculage"
+    ]
+  },
+  "ID 300": {
+    "Centro\u00efde": "ventilation",
+    "Freq. centroide": 4,
+    "Termes": [
+      "assimilation",
+      "distillation",
+      "fibrillation",
+      "hyperventilation",
+      "hypoventilation",
+      "patient",
+      "pr\u00e9vention",
+      "vasodilatation",
+      "ventilation"
+    ]
+  },
+  "ID 301": {
+    "Centro\u00efde": "spicule",
+    "Freq. centroide": 2,
+    "Termes": [
+      "macula",
+      "pellicul\u00e9",
+      "pic",
+      "r\u00e9ticulum",
+      "spicule",
+      "ventricule",
+      "v\u00e9hicule"
+    ]
+  },
+  "ID 303": {
+    "Centro\u00efde": "anomalie",
+    "Freq. centroide": 9,
+    "Termes": [
+      "anomalie",
+      "anomalie(",
+      "anoxie",
+      "palier",
+      "salicyl\u00e9",
+      "spl\u00e9nom\u00e9galie"
+    ]
+  },
+  "ID 304": {
+    "Centro\u00efde": "matrice",
+    "Freq. centroide": 8,
+    "Termes": [
+      "cicatrice",
+      "matrice",
+      "vectrice"
+    ]
+  },
+  "ID 305": {
+    "Centro\u00efde": "m\u00e8tre",
+    "Freq. centroide": 1,
+    "Termes": [
+      "catharom\u00e8tre",
+      "centim\u00e8tre",
+      "etre",
+      "kilom\u00e8tre",
+      "millim\u00e8tre",
+      "m\u00e8tre",
+      "param\u00e8tre",
+      "photom\u00e8tre"
+    ]
+  },
+  "ID 306": {
+    "Centro\u00efde": "hypercatabolisme",
+    "Freq. centroide": 1,
+    "Termes": [
+      "catabolisme",
+      "dimercaprol",
+      "hyperbole",
+      "hypercapnie",
+      "hypercatabolisme",
+      "hyperspl\u00e9nisme",
+      "tabagisme"
+    ]
+  },
+  "ID 307": {
+    "Centro\u00efde": "antidiab\u00e9tique",
+    "Freq. centroide": 1,
+    "Termes": [
+      "antidiab\u00e8tique",
+      "antidiab\u00e9tique",
+      "diab\u00e9tique",
+      "salidiur\u00e9tique",
+      "thiazidique"
+    ]
+  },
+  "ID 308": {
+    "Centro\u00efde": "colonne",
+    "Freq. centroide": 17,
+    "Termes": [
+      "b\u00e2tonnet",
+      "collyre",
+      "colonie",
+      "colonne",
+      "colza",
+      "cyclopyrrolone",
+      "volont\u00e9"
+    ]
+  },
+  "ID 309": {
+    "Centro\u00efde": "g\u00e9n\u00e9tique",
+    "Freq. centroide": 1,
+    "Termes": [
+      "cin\u00e9tique",
+      "cytog\u00e9n\u00e9tique",
+      "diur\u00e9tique",
+      "g\u00e9n\u00e9ral",
+      "g\u00e9n\u00e9tique",
+      "pratique",
+      "techn\u00e9tium"
+    ]
+  },
+  "ID 310": {
+    "Centro\u00efde": "l\u00e9vodopa",
+    "Freq. centroide": 1,
+    "Termes": [
+      "dopa",
+      "l\u00e9vo",
+      "l\u00e9vodopa",
+      "modopar"
+    ]
+  },
+  "ID 311": {
+    "Centro\u00efde": "exactitude",
+    "Freq. centroide": 1,
+    "Termes": [
+      "altitude",
+      "exactitude",
+      "fraude",
+      "inexactitude"
+    ]
+  },
+  "ID 312": {
+    "Centro\u00efde": "cit\u00e9",
+    "Freq. centroide": 2,
+    "Termes": [
+      "apyrog\u00e8nicit\u00e9",
+      "ascite",
+      "authenticit\u00e9",
+      "capacit\u00e9",
+      "chronicit\u00e9",
+      "cit\u00e9",
+      "efficacit\u00e9",
+      "extr\u00eamit\u00e9",
+      "ob\u00e9sit\u00e9",
+      "sp\u00e9cificit\u00e9"
+    ]
+  },
+  "ID 313": {
+    "Centro\u00efde": "stabilit\u00e9",
+    "Freq. centroide": 4,
+    "Termes": [
+      "histocompatibilit\u00e9",
+      "hyperexcitabilit\u00e9",
+      "imputabilit\u00e9",
+      "mobilit\u00e9",
+      "perm\u00e9abilit\u00e9",
+      "responsabilit\u00e9",
+      "r\u00e9p\u00e9tabilit\u00e9",
+      "stabilit\u00e9",
+      "st\u00e9rilit\u00e9",
+      "tra\u00e7abilit\u00e9",
+      "variabilit\u00e9"
+    ]
+  },
+  "ID 314": {
+    "Centro\u00efde": "accord",
+    "Freq. centroide": 1,
+    "Termes": [
+      "accord",
+      "accoutumance",
+      "acc\u00e8s",
+      "cordon",
+      "vaccin"
+    ]
+  },
+  "ID 315": {
+    "Centro\u00efde": "p\u00e9ril",
+    "Freq. centroide": 1,
+    "Termes": [
+      "avril",
+      "exp\u00e9rience",
+      "halop\u00e9ridol",
+      "hyp\u00e9rium",
+      "p\u00e9ril",
+      "risp\u00e9ridone"
+    ]
+  },
+  "ID 316": {
+    "Centro\u00efde": "cd11a",
+    "Freq. centroide": 1,
+    "Termes": [
+      "cd11a",
+      "cd18"
+    ]
+  },
+  "ID 317": {
+    "Centro\u00efde": "coenzyme",
+    "Freq. centroide": 4,
+    "Termes": [
+      "coenzyme",
+      "enzyme",
+      "m\u00e9talloenzyme"
+    ]
+  },
+  "ID 318": {
+    "Centro\u00efde": "bact\u00e9rie",
+    "Freq. centroide": 41,
+    "Termes": [
+      "antibact\u00e9rien",
+      "bact\u00e9ricidie",
+      "bact\u00e9rie",
+      "bact\u00e9riophage",
+      "bact\u00e9riurie",
+      "bact\u00e9ri\u00e9mie",
+      "ent\u00e9robact\u00e9rie",
+      "est\u00e9rifi\u00e9",
+      "s\u00e9rie"
+    ]
+  },
+  "ID 319": {
+    "Centro\u00efde": "leucine",
+    "Freq. centroide": 1,
+    "Termes": [
+      "interleukine",
+      "isoleucine",
+      "leucine",
+      "leucotri\u00e8ne"
+    ]
+  },
+  "ID 320": {
+    "Centro\u00efde": "vih-1",
+    "Freq. centroide": 3,
+    "Termes": [
+      "m2.s-1",
+      "rh-",
+      "vih",
+      "vih-1"
+    ]
+  },
+  "ID 321": {
+    "Centro\u00efde": "viscosit\u00e9",
+    "Freq. centroide": 3,
+    "Termes": [
+      "cryoscopie",
+      "hyperviscosit\u00e9",
+      "myosis",
+      "nervosit\u00e9",
+      "porosit\u00e9",
+      "sc",
+      "villosit\u00e9",
+      "viscosit\u00e9"
+    ]
+  },
+  "ID 322": {
+    "Centro\u00efde": "oeuf",
+    "Freq. centroide": 6,
+    "Termes": [
+      "boeuf",
+      "coeur",
+      "oeuf",
+      "oeuvre"
+    ]
+  },
+  "ID 323": {
+    "Centro\u00efde": "file",
+    "Freq. centroide": 1,
+    "Termes": [
+      "file",
+      "film",
+      "fils",
+      "huile",
+      "m\u00e2le",
+      "pile",
+      "profil",
+      "sild\u00e9nafil",
+      "\u00e9pilepsie"
+    ]
+  },
+  "ID 324": {
+    "Centro\u00efde": "gratuit",
+    "Freq. centroide": 1,
+    "Termes": [
+      "gratuit",
+      "gratuitement",
+      "gratuit\u00e9"
+    ]
+  },
+  "ID 325": {
+    "Centro\u00efde": "surface",
+    "Freq. centroide": 10,
+    "Termes": [
+      "face",
+      "interface",
+      "surface",
+      "surfactant"
+    ]
+  },
+  "ID 326": {
+    "Centro\u00efde": "dermatophyte",
+    "Freq. centroide": 2,
+    "Termes": [
+      "dermatophyte",
+      "dermatophytie",
+      "dermatose"
+    ]
+  },
+  "ID 327": {
+    "Centro\u00efde": "croissance",
+    "Freq. centroide": 3,
+    "Termes": [
+      "afssap",
+      "croissance",
+      "d\u00e9croissance",
+      "impuissance",
+      "insuffisance",
+      "naissance"
+    ]
+  },
+  "ID 328": {
+    "Centro\u00efde": "enveloppe",
+    "Freq. centroide": 7,
+    "Termes": [
+      "d\u00e9veloppement",
+      "enveloppe",
+      "envelopp\u00e9(",
+      "guadeloup\u00e9en"
+    ]
+  },
+  "ID 329": {
+    "Centro\u00efde": "hyperuric\u00e9mie",
+    "Freq. centroide": 5,
+    "Termes": [
+      "hyper-uric\u00e9mie",
+      "hyperinsulin\u00e9mie",
+      "hyperlactacid\u00e9mie",
+      "hypernatriurie",
+      "hyperprolactin\u00e9mie",
+      "hyperthermie",
+      "hyperuric\u00e9mie",
+      "hypouric\u00e9mie",
+      "uric\u00e9miant"
+    ]
+  },
+  "ID 330": {
+    "Centro\u00efde": "gar\u00e7on",
+    "Freq. centroide": 4,
+    "Termes": [
+      "fa\u00e7on",
+      "gar\u00e7on",
+      "\u00e9gard"
+    ]
+  },
+  "ID 331": {
+    "Centro\u00efde": "aldost\u00e9rone",
+    "Freq. centroide": 11,
+    "Termes": [
+      "aldomet",
+      "aldost\u00e9rone",
+      "androst\u00e9rone",
+      "ergost\u00e9rol",
+      "hyperaldost\u00e9ronisme",
+      "hypoaldost\u00e9ronisme",
+      "progest\u00e9rone",
+      "pronostic",
+      "testost\u00e9rone"
+    ]
+  },
+  "ID 332": {
+    "Centro\u00efde": "otite",
+    "Freq. centroide": 1,
+    "Termes": [
+      "app\u00e9tit",
+      "cystite",
+      "h\u00e9patite",
+      "limite",
+      "motif",
+      "notice",
+      "otite",
+      "\u00e9piglottite",
+      "\u03b12\u03b42"
+    ]
+  },
+  "ID 333": {
+    "Centro\u00efde": "observation",
+    "Freq. centroide": 1,
+    "Termes": [
+      "assertion",
+      "conservation",
+      "observation",
+      "observ\u00e9(",
+      "service"
+    ]
+  },
+  "ID 334": {
+    "Centro\u00efde": "r\u00e9cepteur",
+    "Freq. centroide": 45,
+    "Termes": [
+      "baror\u00e9cepteur",
+      "compteur",
+      "pr\u00e9curseur",
+      "r\u00e9cepteur",
+      "r\u00e9ception"
+    ]
+  },
+  "ID 337": {
+    "Centro\u00efde": "intention",
+    "Freq. centroide": 10,
+    "Termes": [
+      "contenu",
+      "intention",
+      "intentionnel",
+      "interf\u00e9ron",
+      "intervention",
+      "obtention",
+      "potentiel",
+      "potentiom\u00e8trie",
+      "potentiom\u00e9trie",
+      "r\u00e9tention"
+    ]
+  },
+  "ID 338": {
+    "Centro\u00efde": "totalit\u00e9",
+    "Freq. centroide": 1,
+    "Termes": [
+      "causalit\u00e9",
+      "digitalique",
+      "fid\u00e9lit\u00e9",
+      "h\u00f4pital",
+      "l\u00e9talit\u00e9",
+      "modalit\u00e9",
+      "mortalit\u00e9",
+      "natalit\u00e9",
+      "qualit\u00e9",
+      "sotale",
+      "sp\u00e9cialit\u00e9",
+      "totalit\u00e9"
+    ]
+  },
+  "ID 339": {
+    "Centro\u00efde": "fluox\u00e9tine",
+    "Freq. centroide": 1,
+    "Termes": [
+      "fluox\u00e9tine",
+      "norfluox\u00e9tine"
+    ]
+  },
+  "ID 340": {
+    "Centro\u00efde": "m\u00e9thanol",
+    "Freq. centroide": 7,
+    "Termes": [
+      "butanol",
+      "dexam\u00e9thasone",
+      "dichlorom\u00e9thane",
+      "m\u00e9thanol",
+      "trichloro\u00e9thanol",
+      "\u00e9thambutol",
+      "\u00e9thanol"
+    ]
+  },
+  "ID 342": {
+    "Centro\u00efde": "nickel",
+    "Freq. centroide": 1,
+    "Termes": [
+      "ke",
+      "nickel",
+      "tck"
+    ]
+  },
+  "ID 343": {
+    "Centro\u00efde": "test",
+    "Freq. centroide": 20,
+    "Termes": [
+      "cest",
+      "cestode",
+      "est",
+      "est(sont",
+      "ester",
+      "geste",
+      "intestin",
+      "justesse",
+      "reste",
+      "temesta",
+      "test",
+      "test(",
+      "western"
+    ]
+  },
+  "ID 344": {
+    "Centro\u00efde": "proton",
+    "Freq. centroide": 4,
+    "Termes": [
+      "frottis",
+      "photon",
+      "protease",
+      "protocole",
+      "proton",
+      "protozoaire",
+      "prozac",
+      "s\u00e9rotonine"
+    ]
+  },
+  "ID 345": {
+    "Centro\u00efde": "vasoconstriction",
+    "Freq. centroide": 1,
+    "Termes": [
+      "bronchoconstriction",
+      "restriction",
+      "vasoconstricteur",
+      "vasoconstriction"
+    ]
+  },
+  "ID 346": {
+    "Centro\u00efde": "groupe",
+    "Freq. centroide": 14,
+    "Termes": [
+      "groupage",
+      "groupe",
+      "groupement",
+      "rouge",
+      "s\u00e9rogroupe"
+    ]
+  },
+  "ID 347": {
+    "Centro\u00efde": "\u00e9lectron",
+    "Freq. centroide": 7,
+    "Termes": [
+      "electrode",
+      "\u00e9lectroactive",
+      "\u00e9lectrocardiogramme",
+      "\u00e9lectrode",
+      "\u00e9lectroendosmose",
+      "\u00e9lectrolyte",
+      "\u00e9lectron",
+      "\u00e9l\u00e9ctron"
+    ]
+  },
+  "ID 348": {
+    "Centro\u00efde": "s\u00e9ro",
+    "Freq. centroide": 1,
+    "Termes": [
+      "ana\u00e9robie",
+      "num\u00e9ro",
+      "s\u00e9ro",
+      "s\u00e9rosit\u00e9",
+      "s\u00e9rotypage",
+      "s\u00e9rotype",
+      "s\u00e9rum"
+    ]
+  },
+  "ID 349": {
+    "Centro\u00efde": "amine",
+    "Freq. centroide": 1,
+    "Termes": [
+      "amibe",
+      "amine",
+      "amino",
+      "aminocapro\u00efque",
+      "amph\u00e9tamine",
+      "anti-vitamine",
+      "antivitamine",
+      "cat\u00e9cholamine",
+      "chimiokine",
+      "colestyramine",
+      "cyam\u00e9mazine",
+      "diamine",
+      "dihydroergotamine",
+      "dobutamine",
+      "dopamine",
+      "d\u00e9termine",
+      "elimine",
+      "glutamine",
+      "histamine",
+      "imipramine",
+      "indolamine",
+      "lamivudine",
+      "mirtazapine",
+      "molsidomine",
+      "mono-amine",
+      "monoamine",
+      "plasmine",
+      "protamine",
+      "streptogramine",
+      "tryptamine",
+      "vitamine"
+    ]
+  },
+  "ID 350": {
+    "Centro\u00efde": "toxicit\u00e9",
+    "Freq. centroide": 9,
+    "Termes": [
+      "h\u00e9patoxicit\u00e9",
+      "n\u00e9phrotoxicit\u00e9",
+      "ototoxicit\u00e9",
+      "toxicit\u00e9",
+      "toxicomanie"
+    ]
+  },
+  "ID 351": {
+    "Centro\u00efde": "ph\u00e9nol",
+    "Freq. centroide": 2,
+    "Termes": [
+      "at\u00e9nolol",
+      "indoph\u00e9nol",
+      "ph\u00e9nobarbital",
+      "ph\u00e9nol",
+      "ph\u00e9nom\u00e8ne",
+      "ph\u00e9nothiazine",
+      "ph\u00e9nylc\u00e9tonurie",
+      "ph\u00e9nyle",
+      "ph\u00e9nyto\u00efne"
+    ]
+  },
+  "ID 352": {
+    "Centro\u00efde": "deuterium",
+    "Freq. centroide": 2,
+    "Termes": [
+      "delirium",
+      "deuterium",
+      "deut\u00e9rium",
+      "mycobacterium",
+      "utero"
+    ]
+  },
+  "ID 353": {
+    "Centro\u00efde": "g\u00e9nie",
+    "Freq. centroide": 1,
+    "Termes": [
+      "cong\u00e9nitau",
+      "ethnie",
+      "g\u00e9nie",
+      "insomnie",
+      "leucop\u00e9nie",
+      "neutrop\u00e9nie",
+      "pancytop\u00e9nie",
+      "schizophr\u00e9nie"
+    ]
+  },
+  "ID 354": {
+    "Centro\u00efde": "\u00e9pid\u00e9mie",
+    "Freq. centroide": 1,
+    "Termes": [
+      "acad\u00e9mie",
+      "dyslipid\u00e9mie",
+      "end\u00e9mie",
+      "hyperlipid\u00e9mie",
+      "hypoprotid\u00e9mie",
+      "pand\u00e9mie",
+      "plomb\u00e9mie",
+      "protid\u00e9mie",
+      "sid\u00e9r\u00e9mie",
+      "\u00e9pid\u00e9mie",
+      "\u00e9pid\u00e9miologie"
+    ]
+  },
+  "ID 355": {
+    "Centro\u00efde": "tuberculosi",
+    "Freq. centroide": 10,
+    "Termes": [
+      "anti-tuberculeu",
+      "antituberculeux",
+      "mercure",
+      "pubert\u00e9",
+      "tube",
+      "tuberculine",
+      "tuberculose",
+      "tuberculosi"
+    ]
+  },
+  "ID 356": {
+    "Centro\u00efde": "acide",
+    "Freq. centroide": 103,
+    "Termes": [
+      "acaricide",
+      "accident",
+      "acide",
+      "acido",
+      "acidoc\u00e9tose",
+      "acier",
+      "aide",
+      "glucide",
+      "pesticide",
+      "prob\u00e9n\u00e9cide",
+      "synercid"
+    ]
+  },
+  "ID 357": {
+    "Centro\u00efde": "inuline",
+    "Freq. centroide": 1,
+    "Termes": [
+      "citrulline",
+      "discipline",
+      "insuline",
+      "inuline",
+      "rasagiline",
+      "sinus",
+      "s\u00e9l\u00e9giline",
+      "th\u00e9ophylline",
+      "\u00e9chinul\u00e9e"
+    ]
+  },
+  "ID 358": {
+    "Centro\u00efde": "u.v.",
+    "Freq. centroide": 1,
+    "Termes": [
+      "-c",
+      "u.v.",
+      "v.i.h"
+    ]
+  },
+  "ID 360": {
+    "Centro\u00efde": "diaz\u00e9pam",
+    "Freq. centroide": 2,
+    "Termes": [
+      "benzodiaz\u00e9pine",
+      "diaz\u00e9pam",
+      "diltiazem",
+      "flunitraz\u00e9pam",
+      "loraz\u00e9pam",
+      "oxaz\u00e9pam"
+    ]
+  },
+  "ID 361": {
+    "Centro\u00efde": "longueur",
+    "Freq. centroide": 28,
+    "Termes": [
+      "long",
+      "longueur",
+      "marqueur",
+      "sueur",
+      "vigueur"
+    ]
+  },
+  "ID 362": {
+    "Centro\u00efde": "implication",
+    "Freq. centroide": 1,
+    "Termes": [
+      "amplification",
+      "application",
+      "complication",
+      "explication",
+      "implication",
+      "multiplication",
+      "pli",
+      "publication",
+      "r\u00e9plication"
+    ]
+  },
+  "ID 363": {
+    "Centro\u00efde": "antiinflammatoire",
+    "Freq. centroide": 1,
+    "Termes": [
+      "ambulatoire",
+      "anti-inflammatoire",
+      "antiinflammatoire",
+      "inflammation"
+    ]
+  },
+  "ID 365": {
+    "Centro\u00efde": "fluoro",
+    "Freq. centroide": 1,
+    "Termes": [
+      "fluor",
+      "fluoro",
+      "fluorophore",
+      "fluoroquinolone"
+    ]
+  },
+  "ID 366": {
+    "Centro\u00efde": "45/100",
+    "Freq. centroide": 3,
+    "Termes": [
+      "1/10",
+      "40.000.000",
+      "45/100"
+    ]
+  },
+  "ID 368": {
+    "Centro\u00efde": "t\u00e9niasi",
+    "Freq. centroide": 1,
+    "Termes": [
+      "taeniasis",
+      "teniasi",
+      "t\u00e9niase",
+      "t\u00e9niasi"
+    ]
+  },
+  "ID 369": {
+    "Centro\u00efde": "arthrite",
+    "Freq. centroide": 1,
+    "Termes": [
+      "arthrite",
+      "guthrie",
+      "h\u00e9marthrose",
+      "polyarthrite"
+    ]
+  },
+  "ID 370": {
+    "Centro\u00efde": "hydroxy",
+    "Freq. centroide": 1,
+    "Termes": [
+      "b\u00eata-hydroxybutirate",
+      "delta-9-t\u00e9trahydrocannabinol",
+      "dihydroxy",
+      "dihydroxyvitamine",
+      "hydrea",
+      "hydrochlorothiazide",
+      "hydroxy",
+      "hydroxybutyrate",
+      "hydroxylation",
+      "hydroxylysine",
+      "hydroxyparac\u00e9tamol",
+      "hydroxyproline",
+      "hydroxy\u00e9thylamidon"
+    ]
+  },
+  "ID 371": {
+    "Centro\u00efde": "s\u00e9cr\u00e9tion",
+    "Freq. centroide": 23,
+    "Termes": [
+      "d\u00e9l\u00e9tion",
+      "excr\u00e9tion",
+      "secr\u00e9tion",
+      "s\u00e9cr\u00e9tine",
+      "s\u00e9cr\u00e9tion",
+      "s\u00e9cr\u00e9toire"
+    ]
+  },
+  "ID 372": {
+    "Centro\u00efde": "h\u00e9lium",
+    "Freq. centroide": 1,
+    "Termes": [
+      "endoth\u00e9line",
+      "h\u00e9lice",
+      "h\u00e9lium",
+      "pseudo-myc\u00e9lium",
+      "sous-endoth\u00e9lium",
+      "thallium",
+      "\u00e9pith\u00e9lium"
+    ]
+  },
+  "ID 373": {
+    "Centro\u00efde": "\u00e9thyl\u00e8ne",
+    "Freq. centroide": 8,
+    "Termes": [
+      "m\u00e9thyl\u00e8ne",
+      "poly\u00e9thyl\u00e8ne",
+      "trichloro\u00e9thyl\u00e8ne",
+      "trichlor\u00e9thyl\u00e8ne",
+      "\u00e9thyl\u00e8ne"
+    ]
+  },
+  "ID 374": {
+    "Centro\u00efde": "pole",
+    "Freq. centroide": 1,
+    "Termes": [
+      "alv\u00e9ole",
+      "diastole",
+      "gr\u00eale",
+      "k.",
+      "m\u00e9tropole",
+      "pole",
+      "polyurie",
+      "poly\u00e8ne",
+      "rougeole",
+      "rub\u00e9ole",
+      "r\u00f4le",
+      "symbole",
+      "systole"
+    ]
+  },
+  "ID 375": {
+    "Centro\u00efde": "h\u00e9modialyse",
+    "Freq. centroide": 1,
+    "Termes": [
+      "h\u00e9modialyse",
+      "h\u00e9modialys\u00e9",
+      "h\u00e9molyse"
+    ]
+  },
+  "ID 376": {
+    "Centro\u00efde": "cycline",
+    "Freq. centroide": 5,
+    "Termes": [
+      "anthracycline",
+      "cycline",
+      "cyclodextrine",
+      "doxycycline",
+      "prostacycline",
+      "t\u00e9tracycline"
+    ]
+  },
+  "ID 377": {
+    "Centro\u00efde": "anesth\u00e9sie",
+    "Freq. centroide": 2,
+    "Termes": [
+      "anesth\u00e9sie",
+      "anesth\u00e9siologie",
+      "anesth\u00e9sique",
+      "dyskin\u00e9sie"
+    ]
+  },
+  "ID 378": {
+    "Centro\u00efde": "examen",
+    "Freq. centroide": 23,
+    "Termes": [
+      "examen",
+      "examen(",
+      "lame"
+    ]
+  },
+  "ID 379": {
+    "Centro\u00efde": "broncho",
+    "Freq. centroide": 1,
+    "Termes": [
+      "bronchite",
+      "broncho",
+      "bronchodilatation",
+      "choc",
+      "choix"
+    ]
+  },
+  "ID 380": {
+    "Centro\u00efde": "population",
+    "Freq. centroide": 12,
+    "Termes": [
+      "articulation",
+      "chlamydosporulation",
+      "circulation",
+      "coagulation",
+      "copulation",
+      "floculation",
+      "granulation",
+      "inoculation",
+      "population",
+      "r\u00e9gulation",
+      "sous-population",
+      "stimulation"
+    ]
+  },
+  "ID 381": {
+    "Centro\u00efde": "\u00e9rythropo\u00ef\u00e8se",
+    "Freq. centroide": 1,
+    "Termes": [
+      "erythropo\u00ef\u00e8tine",
+      "\u00e9rythrocyte",
+      "\u00e9rythropo\u00ef\u00e8se",
+      "\u00e9rythropo\u00ef\u00e9se",
+      "\u00e9rythropo\u00ef\u00e9tine",
+      "\u00e9rythrose"
+    ]
+  },
+  "ID 382": {
+    "Centro\u00efde": "th\u00e9rapie",
+    "Freq. centroide": 1,
+    "Termes": [
+      "chimioth\u00e9rapie",
+      "monoth\u00e9rapie",
+      "oxyg\u00e9noth\u00e9rapie",
+      "papier",
+      "th\u00e9rapeutique",
+      "th\u00e9rapeutique(",
+      "th\u00e9rapie",
+      "vitaminoth\u00e9rapie"
+    ]
+  },
+  "ID 383": {
+    "Centro\u00efde": "activation",
+    "Freq. centroide": 11,
+    "Termes": [
+      "activateur",
+      "activation",
+      "activatrice",
+      "d\u00e9rivation",
+      "d\u00e9rivatisation",
+      "d\u00e9sactivation",
+      "inactivation",
+      "r\u00e9activation"
+    ]
+  },
+  "ID 384": {
+    "Centro\u00efde": "bilirubin\u00e9mie",
+    "Freq. centroide": 1,
+    "Termes": [
+      "bi",
+      "bilirubine",
+      "bilirubin\u00e9mie",
+      "hyperbilirubin\u00e9mie"
+    ]
+  },
+  "ID 386": {
+    "Centro\u00efde": "parasite",
+    "Freq. centroide": 14,
+    "Termes": [
+      "bens\u00e9raside",
+      "parasite",
+      "parasite(",
+      "parasitologie",
+      "parasitose",
+      "site"
+    ]
+  },
+  "ID 387": {
+    "Centro\u00efde": "oxyde",
+    "Freq. centroide": 1,
+    "Termes": [
+      "dioxyde",
+      "monoxyde",
+      "oxydase",
+      "oxyde",
+      "oxydo",
+      "peroxydase"
+    ]
+  },
+  "ID 388": {
+    "Centro\u00efde": "cr\u00e9atinine",
+    "Freq. centroide": 8,
+    "Termes": [
+      "aprotinine",
+      "cr\u00e9atine",
+      "cr\u00e9atinine",
+      "cr\u00e9atinin\u00e9mie",
+      "h\u00e9magglutinine",
+      "pancr\u00e9as",
+      "pancr\u00e9atite"
+    ]
+  },
+  "ID 389": {
+    "Centro\u00efde": "port",
+    "Freq. centroide": 2,
+    "Termes": [
+      "apport",
+      "effort",
+      "opportuniste",
+      "porc",
+      "port",
+      "porte",
+      "porteur",
+      "portion",
+      "proportion",
+      "rapport",
+      "spore",
+      "support",
+      "tort",
+      "transport",
+      "transporteur"
+    ]
+  },
+  "ID 390": {
+    "Centro\u00efde": "indication",
+    "Freq. centroide": 3,
+    "Termes": [
+      "contre-indication",
+      "cryodessication",
+      "dic",
+      "fabrication",
+      "indicateur",
+      "indication",
+      "indication(",
+      "indice",
+      "intoxication",
+      "pr\u00e9m\u00e9dication"
+    ]
+  },
+  "ID 391": {
+    "Centro\u00efde": "ammonium",
+    "Freq. centroide": 2,
+    "Termes": [
+      "ammoniac",
+      "ammonium",
+      "ammoni\u00e9mie",
+      "diazonium",
+      "pneumonie",
+      "poumon"
+    ]
+  },
+  "ID 392": {
+    "Centro\u00efde": "distomatose",
+    "Freq. centroide": 1,
+    "Termes": [
+      "ankylostomose",
+      "distomatose",
+      "estomac",
+      "granulomatose",
+      "schistosoma",
+      "st\u00e9atose"
+    ]
+  },
+  "ID 393": {
+    "Centro\u00efde": "place",
+    "Freq. centroide": 4,
+    "Termes": [
+      "aplasie",
+      "d\u00e9placement",
+      "flacon",
+      "place",
+      "placenta"
+    ]
+  },
+  "ID 394": {
+    "Centro\u00efde": "faute",
+    "Freq. centroide": 1,
+    "Termes": [
+      "d\u00e9faut",
+      "fa",
+      "fausse(",
+      "faute",
+      "hauteur"
+    ]
+  },
+  "ID 395": {
+    "Centro\u00efde": "cholest\u00e9rol\u00e9mie",
+    "Freq. centroide": 2,
+    "Termes": [
+      "cholerae",
+      "cholestase",
+      "cholest\u00e9rol",
+      "cholest\u00e9rol\u00e9mie",
+      "cholinest\u00e9rase",
+      "chol\u00e9calcif\u00e9rol",
+      "chol\u00e9r\u00e8se",
+      "hypercholest\u00e9rol\u00e9mie",
+      "hypocholest\u00e9rol\u00e9mie",
+      "vol\u00e9mie"
+    ]
+  },
+  "ID 398": {
+    "Centro\u00efde": "gonorrhoeae",
+    "Freq. centroide": 3,
+    "Termes": [
+      "ae",
+      "am\u00e9norrh\u00e9e",
+      "gonorrhoeae",
+      "novonorm"
+    ]
+  },
+  "ID 400": {
+    "Centro\u00efde": "ac\u00e9tyl",
+    "Freq. centroide": 1,
+    "Termes": [
+      "ac\u00e9tanilide",
+      "ac\u00e9tate",
+      "ac\u00e9tone",
+      "ac\u00e9tyl",
+      "ac\u00e9tylation",
+      "ac\u00e9tylcholine",
+      "ac\u00e9tylcyst\u00e9ine"
+    ]
+  },
+  "ID 401": {
+    "Centro\u00efde": "transit",
+    "Freq. centroide": 1,
+    "Termes": [
+      "dextran",
+      "fansidar",
+      "transit",
+      "transition",
+      "transmittance",
+      "transpeptidase",
+      "transplant\u00e9"
+    ]
+  },
+  "ID 402": {
+    "Centro\u00efde": "plaquette",
+    "Freq. centroide": 7,
+    "Termes": [
+      "attaque",
+      "hyperplaquettose",
+      "plaque",
+      "plaquettaire",
+      "plaquette",
+      "squelette"
+    ]
+  },
+  "ID 403": {
+    "Centro\u00efde": "cuve",
+    "Freq. centroide": 4,
+    "Termes": [
+      "cuve",
+      "uv",
+      "\u00e9tuve"
+    ]
+  },
+  "ID 405": {
+    "Centro\u00efde": "pyramide",
+    "Freq. centroide": 1,
+    "Termes": [
+      "disopyramide",
+      "extrapyramidau",
+      "pyramide",
+      "pyrazinamid",
+      "pyrazinamide"
+    ]
+  },
+  "ID 406": {
+    "Centro\u00efde": "acteur",
+    "Freq. centroide": 1,
+    "Termes": [
+      "acteur",
+      "cofacteur",
+      "d\u00e9tecteur",
+      "entehrobacter",
+      "facteur",
+      "inducteur",
+      "inhibiteur",
+      "r\u00e9activeur",
+      "r\u00e9ducteur",
+      "secr\u00e9teur",
+      "secteur"
+    ]
+  },
+  "ID 407": {
+    "Centro\u00efde": "cisplatine",
+    "Freq. centroide": 2,
+    "Termes": [
+      "cisplatine",
+      "cisplatyl",
+      "g\u00e9latine",
+      "platine"
+    ]
+  },
+  "ID 408": {
+    "Centro\u00efde": "tranf\u00e9rase",
+    "Freq. centroide": 2,
+    "Termes": [
+      "carbamoyltransf\u00e9rase",
+      "glutamyltransf\u00e9rase",
+      "polym\u00e9rase",
+      "topoisom\u00e9rase",
+      "tranf\u00e9rase",
+      "\u00e9cran"
+    ]
+  },
+  "ID 409": {
+    "Centro\u00efde": "laquelle(lesquelle",
+    "Freq. centroide": 41,
+    "Termes": [
+      "est(sont)celle(s)qui",
+      "la(les)quelle(",
+      "laquelle(lesquelle",
+      "lesquel",
+      "quelle("
+    ]
+  },
+  "ID 410": {
+    "Centro\u00efde": "anti",
+    "Freq. centroide": 1,
+    "Termes": [
+      "adjuvant",
+      "alkylant",
+      "an",
+      "anti",
+      "anti-ccp",
+      "anti-infectieu",
+      "anti-tnf",
+      "anti-ulc\u00e9reu",
+      "anticanc\u00e9reux",
+      "anticoagulant",
+      "anticorps",
+      "antidote",
+      "antigel",
+      "antig\u00e9n\u00e9mie",
+      "antir\u00e9troviral",
+      "antiviral",
+      "ant\u00e9c\u00e9dent",
+      "auto-anticorp",
+      "diluant",
+      "enfant",
+      "gant",
+      "habitant",
+      "irritant",
+      "quantit\u00e9",
+      "remnant",
+      "sant\u00e9",
+      "solvant",
+      "stimulant",
+      "stup\u00e9fiant",
+      "suivant(",
+      "\u00e9nantiom\u00e8re"
+    ]
+  },
+  "ID 411": {
+    "Centro\u00efde": "dose",
+    "Freq. centroide": 35,
+    "Termes": [
+      "acidose",
+      "agarose",
+      "bilharziose",
+      "candidose",
+      "cirrhose",
+      "cyanose",
+      "c\u00e9tose",
+      "dose",
+      "fructose",
+      "g\u00e9lose",
+      "hydatidose",
+      "leishmaniose",
+      "mannose",
+      "monodose",
+      "mucoviscidose",
+      "os",
+      "osmose",
+      "ost\u00e9oporose",
+      "overdose",
+      "oxyurose",
+      "pose",
+      "sarco\u00efdose",
+      "scl\u00e9rose",
+      "strongylo\u00efdose",
+      "zoonose"
+    ]
+  },
+  "ID 412": {
+    "Centro\u00efde": "b\u00e9ta",
+    "Freq. centroide": 1,
+    "Termes": [
+      "b\u00e9ta",
+      "b\u00e9ta26",
+      "b\u00e9ta6",
+      "b\u00e9ton",
+      "t\u00e9tanos",
+      "\u00e9tape",
+      "\u00e9tat"
+    ]
+  },
+  "ID 413": {
+    "Centro\u00efde": "heure",
+    "Freq. centroide": 16,
+    "Termes": [
+      "br\u00fblure",
+      "demeure",
+      "erreur",
+      "heure",
+      "impuret\u00e9",
+      "levure",
+      "ouvreur",
+      "oxyure",
+      "receveur",
+      "saveur"
+    ]
+  },
+  "ID 414": {
+    "Centro\u00efde": "trouble",
+    "Freq. centroide": 36,
+    "Termes": [
+      "doublet",
+      "public",
+      "trou",
+      "trouble"
+    ]
+  },
+  "ID 415": {
+    "Centro\u00efde": "st\u00e9ro\u00efde",
+    "Freq. centroide": 2,
+    "Termes": [
+      "autaco\u00efde",
+      "danaparo\u00efde",
+      "h\u00e9ro\u00efne",
+      "h\u00e9t\u00e9rozygote",
+      "opio\u00efde",
+      "r\u00e9tino\u00efde",
+      "st\u00e9ro\u00efde",
+      "st\u00e9ro\u00efdien",
+      "ut\u00e9ro"
+    ]
+  },
+  "ID 416": {
+    "Centro\u00efde": "personne",
+    "Freq. centroide": 5,
+    "Termes": [
+      "personne",
+      "personnel",
+      "sonnei"
+    ]
+  },
+  "ID 417": {
+    "Centro\u00efde": "h\u00e9mato",
+    "Freq. centroide": 1,
+    "Termes": [
+      "haematobium",
+      "h\u00e9matie",
+      "h\u00e9mato",
+      "h\u00e9matocrite",
+      "h\u00e9matophage",
+      "h\u00e9maturie",
+      "h\u00e9mochromatose",
+      "n\u00e9matode",
+      "n\u00e9matodose",
+      "tr\u00e9matode"
+    ]
+  },
+  "ID 418": {
+    "Centro\u00efde": "phosphore",
+    "Freq. centroide": 1,
+    "Termes": [
+      "embryophore",
+      "hypophosphor\u00e9mie",
+      "phosphofructokinase",
+      "phospholipase",
+      "phospholipide",
+      "phosphonoformiate",
+      "phosphore",
+      "phosphorescence",
+      "phosphorylation"
+    ]
+  },
+  "ID 419": {
+    "Centro\u00efde": "vaginite",
+    "Freq. centroide": 1,
+    "Termes": [
+      "r\u00e9tinite",
+      "saginata",
+      "vaginite",
+      "vulvovaginite"
+    ]
+  },
+  "ID 421": {
+    "Centro\u00efde": "calc\u00e9mie",
+    "Freq. centroide": 3,
+    "Termes": [
+      "calc\u00e9mie",
+      "hypercalc\u00e9mie",
+      "hypocalc\u00e9mie",
+      "leuc\u00e9mie",
+      "lip\u00e9mie",
+      "septic\u00e9mie"
+    ]
+  },
+  "ID 422": {
+    "Centro\u00efde": "rhinopharynx",
+    "Freq. centroide": 1,
+    "Termes": [
+      "oropharynx",
+      "rhinopharynx"
+    ]
+  },
+  "ID 423": {
+    "Centro\u00efde": "contamination",
+    "Freq. centroide": 14,
+    "Termes": [
+      "contage",
+      "contamination",
+      "coordination",
+      "d\u00e9contamination",
+      "d\u00e9samination",
+      "d\u00e9termination",
+      "spontan\u00e9e",
+      "transamination",
+      "\u00e9limination"
+    ]
+  },
+  "ID 424": {
+    "Centro\u00efde": "fille",
+    "Freq. centroide": 8,
+    "Termes": [
+      "aiguille",
+      "bacille",
+      "famille",
+      "feuille",
+      "fille",
+      "juillet",
+      "lentille",
+      "taille"
+    ]
+  },
+  "ID 425": {
+    "Centro\u00efde": "ombre",
+    "Freq. centroide": 2,
+    "Termes": [
+      "br\u00fbl\u00e9",
+      "celebre",
+      "chambre",
+      "coomb",
+      "membrane",
+      "nombre",
+      "ombre",
+      "plomb",
+      "tomb\u00e9e"
+    ]
+  },
+  "ID 426": {
+    "Centro\u00efde": "quel(",
+    "Freq. centroide": 1,
+    "Termes": [
+      "le(s)quel(",
+      "muqueuse",
+      "quel(",
+      "quel(quel"
+    ]
+  },
+  "ID 427": {
+    "Centro\u00efde": "bouche",
+    "Freq. centroide": 2,
+    "Termes": [
+      "abouche",
+      "accouchement",
+      "bouche",
+      "bouchon",
+      "boucle",
+      "caoutchouc",
+      "cartouche",
+      "souche"
+    ]
+  },
+  "ID 428": {
+    "Centro\u00efde": "pyrazole",
+    "Freq. centroide": 3,
+    "Termes": [
+      "aripiprazole",
+      "azol\u00e9",
+      "cotrimoxazole",
+      "om\u00e9prazole",
+      "pyrazole",
+      "pyrazol\u00e9"
+    ]
+  },
+  "ID 429": {
+    "Centro\u00efde": "plasmocytose",
+    "Freq. centroide": 1,
+    "Termes": [
+      "cytoplasme",
+      "macrocytose",
+      "monocytose",
+      "plasma",
+      "plasmocyte",
+      "plasmocytome",
+      "plasmocytose",
+      "plasmodium",
+      "pneumocystose",
+      "thrombocytose",
+      "toxoplasmose"
+    ]
+  },
+  "ID 430": {
+    "Centro\u00efde": "ofloxacine",
+    "Freq. centroide": 1,
+    "Termes": [
+      "ciprofloxacine",
+      "moxifloxacine",
+      "norfloxacine",
+      "ofloxacine",
+      "pefloxacine",
+      "p\u00e9floxacine"
+    ]
+  },
+  "ID 431": {
+    "Centro\u00efde": "complexe",
+    "Freq. centroide": 20,
+    "Termes": [
+      "axe",
+      "complexation",
+      "complexe",
+      "complexom\u00e9trie",
+      "compliance",
+      "compliqu\u00e9",
+      "compl\u00e9ment",
+      "multiple",
+      "plexiglas",
+      "sexe"
+    ]
+  },
+  "ID 432": {
+    "Centro\u00efde": "demi-vague",
+    "Freq. centroide": 3,
+    "Termes": [
+      "demi-vague",
+      "demi-vie",
+      "demie",
+      "vague"
+    ]
+  },
+  "ID 433": {
+    "Centro\u00efde": "alimentation",
+    "Freq. centroide": 2,
+    "Termes": [
+      "aliment",
+      "alimentation",
+      "augmentation",
+      "filamentation",
+      "orientation",
+      "pigmentation",
+      "s\u00e9dimentation"
+    ]
+  },
+  "ID 434": {
+    "Centro\u00efde": "alpha",
+    "Freq. centroide": 6,
+    "Termes": [
+      "9alpha",
+      "alpha",
+      "alpha2",
+      "lp",
+      "malpighi",
+      "tpha"
+    ]
+  },
+  "ID 435": {
+    "Centro\u00efde": "organisme",
+    "Freq. centroide": 9,
+    "Termes": [
+      "micro-organisme",
+      "microorganisme",
+      "m\u00e9canisme",
+      "organe",
+      "organisme",
+      "saturnisme"
+    ]
+  },
+  "ID 437": {
+    "Centro\u00efde": "incidence",
+    "Freq. centroide": 8,
+    "Termes": [
+      "incendie",
+      "incidence",
+      "incident",
+      "incontinence",
+      "principal(au",
+      "principe",
+      "zinc",
+      "\u00e9vidence"
+    ]
+  },
+  "ID 438": {
+    "Centro\u00efde": "source",
+    "Freq. centroide": 11,
+    "Termes": [
+      "amorce",
+      "pourcent",
+      "pourcentage",
+      "ressource",
+      "souffle",
+      "soufre",
+      "source",
+      "southern"
+    ]
+  },
+  "ID 439": {
+    "Centro\u00efde": "ciclosporine",
+    "Freq. centroide": 3,
+    "Termes": [
+      "aquaporine",
+      "ciclosporine",
+      "clozapine",
+      "cyclosporin\u00e9mie",
+      "c\u00e9phalosporine",
+      "zopiclone"
+    ]
+  },
+  "ID 440": {
+    "Centro\u00efde": "folate",
+    "Freq. centroide": 3,
+    "Termes": [
+      "adalate",
+      "antifolate",
+      "ch\u00e9late",
+      "dihydrofolate",
+      "folate",
+      "latex",
+      "oxalate"
+    ]
+  },
+  "ID 441": {
+    "Centro\u00efde": "signe",
+    "Freq. centroide": 21,
+    "Termes": [
+      "renseigne",
+      "signal",
+      "signe",
+      "signe(",
+      "teigne"
+    ]
+  },
+  "ID 442": {
+    "Centro\u00efde": "vision",
+    "Freq. centroide": 1,
+    "Termes": [
+      "collision",
+      "division",
+      "incision",
+      "invasion",
+      "ion",
+      "pr\u00e9cision",
+      "vis",
+      "vision",
+      "\u00e9mulsion"
+    ]
+  },
+  "ID 443": {
+    "Centro\u00efde": "compos\u00e9",
+    "Freq. centroide": 20,
+    "Termes": [
+      "composant",
+      "compos\u00e9",
+      "comprim\u00e9",
+      "expos\u00e9",
+      "monocompos\u00e9e",
+      "pompe"
+    ]
+  },
+  "ID 444": {
+    "Centro\u00efde": "thrombine",
+    "Freq. centroide": 5,
+    "Termes": [
+      "antithrombine",
+      "prothrombine",
+      "thrombine",
+      "thrombocyte",
+      "thrombomoduline",
+      "thromboplastine",
+      "thrombop\u00e9nie",
+      "thrombose",
+      "thromboxane"
+    ]
+  },
+  "ID 445": {
+    "Centro\u00efde": "raison",
+    "Freq. centroide": 1,
+    "Termes": [
+      "conjugaison",
+      "fran\u00e7ais",
+      "gu\u00e9rison",
+      "isoniazide",
+      "liaison",
+      "maison",
+      "raison",
+      "sulfoconjugaison"
+    ]
+  },
+  "ID 446": {
+    "Centro\u00efde": "biologie",
+    "Freq. centroide": 1,
+    "Termes": [
+      "biologie",
+      "biologique(",
+      "biologiste",
+      "biopsie",
+      "endocrinologie",
+      "fasciolose",
+      "histologie",
+      "log",
+      "morphologie",
+      "pathologie",
+      "physiologie",
+      "physiologique(",
+      "physiopathologie",
+      "radiotoxicologie",
+      "symptomatologie",
+      "s\u00e9rologie",
+      "technologie",
+      "toxicologie",
+      "\u00e9tiologie"
+    ]
+  },
+  "ID 447": {
+    "Centro\u00efde": "rate",
+    "Freq. centroide": 2,
+    "Termes": [
+      "date",
+      "fibrate",
+      "f\u00e9nofibrate",
+      "isothiocyanate",
+      "mononitrate",
+      "m\u00e9probamate",
+      "op\u00e9rateur",
+      "pyruvate",
+      "rate",
+      "urate"
+    ]
+  },
+  "ID 448": {
+    "Centro\u00efde": "transcription",
+    "Freq. centroide": 1,
+    "Termes": [
+      "bromocriptine",
+      "prescription",
+      "transcriptase",
+      "transcription",
+      "transplantation",
+      "triptan"
+    ]
+  },
+  "ID 449": {
+    "Centro\u00efde": "h+/k+",
+    "Freq. centroide": 1,
+    "Termes": [
+      "h+",
+      "h+/k+",
+      "k+"
+    ]
+  }
+}
