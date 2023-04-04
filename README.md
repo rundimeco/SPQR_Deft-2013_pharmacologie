@@ -91,3 +91,22 @@ Nouvelles tâches pour lundi 3 avril à 14h :
 
 5. Laurie => Contacter l’équipe de DEFT 2023 pour des questions concernant le règlement (on n’a pas la certitude des libertés dont on dispose dans la constitution du corpus)
 
+** COMPTE RENDU Réunion 3 avril 2023**
+
+Au niveau de la similarité Caroline et Julien n’ont pas obtenu des résultats concluants, mais pour l’instant cette tâche reste inachevée. Pourtant cela nous amène à réfléchir à 3 types de corpus qu’on pourra concaténer :
+
+1. Le corpus issus des questions et des réponses sur lequel je suis en train de travailler
+2. Le livre proposé par Toufik (cf. GitHub) qui reprend des notions clés des questions et des réponses 
+3. Un corpus complémentaire qui sera défini cette semaine 
+
+La prochaine réunion aura lieu le 10 avril à 14h.
+
+Tâches à achever avant la réunion : 
+
+1. Réfléchir et implémenter des stratégies concrètes de similarité => Toufik, Julien
+2. Créer un corpus complémentaire => Nour, Oumaima
+3. Enrichir la classification de Toufik => Nour
+4. Travailler sur une ontologie avec MESH => Ibtihel
+5. Annotation des entités médicales par suffixes et préfixes pour création de groupes => Caroline 
+6. Finaliser construction du corpus à partir des questions et réponses => Corina, Caroline 
+7. Analyser les données manuellement et faire tableau pour montrer la présence ou absence de similarités & réaliser un dictionnaire avec les abréviations et leur contenu correspondant => Andrea, Laurie
