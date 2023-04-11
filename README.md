@@ -1,5 +1,6 @@
 * Table of contents
-[[_TOC_]]
+  
+  [_TOC_]
 
 # SPQR_Deft-2013_pharmacologie
 
