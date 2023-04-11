@@ -1,5 +1,11 @@
 # SPQR_Deft-2013_pharmacologie
 
+Le projet est divisé sur 3 tâches essentielles : 
+- tâche 1 : la standardisation des questions
+- tâche 2 : la création d'une base de données adaptée
+- tâche 3 : la correction automatique 
+
+# Tâche 1 
 
 ## Classification des questions 
 
@@ -19,50 +25,7 @@ Les questions du questionnaire ont les composants récurrents suivants :
 - Parfois, une partie [P_i] est divisé avec : ".",":","?"
 - [NEG] phrase en négation
 
-NB. On peut utiliser les subtitutions ([A],[TF]...etc) pour reclasser les questions d'une manière plus optimale. 
-
-Dans un premier temps, on donne ci-dessous les differents cas de figures des questions : 
-
-### Classe 1 : 
-
--   [Parmi ][Spécification (nbr+exacte/fausse)][mot-clé médical]
--   [Parmi + mot-clé médical ][Spécification (nbr+exacte/fausse)]
--   [Parmi + Spécification (nbr+exacte/fausse)][mot-clé médical]
--   [Parmi ][Spécification (nbr+exacte/fausse) + mot-clé médical]
--   [Parmi + mot-clé médical][Spécification (nbr+exacte/fausse)+ mot-clé médical]
--   [Parmi + info médicale]
-
-### Classe 2 : 
-
-- [Cocher + Spécification (nbr+exacte/fausse) + ./: + mot-clé médical ]
-- [info médicale + . + Cocher + Spécification (nbr+exacte/fausse) ]
-- [Cocher + info médicale ]
-
-### Classe 3 : 
-
-- [Indiquer + Spécification (nbr+exacte/fausse) + ? + mot-clé médical ]
-- [Indiquer + info médicale ]
-- [info médicale + . + Indiquer + Spécification (nbr+exacte/fausse) ]
-
-### Classe 4 : 
-
-- [info médicale][On observe]
-- [info médicale][On observe + info médicale 2]
-
-### Classe 5 : 
-
-- [info médicale]
-- [mot-clé médical]
-- [Spécification genre/type/context (mot-clé médical)][info médicale]
-- [context (mot-clé médical) + . + info médical]
-
-### Classe 6 : 
-
-- [Quelle + 1N IMP + NEG info médical ]
-- [Quelle + Spécification (exacte/fausse) + ? + info médicale]
-- [Quelle + info médicale]
-- [Quelle + Spécification (vraie(s)/fausse(s))+ mot-clé médical]
-- [Quelle + Spécification (vraie(s)/fausse(s))][mot-clé médical]
+[Pour plus de détails sur les types des questions, consulter le lien suivant](./sortQ_BuildCorpus/note.md)
 
 
 
