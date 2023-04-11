@@ -20,7 +20,7 @@ la standardisation des questions nécessite plusieurs étapes :
 
 ## Analyse structurelle des questions [DONE]
 
-La structure générale d'une question dans le questionnaire est divisée en 3 parties en générale. La séparation entre ces parties est faite avec une 
+La structure générale d'une question dans le questionnaire est divisée en 3 parties. La séparation entre ces parties est faite avec une 
 virgule ",". Cela nous donne la forme suivante : 
 
 [P_1],[P_2],[P_3]
@@ -58,5 +58,10 @@ ou
 
 -> la bactérie Neisseria gonorrhoeae suivante une seule ne peut généralement pas être responsable d'une méningite aiguë.
 
-## Corpus externe [In progress]
+## Corpus externe [In progress] 
+
+
+# Tâche 3 : [TODO]
+
+
 
