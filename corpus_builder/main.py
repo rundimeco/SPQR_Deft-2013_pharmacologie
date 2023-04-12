@@ -1,4 +1,5 @@
 import pandas as koala
+import re
 
 
 def concat_question_answer(row):
@@ -35,6 +36,40 @@ def concat_question_answer(row):
             corpus += f"{removed_colons} {answer}. "
         elif (row.ends_word and not row.starts_parmi) or row.ends_ellipsis or row.ends_coma:
             corpus += f"{removed_colons} {answer}. "
+  
+        ########CKP :point
+        
+        if "." in row.question[-1]:            
+            split_dot_coma = re.split('\.|,',row.question)
+            # print(split_dot_coma[0])
+            
+            # if row.starts_parmi_suiv or "Concernant" in split_dot_coma[0]:
+            if row.starts_parmi_suiv :
+                split_parmi=re.split('suivantes', split_dot_coma[0])
+                corpus += f"{split_parmi[-1]} {answer}. | "
+            
+            elif "Concernant" in split_dot_coma[0]:
+                corpus += f"{split_dot_coma[0]} {answer}. | "
+            
+            
+            else:
+                corpus += f"{split_dot_coma[0]} {split_dot_coma[1]} : {answer}. |"
+                
+        ########CKP : ?
+        
+        # if "?" in row.question[-1] and row.starts_parmi : 
+        #     split_dot_coma = re.split('\.|,',row.question)
+        #     print(split_dot_coma)
+            
+            
+            
+        #     if len(split_dot_coma)>1:
+                
+        #         corpus += f"{split_dot_coma[0]} {split_dot_coma[1]} : {answer}"
+            
+        #     else:
+        #         # questionmark=" ".join(split_dot_coma[0])
+        #         corpus += f" {split_dot_coma[0]} :  {answer}"
 
     row["corpus"] = corpus.strip()
 
@@ -60,8 +95,8 @@ def main():
     #
     # Replace unicode oper it's representation
     df = df.replace('…', '...', regex=True)
-    df = df.replace('? :', '?')
-    df = df.replace(' ', ' ', regex=True)
+    df = df.replace('? :', '?')
+    df = df.replace(' ', ' ', regex=True)
     df.question = df.question.apply(add_questionmark)
 
 
@@ -70,6 +105,7 @@ def main():
 
 
     df["starts_parmi"] = df.question.str.startswith("Parmi")
+    df["starts_parmi_suiv"] = df.question.str.startswith("Parmi les propositions suivantes ")
     df["starts_coche"] = df.question.str.startswith("Coche")
     df["starts_donne"] = df.question.str.startswith("Donne")
     df["starts_indique"] = df.question.str.startswith("Indique")
@@ -99,9 +135,10 @@ def main():
 
     print(df[(df['corpus'] != "") & (df['ends_coma'] == True)].count())
 
-    df.to_csv("./new_csv.csv")
+    df.to_csv("./new_csv.csv", sep=";")
 
     df_no_mark = df[(df['ends_colons'] == False) & (df['ends_questionmark'] == False)]
+    
 
 
 if __name__ == "__main__":
