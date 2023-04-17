@@ -59,7 +59,7 @@ Le code actuel permet de :
 - extraire l'information médicale 
 - detecter et appliquer la négation à une phrase
 - détecter masculin / féminin 
-- reformuler 6/27 types de questions et les concaténer avec les réponses. 
+- reformuler 6/27 (>50% des questions du training-set) types de questions et les concaténer avec les réponses. 
 
 Pour plus de détails sur les types des questions, consulter le lien suivant : [ici](./sortQ_BuildCorpus/note.md)
 
