@@ -4,12 +4,12 @@ Dans un premier temps, on donne ci-dessous les differents cas de figures des que
 
 ### Type 1 : 
 
--[DONE]   [Parmi ][Spécification (nbr+exacte/fausse)][mot-clé médical]
--[DONE]   [Parmi + mot-clé médical ][Spécification (nbr+exacte/fausse)]
--[DONE]   [Parmi + Spécification (nbr+exacte/fausse)][mot-clé médical]
+- [DONE]   [Parmi ][Spécification (nbr+exacte/fausse)][mot-clé médical]
+- [DONE]   [Parmi + mot-clé médical ][Spécification (nbr+exacte/fausse)]
+- [DONE]   [Parmi + Spécification (nbr+exacte/fausse)][mot-clé médical]
 -   [Parmi ][Spécification (nbr+exacte/fausse) + mot-clé médical]
 -   [Parmi + mot-clé médical][Spécification (nbr+exacte/fausse)+ mot-clé médical]
--[DONE]   [Parmi + info médicale]
+- [DONE]   [Parmi + info médicale]
 
 ### Type 2 : 
 
@@ -30,8 +30,8 @@ Dans un premier temps, on donne ci-dessous les differents cas de figures des que
 
 ### Type 5 : 
 
--[DONE] [info médicale]
--[DONE] [mot-clé médical]
+- [DONE] [info médicale]
+- [DONE] [mot-clé médical]
 - [Spécification genre/type/context (mot-clé médical)][info médicale]
 - [context (mot-clé médical) + . + info médical]
 
