@@ -35,7 +35,6 @@ Les questions du questionnaire ont les composants récurrents suivants :
 - Parfois, une partie [P_i] est divisé avec : ".",":","?"
 - [NEG] phrase en négation
 
-Pour plus de détails sur les types des questions, consulter le lien suivant : [ici](./sortQ_BuildCorpus/note.md)
 
 # Tâche 2 : 
 
@@ -52,11 +51,17 @@ Exemple :
 
 Parmi les bactéries suivantes, une seule ne peut généralement pas être responsable d'une méningite aiguë, laquelle?;Haemophilus influenzae;Streptococcus pneumoniae;Neisseria gonorrhoeae;Neisseria meningitidis;Mycobacterium tuberculosis;c;1
 
-->  la bactérie suivante une seule ne peut généralement pas être responsable d'une méningite aiguë : Neisseria gonorrhoeae
+-> Neisseria gonorrhoeae est bactérie, une seule ne peut généralement pas être responsable d'une méningite aiguë.
 
-ou 
 
--> la bactérie Neisseria gonorrhoeae suivante une seule ne peut généralement pas être responsable d'une méningite aiguë.
+### Le code proposé par Toufik 
+Le code actuel permet de :
+- extraire l'information médicale 
+- detecter et appliquer la négation à une phrase
+- détecter masculin / féminin 
+- reformuler 6/27 types de questions et les concaténer avec les réponses. 
+
+Pour plus de détails sur les types des questions, consulter le lien suivant : [ici](./sortQ_BuildCorpus/note.md)
 
 ## Corpus externe [In progress] 
 
