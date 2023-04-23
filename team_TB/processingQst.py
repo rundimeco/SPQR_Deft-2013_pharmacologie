@@ -3,12 +3,33 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 import spacy
 import re 
+
+def recoverMedFrag(fragQst,icpt,nwQst,Spword):
+    # Récupérer les fragements qui contiennent les infos médicales uniquements 
+    
+    isthereMedTerm = MedTermDectectionv2(fragQst[icpt])
+    if (isthereMedTerm): # si il trouve un terme médical
+        var = fragQst[icpt] # il récupère le fragement
+        # print(var)
+        if icpt ==0: # s'il est le premier fragement
+            var = var.split()
+            Spword = var[0]
+            # print(var[0])
+            if var[0]=="Parmi":
+                # applique la procédure du changement 
+                # print(var[0])
+                fragQst[icpt] = gestionSPword(fragQst[icpt],Spword)
+        nwQst = nwQst + ' ' + fragQst[icpt]
+        if var[0]=="Concernant":
+                nwQst = nwQst + ','
+    return nwQst,Spword
     
 def MedTermDectectionv2(qst):
     if '(' in qst or ')' in qst:
         qst = qst.replace('(','')
         qst = qst.replace(')','')
     qst = qst.lstrip()
+    qst = qst.rstrip()
     liste = "./input/listeMots_fr.txt"
     with open(liste,'r',encoding='utf-8') as f:
         liste_mots = [line.rstrip('\n').lower() for line in f]
