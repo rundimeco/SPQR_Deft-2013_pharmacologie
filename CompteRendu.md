@@ -1,4 +1,18 @@
 
+**Compte rendu réunion 17 avril 2023**
+
+On a parlé des nombreuses questions relatives à la concaténation des Q-R, des avantages et des inconvénients de regrouper les types de questions en x groupes.
+- Julien nous a parlé du manuel Merck (version pro https://www.merckmanuals.com/fr-ca/professional/resource et tout public) pour agrandir le corpus exploitable
+L’importance de créer un code capable d’extraire les mots clés médicaux (maladie- symptômes, remède) sur un corpus donné afin de pouvoir les comparer avec ceux issus d’un autre corpus par le biais d’un taux de similarité. Pour opérer cette extraction il faut nettoyer le corpus en prêtant attention à ne pas retirer les mots grammaticaux (puisqu’ils sont importants pour la transformation des phrases interrogatives en subordonnées partielles)
+- Oumaima a parlé de l’ontologie/thesaurus MeSH (https://mesh.inserm.fr/FrenchMesh/) pour lier les maladies aux symptômes, la production des fichiers XML pour les synonymes ainsi que son utilisation combinée avec les réponses fournies par ChatGPT (à noter que ce dernier donne des réponses différentes à la même question en paraphrasant son propre output)
+On remarque tous la nécessité de restreindre la quantité d’information afin de ne pas ajouter du bruit au calcul de similarité. Il faut fine-tuner pour comprendre quel est le seuil qui sépare une quantité d’info optimale d’une quantité redondante qui perturberait le calcul de similarité. L’essentiel est de travailler sur les mots clés médicaux en les extrayant via une reformulation des phrases
+Caroline ira travailler sur la redéfinition de groupes de questions, sur l’annotation des types de médicaments et elle essaiera de faire une clusterisation
+L’annotation des entités médicales par suffixes et préfixes pour la création de groupes se poursuit avec l’ajout des trigrammes et de la liaison
+
+à venir :
+1- finaliser le corpus et comprendre comment faire fonctionner ensemble les différents codes produits par les sous-groupes 
+2- créer un Overleaf partagé pour la rédaction 
+3- nouveau rdv semaine prochaine https://framadate.org/ah9WR5BMwz5ndwBI 
 
 **COMPTE RENDU RÉUNION 27 mars 2023**
 

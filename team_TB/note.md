@@ -10,6 +10,13 @@ Dans un premier temps, on donne ci-dessous les differents cas de figures des que
 -   [Parmi ][Spécification (nbr+exacte/fausse) + mot-clé médical]
 -   [Parmi + mot-clé médical][Spécification (nbr+exacte/fausse)+ mot-clé médical]
 - [DONE]:   [Parmi + info médicale]
+- [DONE]:   [Concernant + mot-clé médical][Spécification (nbr+exacte/fausse)]
+
+NB: Il faut noter qu'il y a deux types des questions qui commencent par "Concernant" : 
+- [Concernant + mot-clé médical][Spécification (nbr+exacte/fausse)] = rep[Elle est + info médical]
+- [Concernant + info médical][Spécification (nbr+exacte/fausse)] = rep[info médical]
+
+Il va falloir penser à les traiter séparément.
 
 ### Type 2 : 
 
