@@ -5,6 +5,9 @@ import spacy
 import re 
     
 def MedTermDectectionv2(qst):
+    if '(' in qst or ')' in qst:
+        qst = qst.replace('(','')
+        qst = qst.replace(')','')
     qst = qst.lstrip()
     liste = "./input/listeMots_fr.txt"
     with open(liste,'r',encoding='utf-8') as f:
@@ -45,6 +48,8 @@ def appliquer_negation(phrase):
     return phrase
 
 def gestionSPword(qst,Spword):
+    if Spword == "Parmi":
+        Spword = "Parmi les"
     qst = qst.replace(Spword, "")
     doc = nlp(qst)
     Noun_cpt =0
