@@ -1,5 +1,5 @@
 
-**Compte rendu réunion 17 avril 2023**
+**COMPTE RENDU RÉUNION 17 avril 2023**
 
 On a parlé des nombreuses questions relatives à la concaténation des Q-R, des avantages et des inconvénients de regrouper les types de questions en x groupes.
 - Julien nous a parlé du manuel Merck (version pro https://www.merckmanuals.com/fr-ca/professional/resource et tout public) pour agrandir le corpus exploitable
@@ -10,9 +10,9 @@ Caroline ira travailler sur la redéfinition de groupes de questions, sur l’an
 L’annotation des entités médicales par suffixes et préfixes pour la création de groupes se poursuit avec l’ajout des trigrammes et de la liaison
 
 à venir :
-1- finaliser le corpus et comprendre comment faire fonctionner ensemble les différents codes produits par les sous-groupes 
-2- créer un Overleaf partagé pour la rédaction 
-3- nouveau rdv semaine prochaine https://framadate.org/ah9WR5BMwz5ndwBI 
+- finaliser le corpus et comprendre comment faire fonctionner ensemble les différents codes produits par les sous-groupes 
+- créer un Overleaf partagé pour la rédaction 
+- nouveau rdv semaine prochaine https://framadate.org/ah9WR5BMwz5ndwBI 
 
 **COMPTE RENDU RÉUNION 27 mars 2023**
 
@@ -39,7 +39,7 @@ Nouvelles tâches pour lundi 3 avril à 14h :
 
 5. Laurie => Contacter l’équipe de DEFT 2023 pour des questions concernant le règlement (on n’a pas la certitude des libertés dont on dispose dans la constitution du corpus)
 
-** COMPTE RENDU Réunion 3 avril 2023**
+**COMPTE RENDU Réunion 3 avril 2023**
 
 Au niveau de la similarité Caroline et Julien n’ont pas obtenu des résultats concluants, mais pour l’instant cette tâche reste inachevée. Pourtant cela nous amène à réfléchir à 3 types de corpus qu’on pourra concaténer :
 
