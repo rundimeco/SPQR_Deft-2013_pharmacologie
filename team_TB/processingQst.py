@@ -26,7 +26,7 @@ def saveNwWords(qst):
 
 def recoverMedFrag(fragQst,icpt,nwQst,Spword):
     # Récupérer les fragements qui contiennent les infos médicales uniquements 
-    
+    fragQst[icpt] = Check_QuiEstInSentence(fragQst[icpt])
     isthereMedTerm = MedTermDectectionv2(fragQst[icpt])
     if (isthereMedTerm): # si il trouve un terme médical
         var = fragQst[icpt] # il récupère le fragement
@@ -43,8 +43,18 @@ def recoverMedFrag(fragQst,icpt,nwQst,Spword):
         if var[0]=="Concernant":
                 nwQst = nwQst + ','
     else:
+        # sauvegarder les mots non-médicaux
         saveNwWords(fragQst[icpt])
+        # vérifier l'existance de la composition "qui"+"est"-"exact/inexact/vrai/faux"
     return nwQst,Spword
+
+def Check_QuiEstInSentence(qst):
+    indx = qst.find("qui est")
+    # print(indx)
+    if indx != -1 and not any(word in qst for word in ["exacte", "inexacte", "vrai", "faux"]):
+        return qst[indx:]
+    else: 
+        return qst
     
 def MedTermDectectionv2(qst):
     if '(' in qst or ')' in qst:
