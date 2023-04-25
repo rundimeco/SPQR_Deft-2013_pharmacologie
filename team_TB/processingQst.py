@@ -4,6 +4,26 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import spacy
 import re 
 
+def saveNwWords(qst):
+    if '(' in qst or ')' in qst:
+        qst = qst.replace('(','')
+        qst = qst.replace(')','')
+    qst = qst.lstrip()
+    qst = qst.rstrip()
+    # Ouverture du fichier contenant la liste des mots
+    with open('./input/listeMotsFR_Auto.txt', 'r') as f:
+        liste_mots = f.read().splitlines()
+    # Vérification des mots de la phrase
+    nlp = spacy.load("fr_core_news_sm")
+    doc = nlp(qst)
+    for mot in doc:
+        nwMot = mot.lemma_
+        nwMot = nwMot.lower()
+        if nwMot not in liste_mots:
+            # Ajout du mot au fichier s'il n'existe pas déjà
+            with open('./input/listeMotsFR_Auto.txt', 'a') as f:
+                f.write(nwMot + '\n')
+
 def recoverMedFrag(fragQst,icpt,nwQst,Spword):
     # Récupérer les fragements qui contiennent les infos médicales uniquements 
     
@@ -22,6 +42,8 @@ def recoverMedFrag(fragQst,icpt,nwQst,Spword):
         nwQst = nwQst + ' ' + fragQst[icpt]
         if var[0]=="Concernant":
                 nwQst = nwQst + ','
+    else:
+        saveNwWords(fragQst[icpt])
     return nwQst,Spword
     
 def MedTermDectectionv2(qst):
@@ -34,7 +56,8 @@ def MedTermDectectionv2(qst):
     with open(liste,'r',encoding='utf-8') as f:
         liste_mots = [line.rstrip('\n').lower() for line in f]
     sol = False 
-    nlp = spacy.load("en_core_web_sm")
+    nlp = spacy.load("fr_core_news_sm")
+    # nlp = spacy.load("en_core_web_sm")
     doc = nlp(qst.lower())
     for token in doc:
         if token.text not in liste_mots:
