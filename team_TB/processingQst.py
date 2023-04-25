@@ -51,7 +51,7 @@ def recoverMedFrag(fragQst,icpt,nwQst,Spword):
 def Check_QuiEstInSentence(qst):
     indx = qst.find("qui est")
     # print(indx)
-    if indx != -1 and not any(word in qst for word in ["exacte", "inexacte", "vrai", "faux"]):
+    if indx != -1 and not any(word in qst for word in ["exact","exacte","exactes", "inexact", "inexactes", "vrai", "vraie", "faux"]):
         return qst[indx:]
     else: 
         return qst
