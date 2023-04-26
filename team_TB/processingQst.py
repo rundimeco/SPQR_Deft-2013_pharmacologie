@@ -4,6 +4,9 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import spacy
 import re 
 
+def del_betParenthese(texte):
+    return re.sub(r'\([^()]*\)', '', texte)
+
 def saveNwWords(qst):
     if '(' in qst or ')' in qst:
         qst = qst.replace('(','')
