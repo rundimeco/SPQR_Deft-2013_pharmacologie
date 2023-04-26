@@ -4,8 +4,12 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import spacy
 import re 
 
-def del_betParenthese(texte):
-    return re.sub(r'\([^()]*\)', '', texte)
+def del_betParenthese(qst):
+    matchs = re.findall(r'\((.*?)\)', qst)
+    for i in range(len(matchs)):
+        if (MedTermDectectionv2(matchs[i])):
+            qst = qst.replace('('+matchs[i]+')',matchs[i])
+    return re.sub(r'\([^()]*\)','', qst)
 
 def saveNwWords(qst):
     if '(' in qst or ')' in qst:
@@ -28,20 +32,18 @@ def saveNwWords(qst):
                 f.write(nwMot + '\n')
 
 def recoverMedFrag(fragQst,icpt,nwQst,Spword):
+    Spword2 = False 
     # Récupérer les fragements qui contiennent les infos médicales uniquements 
-    fragQst[icpt] = Check_QuiEstInSentence(fragQst[icpt])
     isthereMedTerm = MedTermDectectionv2(fragQst[icpt])
     if (isthereMedTerm): # si il trouve un terme médical
         var = fragQst[icpt] # il récupère le fragement
-        # print(var)
         if icpt ==0: # s'il est le premier fragement
             var = var.split()
-            Spword = var[0]
-            # print(var[0])
             if var[0]=="Parmi":
+                Spword = True
                 # applique la procédure du changement 
-                # print(var[0])
-                fragQst[icpt] = gestionSPword(fragQst[icpt],Spword)
+                fragQst[icpt] = gestionSPword(fragQst[icpt],var[0])
+        fragQst[icpt],Spword2 = Check_QuiEstInSentence(fragQst[icpt])
         nwQst = nwQst + ' ' + fragQst[icpt]
         if var[0]=="Concernant":
                 nwQst = nwQst + ','
@@ -49,20 +51,25 @@ def recoverMedFrag(fragQst,icpt,nwQst,Spword):
         # sauvegarder les mots non-médicaux
         saveNwWords(fragQst[icpt])
         # vérifier l'existance de la composition "qui"+"est"-"exact/inexact/vrai/faux"
+    if Spword2 or Spword :
+        Spword = True 
     return nwQst,Spword
 
 def Check_QuiEstInSentence(qst):
-    indx = qst.find("qui est")
-    # print(indx)
-    if indx != -1 and not any(word in qst for word in ["exact","exacte","exactes", "inexact", "inexactes", "vrai", "vraie", "faux"]):
-        return qst[indx:]
-    else: 
-        return qst
+    indx = qst.find("qui")
+    existQui = False
+    if indx != -1:
+        if not (MedTermDectectionv2(qst[0:indx])):
+            qst = qst[indx+4:]
+            existQui = True
+        # if not any(word in qst for word in ["exact","exacte","exactes", "inexact", "inexactes", "vrai", "vraie", "faux"]):
+        #     qst = qst[indx:]
+    return qst, existQui
     
 def MedTermDectectionv2(qst):
-    if '(' in qst or ')' in qst:
-        qst = qst.replace('(','')
-        qst = qst.replace(')','')
+    # if '(' in qst or ')' in qst:
+    #     qst = qst.replace('(','')
+    #     qst = qst.replace(')','')
     qst = qst.lstrip()
     qst = qst.rstrip()
     liste = "./input/listeMots_fr.txt"
@@ -130,6 +137,7 @@ def replaceAtFront(nwmot):
 
 # check M or F
 nlp = spacy.load("fr_core_news_sm")
+
 def MOrF(mot,nlp):
     
     doc = nlp(mot)
