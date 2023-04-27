@@ -131,7 +131,7 @@ def gestionSPword(qst,Spword):
             if (var.pos_=="ADJ" and var.lemma_ != "suivant"):
                 qst = qst.replace(var.text, var.lemma_)
             Noun_cpt = Noun_cpt +1
-        elif (token.lemma_ =="suivre"):
+        elif (token.lemma_ =="suivant"):
             qst = qst.replace(token.text,"")
     return qst.rstrip()
 
