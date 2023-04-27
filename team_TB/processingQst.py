@@ -37,17 +37,24 @@ def recoverMedFrag(fragQst,icpt,nwQst,Spword):
     isthereMedTerm = MedTermDectectionv2(fragQst[icpt])
     if (isthereMedTerm): # si il trouve un terme médical
         var = fragQst[icpt] # il récupère le fragement
-        if icpt ==0: # s'il est le premier fragement
-            var = var.split()
-            if var[0]=="Parmi":
-                Spword = True
-                # applique la procédure du changement 
-                fragQst[icpt] = gestionSPword(fragQst[icpt],var[0])
-        fragQst[icpt],Spword2 = Check_QuiEstInSentence(fragQst[icpt])
-        nwQst = nwQst + ' ' + fragQst[icpt]
-        if var[0]=="Concernant":
-                nwQst = nwQst + ','
+        indx = var.find("concernant")
+        if indx==0:
+            nwQst = nwQst + ','
+        elif indx>0:
+            nwQst = nwQst + var[indx:]+','
+        else:
+            if icpt ==0: # s'il est le premier fragement
+                var = var.split()
+                if var[0]=="Parmi":
+                    Spword = True
+                    # applique la procédure du changement 
+                    fragQst[icpt] = gestionSPword(fragQst[icpt],var[0])
+            fragQst[icpt],Spword2 = Check_QuiEstInSentence(fragQst[icpt])
+            nwQst = nwQst + ' ' + fragQst[icpt]
     else:
+        fragQst[icpt],Spword2 = Check_QuiEstInSentence(fragQst[icpt])
+        if Spword2:
+            nwQst = nwQst + ' ' + fragQst[icpt]
         # sauvegarder les mots non-médicaux
         saveNwWords(fragQst[icpt])
         # vérifier l'existance de la composition "qui"+"est"-"exact/inexact/vrai/faux"
@@ -58,12 +65,11 @@ def recoverMedFrag(fragQst,icpt,nwQst,Spword):
 def Check_QuiEstInSentence(qst):
     indx = qst.find("qui")
     existQui = False
-    if indx != -1:
+    if indx != -1 and not any(word in qst for word in ["exact","exacte","exactes", "inexact", "inexactes", "vrai", "vraie", "faux"]):
         if not (MedTermDectectionv2(qst[0:indx])):
-            qst = qst[indx+4:]
+            qst = qst[indx:]
             existQui = True
-        # if not any(word in qst for word in ["exact","exacte","exactes", "inexact", "inexactes", "vrai", "vraie", "faux"]):
-        #     qst = qst[indx:]
+    # elif indx !=-1 and any(word in qst for word in ["s'applique"]):
     return qst, existQui
     
 def MedTermDectectionv2(qst):
@@ -125,7 +131,7 @@ def gestionSPword(qst,Spword):
             if (var.pos_=="ADJ" and var.lemma_ != "suivant"):
                 qst = qst.replace(var.text, var.lemma_)
             Noun_cpt = Noun_cpt +1
-        elif (token.lemma_ =="suivant"):
+        elif (token.lemma_ =="suivre"):
             qst = qst.replace(token.text,"")
     return qst.rstrip()
 
