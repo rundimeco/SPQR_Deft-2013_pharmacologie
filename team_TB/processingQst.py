@@ -1,16 +1,21 @@
-import torch
+# import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
-
-import spacy
 import re 
+import spacy
+nlp = spacy.load("fr_core_news_sm")
+# import nltk
+# nltk.download('punkt')
+from nltk.tokenize import word_tokenize
 
+# Delete between parenthesis
 def del_betParenthese(qst):
     matchs = re.findall(r'\((.*?)\)', qst)
     for i in range(len(matchs)):
-        if (MedTermDectectionv2(matchs[i])):
+        if (MedTermDectector(matchs[i],False)):
             qst = qst.replace('('+matchs[i]+')',matchs[i])
     return re.sub(r'\([^()]*\)','', qst)
 
+# save new words
 def saveNwWords(qst):
     if '(' in qst or ')' in qst:
         qst = qst.replace('(','')
@@ -21,7 +26,7 @@ def saveNwWords(qst):
     with open('./input/listeMotsFR_Auto.txt', 'r') as f:
         liste_mots = f.read().splitlines()
     # Vérification des mots de la phrase
-    nlp = spacy.load("fr_core_news_sm")
+    # nlp = spacy.load("fr_core_news_sm")
     doc = nlp(qst)
     for mot in doc:
         nwMot = mot.lemma_
@@ -31,71 +36,76 @@ def saveNwWords(qst):
             with open('./input/listeMotsFR_Auto.txt', 'a') as f:
                 f.write(nwMot + '\n')
 
+# Recover fragements with medical/technical terms 
 def recoverMedFrag(fragQst,icpt,nwQst,Spword):
     Spword2 = False 
+    ListMed = []
     # Récupérer les fragements qui contiennent les infos médicales uniquements 
-    isthereMedTerm = MedTermDectectionv2(fragQst[icpt])
-    if (isthereMedTerm): # si il trouve un terme médical
-        var = fragQst[icpt] # il récupère le fragement
+    isthereMedTerm,ListMed = MedTermDectector(fragQst[icpt],True)
+    if (isthereMedTerm): # if it finds a medical term
+        var = fragQst[icpt] 
         indx = var.find("concernant")
         if indx==0:
             nwQst = nwQst + ','
         elif indx>0:
             nwQst = nwQst + var[indx:]+','
         else:
-            if icpt ==0: # s'il est le premier fragement
+            if icpt ==0: # if it's the first fragement
                 var = var.split()
                 if var[0]=="Parmi":
                     Spword = True
-                    # applique la procédure du changement 
+                    # apply changes 
                     fragQst[icpt] = gestionSPword(fragQst[icpt],var[0])
-            fragQst[icpt],Spword2 = Check_QuiEstInSentence(fragQst[icpt])
+            fragQst[icpt],Spword2 = Check_QuiInSentence(fragQst[icpt])
             nwQst = nwQst + ' ' + fragQst[icpt]
     else:
-        fragQst[icpt],Spword2 = Check_QuiEstInSentence(fragQst[icpt])
+        fragQst[icpt],Spword2 = Check_QuiInSentence(fragQst[icpt])
         if Spword2:
             nwQst = nwQst + ' ' + fragQst[icpt]
-        # sauvegarder les mots non-médicaux
+        # save the non-medical words
         saveNwWords(fragQst[icpt])
-        # vérifier l'existance de la composition "qui"+"est"-"exact/inexact/vrai/faux"
+        # verify the existance of "qui"+"est"-"exact/inexact/vrai/faux"
     if Spword2 or Spword :
         Spword = True 
-    return nwQst,Spword
+    return nwQst,Spword#,ListMed
 
-def Check_QuiEstInSentence(qst):
+# Detection of "Qui" in a sentence
+def Check_QuiInSentence(qst):
     indx = qst.find("qui")
     existQui = False
     if indx != -1 and not any(word in qst for word in ["exact","exacte","exactes", "inexact", "inexactes", "vrai", "vraie", "faux"]):
-        if not (MedTermDectectionv2(qst[0:indx])):
+        if not (MedTermDectector(qst[0:indx],False)):
             qst = qst[indx:]
             existQui = True
     # elif indx !=-1 and any(word in qst for word in ["s'applique"]):
     return qst, existQui
-    
-def MedTermDectectionv2(qst):
+
+# Detection of medical terms in sentence 
+def MedTermDectector(qst,RecMedTerm):
     # if '(' in qst or ')' in qst:
     #     qst = qst.replace('(','')
     #     qst = qst.replace(')','')
+    listMed = []
     qst = qst.lstrip()
     qst = qst.rstrip()
     liste = "./input/listeMots_fr.txt"
     with open(liste,'r',encoding='utf-8') as f:
         liste_mots = [line.rstrip('\n').lower() for line in f]
     sol = False 
-    nlp = spacy.load("fr_core_news_sm")
+    # nlp = spacy.load("fr_core_news_sm")
     # nlp = spacy.load("en_core_web_sm")
     doc = nlp(qst.lower())
     for token in doc:
-        if token.text not in liste_mots:
+        if RecMedTerm == True and token.text not in liste_mots and token.text not in listMed:
+            listMed.append(token.text)
             sol = True
-    
-    return sol 
+    return sol,listMed
 
 def splitQst(qst):
     fragQst = re.split('[,|?|:|.]', qst)
     return fragQst
 
-
+# apply a negation
 def appliquer_negation(phrase):
     phrase = phrase[0].lower() + phrase[1:]
     pattern = re.compile(r'\b(peu|pas)\b', flags=re.IGNORECASE)
@@ -117,6 +127,7 @@ def appliquer_negation(phrase):
                 phrase = re.sub(verbe, 'ne {} pas'.format(verbe), phrase, count=1, flags=re.IGNORECASE)
     return phrase
 
+
 def gestionSPword(qst,Spword):
     if Spword == "Parmi":
         Spword = "Parmi les"
@@ -125,7 +136,7 @@ def gestionSPword(qst,Spword):
     Noun_cpt =0
     for token in doc:
         if (token.pos_ =="NOUN" and Noun_cpt==0):
-            nwNOUN = MOrF(token.lemma_,nlp)
+            nwNOUN = MOrF(token.lemma_)
             var = doc[token.i + 1]
             qst = qst.replace(token.text, nwNOUN)
             if (var.pos_=="ADJ" and var.lemma_ != "suivant"):
@@ -141,25 +152,17 @@ def replaceAtFront(nwmot):
     else:
         return nwmot+' est '
 
-# check M or F
-nlp = spacy.load("fr_core_news_sm")
 
-def MOrF(mot,nlp):
-    
+def MOrF(mot):
     doc = nlp(mot)
     genre = doc[0].morph.get("Gender")
-
     genre = " ".join(genre)
-
     if genre == "Masc":
         return "un "+mot
     else:
         return "une "+mot
 
-import nltk
-nltk.download('punkt')
-from nltk.tokenize import word_tokenize
-
+# Dectect if it's require a wrong answer
 def isRequestWrongAns(question):
     tokens = word_tokenize(question)
     keywords = ["faux", "incorrect", "fausse", "mauvaise"]#, "ne", "pas"]
