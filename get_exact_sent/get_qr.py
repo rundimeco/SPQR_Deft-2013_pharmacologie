@@ -39,7 +39,7 @@ for phrase in qr:
     
     if ' exacte' in question:
        for reponse in reponses:
-           question_reponse += remove_words(question) +' ' +choix[reponse] + "\n"
+           question_reponse += remove_words(question).title() +' ' +choix[reponse].lower() + choix[reponse][1:] + "\n"
 with open("QR.txt", "w") as file_out:
     file_out.write(question_reponse)
 
