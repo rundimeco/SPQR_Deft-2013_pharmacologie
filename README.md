@@ -43,7 +43,7 @@ la création d'une base de données adaptée.
 - utiliser le training set pour contruire un corpus (AutoCorpus)
 - utiliser des corpus externes (livre, siteweb,..etc)
 
-## AutoCorpus [In progress]
+## AutoCorpus 85% [DONE] 
 
 La création d'un autoCorpus repose sur la réformulation des questions et leur concatination avec les réponses correspondantes.
 
@@ -56,17 +56,18 @@ Parmi les bactéries suivantes, une seule ne peut généralement pas être respo
 
 ### Le code proposé par Toufik 
 Le code actuel permet de :
-- extraire l'information médicale 
+- extraire les termes médicaux et les stocke dans une liste 
 - detecter et appliquer la négation à une phrase
 - détecter masculin / féminin 
-- reformuler 6/27 (>50% des questions du training-set) types de questions et les concaténer avec les réponses. 
+- reformuler (>85% des questions du training-set) types de questions et les concaténer avec les réponses. 
 
-Pour plus de détails sur les types des questions, consulter le lien suivant : [ici](./team_TB/note.md)
+Pour plus de détails sur les types des questions, consulter le lien suivant : [ici](./team_TB/note.md)s
 
-## Corpus externe [In progress] 
+## Corpus externe [Julien] 
 
 
-# Tâche 3 : [TODO]
+# Tâche 3 : [In progress]
+
 
 
 
