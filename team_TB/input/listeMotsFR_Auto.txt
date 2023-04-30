@@ -864,3 +864,4 @@ persister
 léger
 suspension
 classique
+quise

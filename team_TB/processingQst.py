@@ -90,7 +90,7 @@ def Check_QuiInSentence(qst):
     indx = qst.find("qui")
     existQui = False
     if indx != -1 and not any(word in qst for word in ["exact","exacte","exactes", "inexact", "inexactes", "vrai", "vraie", "faux"]):
-        if not (MedTermDectector(qst[0:indx],False)):
+        if not (MedTermDectector(qst[0:indx],False)[0]):
             qst = qst[indx:]
             existQui = True
     # elif indx !=-1 and any(word in qst for word in ["s'applique"]):
