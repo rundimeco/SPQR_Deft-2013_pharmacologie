@@ -61,7 +61,7 @@ Le code actuel permet de :
 - détecter masculin / féminin 
 - reformuler (>85% des questions du training-set) types de questions et les concaténer avec les réponses. 
 
-Pour plus de détails sur les types des questions, consulter le lien suivant : [ici](./team_TB/note.md)s
+Pour plus de détails sur les types des questions, consulter le lien suivant : [ici](./team_TB/note.md)
 
 ## Corpus externe [Julien] 
 

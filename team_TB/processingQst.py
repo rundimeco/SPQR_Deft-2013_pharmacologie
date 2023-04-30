@@ -6,6 +6,7 @@ nlp = spacy.load("fr_core_news_sm")
 # import nltk
 # nltk.download('punkt')
 from nltk.tokenize import word_tokenize
+import json
 
 # Delete between parenthesis
 def del_betParenthese(qst):
@@ -67,7 +68,22 @@ def recoverMedFrag(fragQst,icpt,nwQst,Spword):
         # verify the existance of "qui"+"est"-"exact/inexact/vrai/faux"
     if Spword2 or Spword :
         Spword = True 
-    return nwQst,Spword#,ListMed
+    return nwQst,Spword,ListMed
+
+def RecoverListMed(qst):
+    listMed = []
+    qst = qst.lstrip()
+    qst = qst.rstrip()
+    liste = "./input/listeMots_fr.txt"
+    with open(liste,'r',encoding='utf-8') as f:
+        liste_mots = [line.rstrip('\n').lower() for line in f]
+    doc = nlp(qst.lower())
+    for token in doc:
+        if token.text not in liste_mots and token.text not in listMed:
+            listMed.append(token.text)
+    if listMed==[]:
+        listMed = ['']
+    return listMed
 
 # Detection of "Qui" in a sentence
 def Check_QuiInSentence(qst):
@@ -88,18 +104,40 @@ def MedTermDectector(qst,RecMedTerm):
     listMed = []
     qst = qst.lstrip()
     qst = qst.rstrip()
+    # liste = "./input/listeMotsFR_Auto.txt"
     liste = "./input/listeMots_fr.txt"
     with open(liste,'r',encoding='utf-8') as f:
         liste_mots = [line.rstrip('\n').lower() for line in f]
     sol = False 
-    # nlp = spacy.load("fr_core_news_sm")
-    # nlp = spacy.load("en_core_web_sm")
     doc = nlp(qst.lower())
     for token in doc:
-        if RecMedTerm == True and token.text not in liste_mots and token.text not in listMed:
+        if RecMedTerm == True and token.lemma_ not in liste_mots and token.text not in listMed:
             listMed.append(token.text)
             sol = True
     return sol,listMed
+
+def MedTermDectectorv3(qst,RecMedTerm):
+    # if '(' in qst or ')' in qst:
+    #     qst = qst.replace('(','')
+    #     qst = qst.replace(')','')
+    listMed = []
+    qst = qst.lstrip()
+    qst = qst.rstrip()
+    liste_mots = openJson("./input/keywordsMesh_modified.json")
+    # with open(liste,'r',encoding='utf-8') as f:
+    #     liste_mots = [line.rstrip('\n').lower() for line in f]
+    sol = False 
+    doc = nlp(qst.lower())
+    for token in doc:
+        if token.text!=' ' and RecMedTerm == True and token.text in liste_mots: 
+            listMed.append(token.text)
+            sol = True
+    return sol,listMed
+
+def openJson(path):
+    with open(path,'r',encoding='utf-8') as f:
+        data = json.load(f)
+    return data  
 
 def splitQst(qst):
     fragQst = re.split('[,|?|:|.]', qst)
@@ -130,18 +168,19 @@ def appliquer_negation(phrase):
 
 def gestionSPword(qst,Spword):
     if Spword == "Parmi":
-        Spword = "Parmi les"
-    qst = qst.replace(Spword, "")
+        qst = qst.replace("Parmi les", "")
+        qst = qst.replace("Parmi ces", "")
     doc = nlp(qst)
     Noun_cpt =0
     for token in doc:
         if (token.pos_ =="NOUN" and Noun_cpt==0):
             nwNOUN = MOrF(token.lemma_)
-            var = doc[token.i + 1]
             qst = qst.replace(token.text, nwNOUN)
-            if (var.pos_=="ADJ" and var.lemma_ != "suivant"):
-                qst = qst.replace(var.text, var.lemma_)
-            Noun_cpt = Noun_cpt +1
+            if len(doc)> token.i+1:
+                var = doc[token.i + 1]
+                if (var.pos_=="ADJ" and var.lemma_ != "suivant"):
+                    qst = qst.replace(var.text, var.lemma_)
+                    Noun_cpt = Noun_cpt +1
         elif (token.lemma_ =="suivant"):
             qst = qst.replace(token.text,"")
     return qst.rstrip()
