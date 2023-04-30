@@ -14,6 +14,19 @@ où N est le nombre de questions dans la base de données et (n,m) les nombre de
 
 ## Méthodologie de résolution 
 
+## Extraction du vocabulaire médical
+
+Pour extraire le vocabulaire médical des questions et des réponses, nous avons adopté deux stratégies :
+- l'utilisation d'un corpus spécialisé qui contient une liste très exhaustif des tecnolectes médiceaux 
+- l'utilisation d'un corpus de tous les mots dans la langue française et effectuant un tri par élimination tous ce qui ne figure pas dans le corpus. En fur et à mesure, une construction d'un corpus avec les mots qui ne correspondants pas au vocabulaire médicale dans la base de donnée est faite pour remplacer le corpus de départ lors du test. Cela est pour objectif d'améliorer la détection de termes médicaux. 
+
+
+## Détection de la négation
+
+Nous avons proposé une approche hybrid qui se base sur la détection des certaines formes de phrases où il est demander d'apporter la mauvaise réponse d'une manière explicite, puis l'application d'une négation sur la phrase standardisée. 
+Une autre approche consiste dans certains cas moins triviales de garder la négation et l'incorporer dans la phrase standardisée. 
+
+
 ### Test de similarité 
 - récupérer les termes médicaux de la question V_1(i),..,V_n(i)
 - récupérer pour chaque réponse possible R(i) les termes médicaux B_1(i,j),..,B_m(i,j)
