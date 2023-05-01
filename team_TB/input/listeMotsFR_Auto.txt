@@ -784,8 +784,6 @@ croissance
 hématopoïétique
 tritium
 produire
-cannabis
-hémophile
 devant
 recherche
 priorité
@@ -846,11 +844,7 @@ présence
 fois
 étudier
 parle
-toxique
-nébuliseur
-ultrasonique
 source
-lymphocytaire
 désigne
 consécutif
 transduction
@@ -865,3 +859,8 @@ léger
 suspension
 classique
 quise
+noyau
+perturbation
+concerne
+périphérique
+site
