@@ -1,11 +1,11 @@
 # Résumé des travaux effectués
 
-Dans le but des corriger de manière automatique le QCM. 
+Dans le but de corriger de manière automatique le QCM. 
 Nous avons envisagé la méthodologie suivante : 
 
-Nous avons commencé par analysé la structure des questions et de proposer 
+Nous avons commencé par analyser la structure des questions et de proposer 
 une classification aux types des questions possibles.
-Cela est pour but de les standardiser sous forme des phrases qui comprennent les questions avec ces réponses et gérer les négations. Ces phrases sont utilisées par la suite pour former une première base de données. Cette dernière est de la forme : 
+Cela est pour but de les standardiser sous-forme des phrases qui comprennent les questions avec ces réponses et de gérer les négations. Ces phrases sont utilisées par la suite pour former une première base de données. Cette dernière est de la forme : 
 
 
 V_1(i),..,V_n(i),B_1(i,j),..,B_m(i,j);Q(i) + R_j(i) pour j=1:5 et i=1:N 
