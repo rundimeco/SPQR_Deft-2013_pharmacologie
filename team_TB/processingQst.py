@@ -74,12 +74,13 @@ def RecoverListMed(qst):
     listMed = []
     qst = qst.lstrip()
     qst = qst.rstrip()
-    liste = "./input/listeMots_fr.txt"
+    # liste = "./input/listeMots_fr.txt"
+    liste = "./input/listeMotsFR_Auto.txt"
     with open(liste,'r',encoding='utf-8') as f:
         liste_mots = [line.rstrip('\n').lower() for line in f]
     doc = nlp(qst.lower())
     for token in doc:
-        if token.text not in liste_mots and token.text not in listMed:
+        if token.text not in liste_mots and token.lemma_ not in listMed and not "":
             listMed.append(token.text)
     if listMed==[]:
         listMed = ['']
@@ -104,15 +105,15 @@ def MedTermDectector(qst,RecMedTerm):
     listMed = []
     qst = qst.lstrip()
     qst = qst.rstrip()
-    # liste = "./input/listeMotsFR_Auto.txt"
-    liste = "./input/listeMots_fr.txt"
+    liste = "./input/listeMotsFR_Auto.txt"
+    # liste = "./input/listeMots_fr.txt"
     with open(liste,'r',encoding='utf-8') as f:
         liste_mots = [line.rstrip('\n').lower() for line in f]
     sol = False 
     doc = nlp(qst.lower())
     for token in doc:
-        if RecMedTerm == True and token.lemma_ not in liste_mots and token.text not in listMed:
-            listMed.append(token.text)
+        if RecMedTerm == True and token.lemma_ not in liste_mots and token.lemma_ not in listMed and not "":
+            listMed.append(token.lemma_)
             sol = True
     return sol,listMed
 
@@ -129,7 +130,7 @@ def MedTermDectectorv3(qst,RecMedTerm):
     sol = False 
     doc = nlp(qst.lower())
     for token in doc:
-        if token.text!=' ' and RecMedTerm == True and token.text in liste_mots: 
+        if token.text!=' ' and RecMedTerm == True and token.text in liste_mots and not "": 
             listMed.append(token.text)
             sol = True
     return sol,listMed
@@ -211,3 +212,7 @@ def isRequestWrongAns(question):
             wrong_answer = True
             break
     return wrong_answer
+
+def writeJson(path,data):
+    with open(path,"w",encoding='utf-8') as f:
+        json.dump(data,f,indent=4,ensure_ascii=False)

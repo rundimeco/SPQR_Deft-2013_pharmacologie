@@ -1,0 +1,47 @@
+[
+    {
+        "id": "d0f974df4406bf2f933962bf0d0c0447a80d66719031e3b4a35c2ff3b3ccc594",
+        "ListMed": [
+            "adrénaline",
+            "métaboliques",
+            "glycolyse"
+        ],
+        "qst": "L'adrénaline stimule tous ces processus métaboliques sauf un glycolyse."
+    },
+    {
+        "id": "d0f974df4406bf2f933962bf0d0c0447a80d66719031e3b4a35c2ff3b3ccc594",
+        "ListMed": [
+            "adrénaline",
+            "métaboliques",
+            "lipolyse"
+        ],
+        "qst": "L'adrénaline stimule tous ces processus métaboliques sauf un lipolyse."
+    },
+    {
+        "id": "d0f974df4406bf2f933962bf0d0c0447a80d66719031e3b4a35c2ff3b3ccc594",
+        "ListMed": [
+            "adrénaline",
+            "métaboliques",
+            "néoglucogénèse"
+        ],
+        "qst": "L'adrénaline stimule tous ces processus métaboliques sauf un néoglucogénèse."
+    },
+    {
+        "id": "d0f974df4406bf2f933962bf0d0c0447a80d66719031e3b4a35c2ff3b3ccc594",
+        "ListMed": [
+            "adrénaline",
+            "métaboliques",
+            "glycogénolyse"
+        ],
+        "qst": "L'adrénaline stimule tous ces processus métaboliques sauf un glycogénolyse."
+    },
+    {
+        "id": "d0f974df4406bf2f933962bf0d0c0447a80d66719031e3b4a35c2ff3b3ccc594",
+        "ListMed": [
+            "adrénaline",
+            "métaboliques",
+            "cétogénèse"
+        ],
+        "qst": "L'adrénaline stimule tous ces processus métaboliques sauf un cétogénèse."
+    }
+]
