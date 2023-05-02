@@ -1,0 +1,16 @@
+{'BYMAX_1-2_char_wb': {'type': 'BYMAX', 'n_gram': '1-2', 'analyzer': 'char', 'score': {'Hamming': 0.19199692780337824, 'EMR': 0.04516129032258064}}}
+{'BYSEUIL_1-3_word_0.6': {'type': 'BYSEUIL', 'n_gram': '1-3', 'analyzer': 'word', 'score': {'Hamming': 0.0, 'EMR': 0.0}}}
+{'BYMAX_1-3_char_wb': {'type': 'BYMAX', 'n_gram': '1-3', 'analyzer': 'char', 'score': {'Hamming': 0.1937250384024566, 'EMR': 0.046543778801843315}}}
+{'BYMAX_1-3_word': {'type': 'BYMAX', 'n_gram': '1-3', 'analyzer': 'word', 'score': {'Hamming': 0.17175883256528338, 'EMR': 0.03778801843317972}}}
+{'BYMAX_1-2_word': {'type': 'BYMAX', 'n_gram': '1-2', 'analyzer': 'word', 'score': {'Hamming': 0.17175883256528338, 'EMR': 0.03778801843317972}}}
+{'BYSEUIL_1-2_word_0.8': {'type': 'BYSEUIL', 'n_gram': '1-2', 'analyzer': 'word', 'score': {'Hamming': 0.0, 'EMR': 0.0}}}
+{'BYSEUIL_1-3_word_0.9': {'type': 'BYSEUIL', 'n_gram': '1-3', 'analyzer': 'word', 'score': {'Hamming': 0.0, 'EMR': 0.0}}}
+{'BYSEUIL_1-3_char_wb_0.6': {'type': 'BYSEUIL', 'n_gram': '1-3', 'analyzer': 'char', 'score': {'Hamming': 0.47460829493088025, 'EMR': 0.01566820276497696}}}
+{'BYSEUIL_1-2_char_wb_0.8': {'type': 'BYSEUIL', 'n_gram': '1-2', 'analyzer': 'char', 'score': {'Hamming': 0.4049769585253482, 'EMR': 0.023502304147465437}}}
+{'BYSEUIL_1-2_char_wb_0.9': {'type': 'BYSEUIL', 'n_gram': '1-2', 'analyzer': 'char', 'score': {'Hamming': 0.033348694316436264, 'EMR': 0.003686635944700461}}}
+{'BYSEUIL_1-3_char_wb_0.9': {'type': 'BYSEUIL', 'n_gram': '1-3', 'analyzer': 'char', 'score': {'Hamming': 0.0017665130568356375, 'EMR': 0.0004608294930875576}}}
+{'BYSEUIL_1-2_char_wb_0.6': {'type': 'BYSEUIL', 'n_gram': '1-2', 'analyzer': 'char', 'score': {'Hamming': 0.47504608294931333, 'EMR': 0.01566820276497696}}}
+{'BYSEUIL_1-2_word_0.9': {'type': 'BYSEUIL', 'n_gram': '1-2', 'analyzer': 'word', 'score': {'Hamming': 0.0, 'EMR': 0.0}}}
+{'BYSEUIL_1-3_word_0.8': {'type': 'BYSEUIL', 'n_gram': '1-3', 'analyzer': 'word', 'score': {'Hamming': 0.0, 'EMR': 0.0}}}
+{'BYSEUIL_1-3_char_wb_0.8': {'type': 'BYSEUIL', 'n_gram': '1-3', 'analyzer': 'char', 'score': {'Hamming': 0.30412442396313344, 'EMR': 0.023963133640552997}}}
+{'BYSEUIL_1-2_word_0.6': {'type': 'BYSEUIL', 'n_gram': '1-2', 'analyzer': 'word', 'score': {'Hamming': 0.0, 'EMR': 0.0}}}
