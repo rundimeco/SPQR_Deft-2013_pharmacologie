@@ -129,12 +129,16 @@ dataref = [" ".join(liste) for liste in openJson("output/corpusRef/manuelMerckSe
 
 min_grams = [1]
 max_grams = [2,3]
-analyzers = ["word","char_wb"]
+analyzers = ["word","char_wb", "char"]
 seuils = [0.6,0.8,0.9]
-
+seuils = [i/20 for i in range(60, 90, 2)]
+print("Seuils", seuils)
 for min_gram in min_grams:
     for max_gram in max_grams:
         for analyzer in analyzers:
+            if "char" in analyzer:
+                min_gram+=2
+                max_gram+=2
             createResFile(dataset,dataref,min_gram,max_gram,analyzer,seuils)
             print()
 
