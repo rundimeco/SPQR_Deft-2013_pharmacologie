@@ -43,9 +43,10 @@ for phrase in qr:
            qst=remove_words(question)
            question_reponse += qst[0:1].upper()+ qst[1:]+' ' +choix[reponse][0].lower() + choix[reponse][1:] + "\n"
     elif 'inexacte' in question:
-       incorrect_answers = [choix[answer] for answer in choix.keys() if answer not in reponses]
-       qst=remove_words(question)
-       question_reponse += qst[0:1].upper()+ qst[1:]+' ' +choix[reponse][0].lower() + choix[reponse][1:] + "\n" 
+       for reponse in choix.keys():
+           if reponse not in reponses:
+               qst=remove_words(question)
+               question_reponse += qst[0:1].upper()+ qst[1:]+' ' +choix[reponse][0].lower() + choix[reponse][1:] + "\n" 
 with open("QR_inexact.txt", "w") as file_out:
     file_out.write(question_reponse)
 
