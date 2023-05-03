@@ -2,8 +2,7 @@ import json
 import string
 import re
 
-punctuation = string.punctuation.replace("'", '').replace('/', '').replace('.', '')
-
+punctuation = ''.join(c for c in string.punctuation if c not in ['\'', '/', '.', '-', '(', ')', '%', '<', '>', '=', '?'])
 def remove_words(text):
     reg1='\s*parmi\sles\ssuivantes'
     reg2='laquelle|lesquelles'
@@ -11,12 +10,12 @@ def remove_words(text):
     reg4='(((\(*celle(\(*s\)*)*\)*|ou celles)\s*)+)*'
     reg5='(((l[\'’]|la|/|les|ou|\(|\))\s*)+)*'
     reg6='(([\.,;\:]*\s*(laquelle|lesquelles|lesquels)\s*\?|(\u00a0)*\?|[\:,\.;])+)*'
-    words_to_remove = [r'\b'+reg3+''+reg4+''+reg5+'(qui\s((est|ou|sont|\)|\()\s*)+)*((proposition|affirmation|r.{1,2}ponse|affirmation)(\(*s\)*)*)*\sexacte(s)*\s*(\(*s\)*)*'+reg6,
-                       r'\b((laquelle\sou|\(*ou lesquelles\)*|\(*lesquelle\(*s\)*\)*|laquelle|la ou)\s*)+((de ces|des)+\s(proposition(s)*|affirmations(s)*)(\ssuivantes)*)*\s((est|\(*sont\)*|\(*ou sont\)*)\s*)+exacte(s)*\s*(\(*s\)*)*('+reg1+')*'+reg6,
-                       r'\b((quelle|quel)(\(*s*\)*)*\s)+(((est|\(*sont\)*)\s*)+)*(((la ou les|\(ou les\)|la|\(*les\)*|l\'|est l[\'’])\s)+)*(((la|ou|les|est|\(|\)|l\'|est l[\'’])\s*)+)*(celle(\(*s\)*)*)*(\squi\s(est\s*|\(*sont\)*)+)*(\shabituellement)*(r.{1,2}ponse|proposition|affirmation|caract.{1,2}ristique)*(\(*s\)*)*(\ssuivante\(*s\)*)*\s*exacte(s)*\s*(\(*s\)*)*('+reg1+')*'+reg6,
-                       r'\bquelle\(*(s)*\)*\s(r.{1,2}ponse|proposition|affirmation|assertion)(\(*s\)*)*('+reg1+')*\s((est|\(*sont\)*)\s*)+exacte(s)*\s*(\(*s\)*)*'+reg6,
+    words_to_remove = [r'\b'+reg3+''+reg4+''+reg5+'(qui\s((est|ou|sont|\)|\()\s*)+)*((proposition|affirmation|r.{1,2}ponse|affirmation)(\(*s\)*)*)*\s(inexacte|exacte)(s)*\s*(\(*s\)*)*'+reg6,
+                       r'\b((laquelle\sou|\(*ou lesquelles\)*|\(*lesquelle\(*s\)*\)*|laquelle|la ou)\s*)+(((de ces|des|de cette|\(*ces\)*)\s*)+\s(proposition(\(*s\)*)*|affirmation(\(*s\)*)*)(\ssuivantes)*)*\s((est|\(*sont\)*|\(*ou sont\)*)\s*)+(inexacte|exacte)(s)*\s*(\(*s\)*)*('+reg1+')*'+reg6,
+                       r'\b(((\(*(ou\s)*quelle\)*|\(*(ou\s)*quel\)*)(\(*s*\)*)*\s*)+(((est|\(*sont\)*)*\s*)+)*)+(((la ou les|\(ou les\)|la|\(*les\)*|l\'|est l[\'’])\s*)+)*(((la|ou|les|est|\(|\)|l\'|est l[\'’])\s*)+)*(celle(\(*s\)*)*)*(\squi\s(est\s*|\(*sont\)*)+)*(\shabituellement)*(r.{1,2}ponse|proposition|affirmation|caract.{1,2}ristique)*(\(*s\)*)*(\ssuivante\(*s\)*)*\s*(inexacte|exacte)(s)*\s*(\(*s\)*)*('+reg1+')*'+reg6,
+                       r'\bquelle\(*(s)*\)*\s(r.{1,2}ponse|proposition|affirmation|assertion)(\(*s\)*)*('+reg1+')*\s((est|\(*sont\)*)\s*)+(inexacte|exacte)(s)*\s*(\(*s\)*)*'+reg6,
                        r'\bparmi\s(la ou les|la\s*\(les\)|les|ces)\s(proposition|affirmation|r.{1,2}ponse|assertion|propri.{1,2}t.{1,2})(\(*s\)*)*\s*(suivante\(*s\)*)*'+reg6,
-                       r'((l\'|plusieurs|ou|une|seules|seule|\(|\)|certaine(\(*s\)*)*)\s*)+(((des|de|ces)\s)+((proposition|affirmation|r.{1,2}ponse|affirmation)(\(*s\)*)*)*(\ssuivantes\s)*)*\s*((\(*sont\)*|est)\s*)+\sexacte(s)*\s*(\(*s\)*)*'+reg6,
+                       r'((l\'|plusieurs|ou|une|seules|seule|\(|\)|certaine(\(*s\)*)*)\s*)+(((des|de|ces)\s)+((proposition|affirmation|r.{1,2}ponse|affirmation)(\(*s\)*)*)*(\ssuivantes\s)*)*\s*((\(*sont\)*|est)\s*)+\s(inexacte|exacte)(s)*\s*(\(*s\)*)*'+reg6,
                        r''+reg6+'',
                        r'^\s+']
     
@@ -26,6 +25,7 @@ def remove_words(text):
     return text
 
 def remove_punctuation(text):
+    
     clean_text = ''.join(char for char in text if char not in punctuation)
     return clean_text
 
@@ -34,7 +34,7 @@ with open('questions.json', 'r') as file_in:
 
 question_reponse = ""
 for phrase in qr:
-    question = phrase['question']
+    question = remove_punctuation(phrase['question'])
     choix = phrase['answers']
     reponses = phrase['correct_answers']
     
@@ -42,7 +42,11 @@ for phrase in qr:
        for reponse in reponses:
            qst=remove_words(question)
            question_reponse += qst[0:1].upper()+ qst[1:]+' ' +choix[reponse][0].lower() + choix[reponse][1:] + "\n"
-with open("QR.txt", "w") as file_out:
+    elif 'inexacte' in question:
+       incorrect_answers = [choix[answer] for answer in choix.keys() if answer not in reponses]
+       qst=remove_words(question)
+       question_reponse += qst[0:1].upper()+ qst[1:]+' ' +choix[reponse][0].lower() + choix[reponse][1:] + "\n" 
+with open("QR_inexact.txt", "w") as file_out:
     file_out.write(question_reponse)
 
 print("Extraction terminée (résultat stocké dans le fichier QR.txt)")
