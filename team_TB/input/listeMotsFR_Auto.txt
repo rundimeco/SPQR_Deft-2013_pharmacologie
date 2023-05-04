@@ -713,7 +713,8 @@ ses
 effets
 la
 ils
-laquellelesquelles
+laquelle
+lesquelles
 estsont
 inexactes
 à
