@@ -6,6 +6,12 @@ nlpd = spacy.load("fr_core_news_md")
 from fuzzywuzzy import fuzz
 import json 
 
+
+def writeJson(path,data):
+    with open(path,"w",encoding='utf-8') as f:
+        json.dump(data,f,indent=4,ensure_ascii=False)
+
+        
 def ComMembList(keywordQ, keywordR, tol=90):
     rate = 0
     for elt1 in keywordQ:
