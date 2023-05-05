@@ -35,6 +35,10 @@ f_preds.close()
 # Check if identifiers list are differents lengths
 if len(pairs_refs) != len(pairs_preds):
     print(f"{SystemColors.FAIL} The number of identifiers doesn't match the references ! {SystemColors.ENDC}")
+    print(args["references"],"r")
+    print(len(pairs_refs))
+    print(args["predictions"],"r")
+    print(len(pairs_preds))
     exit(0)
 
 # Check if all required identifiers are presents

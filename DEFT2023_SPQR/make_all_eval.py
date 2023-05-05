@@ -13,7 +13,7 @@ def get_parser():
 def taskPrincipale(data):
   #os.make_dirs("tmp", exist_ok = True)
   dic_res = {}
-  for path_csv in tqdm.tqdm(glob.glob(f"output/Results/*/*/*taskPrincipale.csv")):
+  for path_csv in tqdm.tqdm(glob.glob(f"output/Results/{data}/*/*taskPrincipale.csv")):
     out_json = f"{path_csv}.json"
     if os.path.exists(out_json)==False:
       cmd = f"python3 scripts/EvaluationQA.py --references='input/evaluation/{data}Principale.csv' --predictions='{path_csv}' --data='{data}'"
