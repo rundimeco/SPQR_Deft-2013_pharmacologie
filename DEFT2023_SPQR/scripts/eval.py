@@ -4,8 +4,9 @@ def taskPrincipale(data):
     dt = data.split('/')[-1].replace(".csv","")
     cleanOutputFile(f"output/Results/resultsTaskPrincipale_{dt}.txt")
     for file in glob.glob(f"output/Results/{dt}/*/*taskPrincipale.csv"):
+        c = file.split('/')[3]
         if file.split('/')[2] == dt:
-            cmd = f"python3 scripts/EvaluationQA.py --references='input/evaluation/{dt}Principale.csv' --predictions='{file}' --data='{dt}'"
+            cmd = f"python3 scripts/EvaluationQA.py --references='input/evaluation/{dt}Principale.csv' --predictions='{file}' --data='{dt}' --corpus='{c}'"
             p = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
             out, err = p.communicate() 
             result = out.split()
