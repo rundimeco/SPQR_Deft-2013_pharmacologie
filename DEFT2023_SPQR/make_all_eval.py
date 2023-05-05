@@ -43,12 +43,12 @@ def taskPrincipale(options):
     for cle, val in res_file.items():
       if type(val) is str:#version osef
         continue
+      val["corpus"] = name_corpus
       for nom_metrique, resultat in val["score"].items():
         dic_res.setdefault(nom_metrique, {"globale" : []})
         for param, valeur in val.items():
           if param =="score":
             continue
-          val["corpus"] = name_corpus
           dic_res[nom_metrique].setdefault(f"{param}={valeur}", [])
           this_res = [round(resultat, 5), f"{param}={valeur}", str(val)]
           dic_res[nom_metrique][f"{param}={valeur}"].append(this_res)
