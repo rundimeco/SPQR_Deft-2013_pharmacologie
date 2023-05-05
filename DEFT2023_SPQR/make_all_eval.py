@@ -3,6 +3,7 @@ import glob
 import os
 import tqdm
 import json
+import re
 
 def get_parser():
     parser = OptionParser()
@@ -12,6 +13,8 @@ def get_parser():
     return parser.parse_args()
 
 def taskPrincipale(options):
+  log = open("reading_errors.log", "w")
+  stats_errors ={"read":0, "not_found":0}
   data = options.data
   #os.make_dirs("tmp", exist_ok = True)
   dic_res = {}
@@ -19,31 +22,38 @@ def taskPrincipale(options):
   print(len(res_files), "csv files to process")
   for path_csv in tqdm.tqdm(res_files):
     out_json = f"{path_csv}.json"
+    name_corpus = re.split("/", path_csv)[-2]
     if os.path.exists(out_json)==False:
       cmd = f"python3 scripts/EvaluationQA.py --references='input/evaluation/{data}Principale.csv' --predictions='{path_csv}' --data='{data}'"
       os.system(cmd)
       if options.json_only==True:
         print("json only activé")
         break
+    if os.path.exists(out_json)==False:
+        log.write(f"Fichier introuvable : {out_json}\n")
+        stats_errors["not_found"]+=1
+        continue
     with open(out_json) as f:
       try:
         res_file = eval(f.read())
       except:
-        print("fichier illisible avec eval():", out_json)
-        break
+        log.write(f"fichier illisible avec eval(): {out_json}\n")
+        stats_errors["not_found"]+=1
+        continue
     for cle, val in res_file.items():
       if type(val) is str:#version osef
         continue
       for nom_metrique, resultat in val["score"].items():
         dic_res.setdefault(nom_metrique, {"globale" : []})
-        this_res = [round(resultat, 5), str(val)]
-        dic_res[nom_metrique]["globale"].append(this_res)
         for param, valeur in val.items():
           if param =="score":
             continue
-          dic_res[nom_metrique].setdefault(param, [])
+          val["corpus"] = name_corpus
+          dic_res[nom_metrique].setdefault(f"{param}={valeur}", [])
           this_res = [round(resultat, 5), f"{param}={valeur}", str(val)]
-          dic_res[nom_metrique][param].append(this_res)
+          dic_res[nom_metrique][f"{param}={valeur}"].append(this_res)
+        this_res = [round(resultat, 5), str(val)]
+        dic_res[nom_metrique]["globale"].append(this_res)
 
   for mesure, dic_mesure in dic_res.items():
     for categorie, liste_res in dic_mesure.items():
@@ -52,8 +62,8 @@ def taskPrincipale(options):
       print("-"*20)
       for r in sorted(liste_res, reverse=True)[:5]:
         print(r)
-
-
+  log.close()
+  print(stats_errors)
 def sortEvals(resultsFile):
     with open(resultsFile) as f:
         lignes= f.readlines()
@@ -79,3 +89,4 @@ if __name__=="__main__":
     taskPrincipale(o)
   else:
     print("Eval Task Annexe non faite")
+  print(o)
