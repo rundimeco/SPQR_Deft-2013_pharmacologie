@@ -14,6 +14,7 @@ parser = argparse.ArgumentParser(formatter_class = argparse.RawDescriptionHelpFo
 parser.add_argument("-r", "--references", default="./references_qa.txt", help = "Reference file")
 parser.add_argument("-p", "--predictions", default="./sample_qa.txt", help = "Predictions file")
 parser.add_argument("-d", "--data", type=str, help = "data name")
+parser.add_argument("-c", "--corpus", type=str, help = "corpus name")
 args = vars(parser.parse_args())
 
 class SystemColors:
@@ -68,12 +69,14 @@ def writeOutputFile(path,string):
         f.write(f"{string}\n")
 
 data_name = args["data"]
+corpus_name = args["corpus"]
 
 pred = args['predictions'].split("/")[-1].split("_")
 name = "_".join(pred[0:-1])
 line = str({
     "version" : args['predictions'].split("/")[2],
     name : {
+    "corpus" : corpus_name,
     "type" : pred[0], 
     "n_gram" : pred[1],
     "analyzer" : pred[2],

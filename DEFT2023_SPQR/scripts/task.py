@@ -85,10 +85,11 @@ def task(corpus,data,listeTri):
     dataref = [" ".join(liste) for liste in openJson(f"output/Corpus/keywords_{c}_{lt}.json")]
 
     #initialisation des paramètres
-    min_grams = [1]
-    max_grams = [2,3]
-    analyzers = ["char_wb"]
+    min_grams = [3]
+    max_grams = [3, 4, 5]
+    analyzers = ["char_wb", "char"]
     seuils = [0.5,0.6,0.7,0.8,0.9]
+    seuils = [x/100 for x in range(60, 80, 1)]
 
     #boucle d'exécution selon les paramètres
     for min_gram in min_grams:
