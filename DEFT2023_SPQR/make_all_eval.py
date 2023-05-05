@@ -23,6 +23,7 @@ def taskPrincipale(options):
   for path_csv in tqdm.tqdm(res_files):
     out_json = f"{path_csv}.json"
     name_corpus = re.split("/", path_csv)[-2]
+    seuil = re.findall("0\.[0-9]{1,2}", re.split("/", path_csv)[-1])[0]
     if os.path.exists(out_json)==False:
       cmd = f"python3 scripts/EvaluationQA.py --references='input/evaluation/{data}Principale.csv' --predictions='{path_csv}' --data='{data}'"
       os.system(cmd)
@@ -44,6 +45,7 @@ def taskPrincipale(options):
       if type(val) is str:#version osef
         continue
       val["corpus"] = name_corpus
+      val["seuil"] = seuil
       for nom_metrique, resultat in val["score"].items():
         dic_res.setdefault(nom_metrique, {"globale" : []})
         for param, valeur in val.items():
