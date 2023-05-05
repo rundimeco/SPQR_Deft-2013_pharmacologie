@@ -8,18 +8,29 @@ def get_parser():
     parser = OptionParser()
     parser.add_option("-d", "--data", dest="data", help="""Données train/dev""", type="string", default="dev")
     parser.add_option("-t", "--taskAnnexe", help="Traiter la tâche Annexe (par défaut c'est la principale", action="store_true", default = False)
+    parser.add_option("-j", "--json_only", help="Traiter uniquement les jsons déjà formés (=oublie les csv qui n'ont pas été évalués)", action="store_true", default = False)
     return parser.parse_args()
 
-def taskPrincipale(data):
+def taskPrincipale(options):
+  data = options.data
   #os.make_dirs("tmp", exist_ok = True)
   dic_res = {}
-  for path_csv in tqdm.tqdm(glob.glob(f"output/Results/{data}/*/*taskPrincipale.csv")):
+  res_files = glob.glob(f"output/Results/{data}/*/*taskPrincipale.csv")
+  print(len(res_files), "csv files to process")
+  for path_csv in tqdm.tqdm(res_files):
     out_json = f"{path_csv}.json"
     if os.path.exists(out_json)==False:
       cmd = f"python3 scripts/EvaluationQA.py --references='input/evaluation/{data}Principale.csv' --predictions='{path_csv}' --data='{data}'"
       os.system(cmd)
+      if options.json_only==True:
+        print("json only activé")
+        break
     with open(out_json) as f:
-      res_file = eval(f.read())
+      try:
+        res_file = eval(f.read())
+      except:
+        print("fichier illisible avec eval():", out_json)
+        break
     for cle, val in res_file.items():
       if type(val) is str:#version osef
         continue
@@ -65,6 +76,6 @@ if __name__=="__main__":
   #sortEvals(sys.argv[1])
   o, _ = get_parser()
   if o.taskAnnexe == False:
-    taskPrincipale(o.data)
+    taskPrincipale(o)
   else:
     print("Eval Task Annexe non faite")
