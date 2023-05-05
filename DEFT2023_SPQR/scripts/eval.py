@@ -8,9 +8,21 @@ def taskPrincipale(data):
             cmd = f"python3 scripts/EvaluationQA.py --references='input/evaluation/{dt}Principale.csv' --predictions='{file}' --data='{dt}'"
             p = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
             out, err = p.communicate() 
-            #result = out.split()
-            #for lin in result:
-            #    print(lin)
+            result = out.split()
+            for lin in result:
+                print(lin)
+
+def taskAnnexe(data):
+    dt = data.split('/')[-1].replace(".csv","")
+    cleanOutputFile(f"output/Results/resultsTaskAnnexe_{dt}.txt")
+    for file in glob.glob(f"output/Results/{dt}/*/*taskAnnexe.csv"):
+        if file.split('/')[2] == dt:
+            cmd = f"python3 scripts/EvaluationClassification.py --references='input/evaluation/{dt}Annexe.csv' --predictions='{file}' --data='{dt}'"
+            p = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
+            out, err = p.communicate() 
+            result = out.split()
+            for lin in result:
+                print(lin)
 
 def sortEvals(resultsFile):
     with open(resultsFile) as f:

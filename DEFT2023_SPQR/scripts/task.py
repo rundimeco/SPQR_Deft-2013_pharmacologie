@@ -50,8 +50,8 @@ def createResFile(c,dt,lt,dataset,dataref,min_gram,max_gram,analyzer,seuils,metr
         
         for k,v in good_res_seuil.items():
             good_res = "|".join(v).replace("0","a").replace("1","b").replace("2","c").replace("3","d").replace("4","e")
-            writeOutputFile(f"output/Results/{dt}/{c}_{dt}_{lt}/BYSEUIL_{min_gram}-{max_gram}_{analyzer}_{k}_taskPrincipale.csv",f"{key};{good_res}")
-            writeOutputFile(f"output/Results/{dt}/{c}_{dt}_{lt}/BYSEUIL_{min_gram}-{max_gram}_{analyzer}_{k}_taskAnnexe.csv",f"{key};{nb_answers[k]}")
+            #writeOutputFile(f"output/Results/{dt}/{c}_{dt}_{lt}/BYSEUIL_{min_gram}-{max_gram}_{analyzer}_{k}_taskPrincipale.csv",f"{key};{good_res}")
+            #writeOutputFile(f"output/Results/{dt}/{c}_{dt}_{lt}/BYSEUIL_{min_gram}-{max_gram}_{analyzer}_{k}_taskAnnexe.csv",f"{key};{nb_answers[k]}")
 
             good_res_fusion = good_res
             nb_answers_fusion = nb_answers[k]

@@ -64,3 +64,4 @@ Nous réalisons cette tâche sur le data d'entrée et sur le corpus de référen
 est ce que ça vaut le coup de changer de métrique ?
 j'ai plusieurs outputs proposés par les membres du projet dont le but est de répondre aux questions du train. Je les teste tous ou un seul suffit, vu qu'ils font tous la même tâche au final ?
 fusionner BYMAX et BYSEUIL : comment faire ?
+faire les deux corpus chatGPT et scrap (dossier corpus) et faire abréviations en mots complets
