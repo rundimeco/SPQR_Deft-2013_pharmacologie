@@ -4,6 +4,7 @@ import os
 import tqdm
 import json
 import re
+import statistics
 
 def get_parser():
     parser = OptionParser()
@@ -23,7 +24,10 @@ def taskPrincipale(options):
   for path_csv in tqdm.tqdm(res_files):
     out_json = f"{path_csv}.json"
     name_corpus = re.split("/", path_csv)[-2]
-    seuil = re.findall("0\.[0-9]{1,2}", re.split("/", path_csv)[-1])[0]
+    try:
+      seuil = re.findall("0\.[0-9]{1,2}", re.split("/", path_csv)[-1])[0]
+    except:#old result files
+      os.system(f"rm {path_csv}")
     if os.path.exists(out_json)==False:
       cmd = f"python3 scripts/EvaluationQA.py --references='input/evaluation/{data}Principale.csv' --predictions='{path_csv}' --data='{data}'"
       os.system(cmd)
@@ -46,15 +50,16 @@ def taskPrincipale(options):
         continue
       val["corpus"] = name_corpus
       val["seuil"] = seuil
+      moy = statistics.mean(val["score"].values())#e cas d'égaité on préférera la moyenne des deux métriques 
       for nom_metrique, resultat in val["score"].items():
         dic_res.setdefault(nom_metrique, {"globale" : []})
         for param, valeur in val.items():
           if param =="score":
             continue
           dic_res[nom_metrique].setdefault(f"{param}={valeur}", [])
-          this_res = [round(resultat, 5), f"{param}={valeur}", str(val)]
+          this_res = [round(resultat, 5), moy, f"{param}={valeur}", str(val)]
           dic_res[nom_metrique][f"{param}={valeur}"].append(this_res)
-        this_res = [round(resultat, 5), str(val)]
+        this_res = [round(resultat, 5), moy, str(val)]
         dic_res[nom_metrique]["globale"].append(this_res)
 
   for mesure, dic_mesure in dic_res.items():
@@ -63,7 +68,7 @@ def taskPrincipale(options):
       print(categorie, mesure)
       print("-"*20)
       for r in sorted(liste_res, reverse=True)[:5]:
-        print(r)
+          print(r[0], r[1:])
   log.close()
   print(stats_errors)
 def sortEvals(resultsFile):
