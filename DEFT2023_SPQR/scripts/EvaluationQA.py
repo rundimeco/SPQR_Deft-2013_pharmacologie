@@ -7,7 +7,7 @@ Authors
 """
 
 import argparse
-
+import os
 from sklearn.metrics import classification_report, f1_score, accuracy_score
 
 parser = argparse.ArgumentParser(formatter_class = argparse.RawDescriptionHelpFormatter)
@@ -77,8 +77,9 @@ line = str({
     "type" : pred[0], 
     "n_gram" : pred[1],
     "analyzer" : pred[2],
-    "score" : {"Hamming" : hamming_score, "EMR" : exact_match}}})
+    "score" : {"Hamming" : round(hamming_score,5), "EMR" : round(exact_match, 5)}}})
 writeOutputFile(f"output/Results/resultsTaskPrincipale_{data_name}.txt",line)
+writeOutputFile(f"{args['predictions']}.json",line)
 
 #print("#"*60)
 #print(f"Hamming Score: {SystemColors.OKGREEN} {hamming_score} {SystemColors.ENDC}")
