@@ -21,6 +21,7 @@ def taskPrincipale(options):
   dic_res = {}
   res_files = glob.glob(f"output/Results/{data}/*/*taskPrincipale.csv")
   print(len(res_files), "csv files to process")
+  json_files = glob.glob(f"output/Results/{data}/*/*taskPrincipale.csv.json")
   for path_csv in tqdm.tqdm(res_files):
     out_json = f"{path_csv}.json"
     name_corpus = re.split("/", path_csv)[-2]
@@ -38,6 +39,8 @@ def taskPrincipale(options):
         log.write(f"Fichier introuvable : {out_json}\n")
         stats_errors["not_found"]+=1
         continue
+    json_files.append(out_json)
+  for out_json in set(json_files):
     with open(out_json) as f:
       try:
         res_file = eval(f.read())
