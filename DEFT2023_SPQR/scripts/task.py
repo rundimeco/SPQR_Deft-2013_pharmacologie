@@ -7,6 +7,8 @@ def createResFile(c,dt,lt,dataset,dataref,min_gram,max_gram,analyzer,seuils,metr
     X = V.fit_transform(dataref)
     print("Vectorization done")
 
+    analyzer = analyzer.replace("_","-")
+
     counter = 0
     total = len(dataset.keys())
 
@@ -24,7 +26,12 @@ def createResFile(c,dt,lt,dataset,dataref,min_gram,max_gram,analyzer,seuils,metr
         for i,question_reponse in enumerate(listes):
             question_reponse = " ".join(question_reponse)
 
-            cos = list(similarity(V,question_reponse,X,metric=metric)[0])
+            if metric == "cosine":
+                cos = list(similarity(V,question_reponse,X,metric=metric))
+
+            else:
+                cos = distMetrics(V,question_reponse,X,metric=metric)
+
             maxi = max(cos)
 
             if maxi >= old_maxi:
@@ -45,13 +52,13 @@ def createResFile(c,dt,lt,dataset,dataref,min_gram,max_gram,analyzer,seuils,metr
                     nb_answers[str(seuil)] += 1
 
         good_res_maxi = good_res_maxi[0].replace("0","a").replace("1","b").replace("2","c").replace("3","d").replace("4","e")
-        writeOutputFile(f"output/Results/{dt}/{c}_{dt}_{lt}/BYMAX_{min_gram}-{max_gram}_{analyzer}_taskPrincipale.csv",f"{key};{good_res_maxi}")
-        writeOutputFile(f"output/Results/{dt}/{c}_{dt}_{lt}/BYMAX_{min_gram}-{max_gram}_{analyzer}_taskAnnexe.csv",f"{key};1")
+        writeOutputFile(f"output/Results/{dt}/{c}_{dt}_{lt}/BYMAX_{min_gram}-{max_gram}_{analyzer}_{metric}_taskPrincipale.csv",f"{key};{good_res_maxi}")
+        writeOutputFile(f"output/Results/{dt}/{c}_{dt}_{lt}/BYMAX_{min_gram}-{max_gram}_{analyzer}_{metric}_taskAnnexe.csv",f"{key};1")
         
         for k,v in good_res_seuil.items():
             good_res = "|".join(v).replace("0","a").replace("1","b").replace("2","c").replace("3","d").replace("4","e")
-            #writeOutputFile(f"output/Results/{dt}/{c}_{dt}_{lt}/BYSEUIL_{min_gram}-{max_gram}_{analyzer}_{k}_taskPrincipale.csv",f"{key};{good_res}")
-            #writeOutputFile(f"output/Results/{dt}/{c}_{dt}_{lt}/BYSEUIL_{min_gram}-{max_gram}_{analyzer}_{k}_taskAnnexe.csv",f"{key};{nb_answers[k]}")
+            #writeOutputFile(f"output/Results/{dt}/{c}_{dt}_{lt}/BYSEUIL_{min_gram}-{max_gram}_{analyzer}_{metric}_{k}_taskPrincipale.csv",f"{key};{good_res}")
+            #writeOutputFile(f"output/Results/{dt}/{c}_{dt}_{lt}/BYSEUIL_{min_gram}-{max_gram}_{analyzer}_{metric}_{k}_taskAnnexe.csv",f"{key};{nb_answers[k]}")
 
             good_res_fusion = good_res
             nb_answers_fusion = nb_answers[k]
@@ -59,8 +66,8 @@ def createResFile(c,dt,lt,dataset,dataref,min_gram,max_gram,analyzer,seuils,metr
                 good_res_fusion = good_res_maxi
                 nb_answers_fusion = 1
 
-            writeOutputFile(f"output/Results/{dt}/{c}_{dt}_{lt}/BYFUSION_{min_gram}-{max_gram}_{analyzer}_{k}_taskPrincipale.csv",f"{key};{good_res_fusion}")
-            writeOutputFile(f"output/Results/{dt}/{c}_{dt}_{lt}/BYFUSION_{min_gram}-{max_gram}_{analyzer}_{k}_taskAnnexe.csv",f"{key};{nb_answers_fusion}")
+            writeOutputFile(f"output/Results/{dt}/{c}_{dt}_{lt}/BYFUSION_{min_gram}-{max_gram}_{analyzer}_{metric}_{k}_taskPrincipale.csv",f"{key};{good_res_fusion}")
+            writeOutputFile(f"output/Results/{dt}/{c}_{dt}_{lt}/BYFUSION_{min_gram}-{max_gram}_{analyzer}_{metric}_{k}_taskAnnexe.csv",f"{key};{nb_answers_fusion}")
 
 
 def task(corpus,data,listeTri):
@@ -90,10 +97,12 @@ def task(corpus,data,listeTri):
     analyzers = ["char_wb", "char"]
     seuils = [0.5,0.6,0.7,0.8,0.9]
     seuils = [x/100 for x in range(60, 80, 1)]
+    metrics = ["cosine","dice","braycurtis"]
 
     #boucle d'exécution selon les paramètres
     for min_gram in min_grams:
         for max_gram in max_grams:
             for analyzer in analyzers:
-                createResFile(c,dt,lt,dataset,dataref,min_gram,max_gram,analyzer,seuils)
-                print()
+                for metric in metrics:
+                    createResFile(c,dt,lt,dataset,dataref,min_gram,max_gram,analyzer,seuils,metric=metric)
+                    print()

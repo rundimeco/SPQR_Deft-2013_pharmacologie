@@ -84,6 +84,7 @@ line = str({
     "type" : pred[0], 
     "n_gram" : pred[1],
     "analyzer" : pred[2],
+    "metric" : pred[3],
     "score" : {"Hamming" : round(hamming_score,5), "EMR" : round(exact_match, 5)}}})
 writeOutputFile(f"output/Results/resultsTaskPrincipale_{data_name}.txt",line)
 writeOutputFile(f"{args['predictions']}.json",line)

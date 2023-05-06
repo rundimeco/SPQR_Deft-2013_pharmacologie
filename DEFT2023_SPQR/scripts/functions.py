@@ -8,6 +8,10 @@ import string as strii
 
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics import pairwise_kernels
+from sklearn.metrics import DistanceMetric
+from sklearn.metrics import pairwise_distances
+import scipy.sparse as ss
+#import numpy as np
 
 import spacy
 sp = spacy.load("fr_core_news_sm")
@@ -80,4 +84,8 @@ def getKeywords(string,listeTri):
 
 def similarity(vec,target,liste,metric='cosine'):
     "renvoie la similarité cosinus entre une target et une liste"
-    return pairwise_kernels(vec.transform([target]),liste,metric=metric)
+    return pairwise_kernels(vec.transform([target]),liste,metric=metric)[0]
+
+def distMetrics(vec,target,liste,metric='dice'):
+    "calcul de plusieurs métriques basiques de sklearn"
+    return [ 1-i for i in pairwise_distances(vec.transform([target]).toarray(),liste.toarray(), metric=metric)[0]]

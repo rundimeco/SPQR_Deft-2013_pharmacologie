@@ -6,12 +6,12 @@ from scripts.eval import *
 
 def proceed(args):
   
-  corpus = "input/Manuel_Merck.json"
+  corpus = "input/ChatGPT.json"
   if args.corpus:
     corpus = args.corpus
   c = corpus.split('/')[-1].replace(".json","")
 
-  data = "data/test.csv"
+  data = "data/dev.csv"
   if args.data:
     data = args.data
   dt = data.split('/')[-1].replace(".csv","")
@@ -21,7 +21,7 @@ def proceed(args):
     listeTri = args.listeTri
   lt = listeTri.split('/')[-1].replace(".txt","")
 
-  resultsFile = "output/Results/resultsTaskPrincipale_train.txt"
+  resultsFile = "output/Results/resultsTaskPrincipale_dev.txt"
   if args.resultsFile:
     resultsFile = args.resultsFile
 
