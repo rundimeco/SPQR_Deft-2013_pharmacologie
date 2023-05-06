@@ -24,7 +24,6 @@ def taskPrincipale(options):
   json_files = glob.glob(f"output/Results/{data}/*/*taskPrincipale.csv.json")
   for path_csv in tqdm.tqdm(res_files):
     out_json = f"{path_csv}.json"
-    name_corpus = re.split("/", path_csv)[-2]
     try:
       seuil = re.findall("0\.[0-9]{1,2}", re.split("/", path_csv)[-1])[0]
     except:#old result files
@@ -41,6 +40,7 @@ def taskPrincipale(options):
         continue
     json_files.append(out_json)
   for out_json in set(json_files):
+    name_corpus = re.split("/", out_json)[-2]
     with open(out_json) as f:
       try:
         res_file = eval(f.read())
