@@ -24,7 +24,7 @@ def createResFile(c,dt,lt,dataset,dataref,min_gram,max_gram,analyzer,seuils,metr
         for i,question_reponse in enumerate(listes):
             question_reponse = " ".join(question_reponse)
 
-            cos = list(similarity(V,question_reponse,X,metric)[0])
+            cos = list(similarity(V,question_reponse,X,metric=metric)[0])
             maxi = max(cos)
 
             if maxi >= old_maxi:
