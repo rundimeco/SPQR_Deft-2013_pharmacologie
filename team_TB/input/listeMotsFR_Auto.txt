@@ -155,6 +155,7 @@ allongement
 temps
 saignement
 peut-être
+peu
 lier
 précision
 germe
@@ -713,8 +714,7 @@ ses
 effets
 la
 ils
-laquelle
-lesquelles
+laquellelesquelles
 estsont
 inexactes
 à
