@@ -48,12 +48,16 @@ def getRepDB(keywordQ,keywordQP,corpus,nwQstp):
 
     for ikA in range(len(keywordA)):
         rateA = count_words(keywordQ, keywordA[ikA])
-        if rateA > taux_sim:
+        if rateA >= taux_sim and rateA !=0:
+            # print(keywordA[ikA])
             rateAP = count_words(keywordQP, keywordA[ikA])
-                # print(rateA/len(keywordQ))
-                # print(rateAP/len(keywordQP))
-                # print("---")
-            if rateAP > taux_simP:#> taux_simP:
+            # print(keywordQ)
+            # print(keywordQP)
+            # print(count_ords)
+            # print(rateA/len(keywordQ))
+            # print(rateAP/len(keywordQP))
+            # print("----")
+            if rateAP > taux_simP:# and rateAP!=0:#> taux_simP:
                 indxStc = ikA
                 taux_sim = rateA
                 taux_simP = rateAP
