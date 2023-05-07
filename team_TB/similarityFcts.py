@@ -49,29 +49,14 @@ def getRepDB(keywordQ,keywordQP,corpus,nwQstp):
     for ikA in range(len(keywordA)):
         rateA = count_words(keywordQ, keywordA[ikA])
         if rateA >= taux_sim and rateA !=0:
-            # print(keywordA[ikA])
             rateAP = count_words(keywordQP, keywordA[ikA])
-            # print(keywordQ)
-            # print(keywordQP)
-            # print(count_ords)
-            # print(rateA/len(keywordQ))
-            # print(rateAP/len(keywordQP))
-            # print("----")
-            if rateAP > taux_simP:# and rateAP!=0:#> taux_simP:
+            if rateAP > taux_simP:
                 indxStc = ikA
                 taux_sim = rateA
                 taux_simP = rateAP
-                    # print(indxStc)
     
-    # if indxStc !=0:
     if taux_simP/len(keywordQP)>=0.7:
-        # print(rateAP)
-        # print(keywordQP)
-        # print(rateAP/len(keywordQP))
-        # print(corpus[indxStc]['sentence'])
-        # print("----")
         taux_simStc = similTestStcs(nwQstp,corpus[indxStc]['sentence'])
-        # print(taux_simStc)
     return taux_simStc
 
 
