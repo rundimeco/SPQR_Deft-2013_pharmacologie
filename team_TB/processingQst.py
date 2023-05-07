@@ -74,8 +74,7 @@ def RecoverListMed(qst):
     listMed = []
     qst = qst.lstrip()
     qst = qst.rstrip()
-    qst = qst.replace('(',"")
-    qst = qst.replace(')',"")
+    qst = re.sub(r'[^\w\s]', '', qst)
     liste = "./input/listeMotsFR_Auto.txt"
     with open(liste,'r',encoding='utf-8') as f:
         liste_mots = [line.rstrip('\n').lower() for line in f]
