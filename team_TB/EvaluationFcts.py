@@ -1,9 +1,12 @@
 
 # Evaluation 
 
+from math import nan
 def exactMatch_accuracy(preds, refs):
     exact_score = []
     for p, r in zip(preds, refs):
+        if p != p:
+            p="f"
         exact_score.append(sorted(p) == sorted(r))
     return sum(exact_score) / len(exact_score)
 

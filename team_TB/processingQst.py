@@ -8,6 +8,11 @@ nlp = spacy.load("fr_core_news_sm")
 from nltk.tokenize import word_tokenize
 import json
 
+pattern = r'(\d+|[^\w\s])'
+
+def add_spaces(match):
+    return ' ' + match.group(0) + ' '
+
 # Delete between parenthesis
 def del_betParenthese(qst):
     matchs = re.findall(r'\((.*?)\)', qst)
@@ -74,7 +79,8 @@ def RecoverListMed(qst):
     listMed = []
     qst = qst.lstrip()
     qst = qst.rstrip()
-    qst = re.sub(r'[^\w\s]', '', qst)
+    qst = qst.replace("[", "").replace("]", "")
+    qst = qst.replace('(',"").replace(')',"")
     liste = "./input/listeMotsFR_Auto.txt"
     with open(liste,'r',encoding='utf-8') as f:
         liste_mots = [line.rstrip('\n').lower() for line in f]
@@ -114,24 +120,6 @@ def MedTermDectector(qst,RecMedTerm):
     for token in doc:
         if RecMedTerm == True and token.lemma_ not in liste_mots and token.lemma_ not in listMed and not "":
             listMed.append(token.lemma_)
-            sol = True
-    return sol,listMed
-
-def MedTermDectectorv3(qst,RecMedTerm):
-    # if '(' in qst or ')' in qst:
-    #     qst = qst.replace('(','')
-    #     qst = qst.replace(')','')
-    listMed = []
-    qst = qst.lstrip()
-    qst = qst.rstrip()
-    liste_mots = openJson("./input/keywordsMesh_modified.json")
-    # with open(liste,'r',encoding='utf-8') as f:
-    #     liste_mots = [line.rstrip('\n').lower() for line in f]
-    sol = False 
-    doc = nlp(qst.lower())
-    for token in doc:
-        if token.text!=' ' and RecMedTerm == True and token.text in liste_mots and not "": 
-            listMed.append(token.text)
             sol = True
     return sol,listMed
 
