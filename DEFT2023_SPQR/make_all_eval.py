@@ -11,6 +11,7 @@ def get_parser():
     parser.add_option("-d", "--data", dest="data", help="""Données train/dev""", type="string", default="dev")
     parser.add_option("-t", "--taskAnnexe", help="Traiter la tâche Annexe (par défaut c'est la principale", action="store_true", default = False)
     parser.add_option("-j", "--json_only", help="Traiter uniquement les jsons déjà formés (=oublie les csv qui n'ont pas été évalués)", action="store_true", default = False)
+    parser.add_option("-g", "--globale_only", help="Seulement l'évaluation globale, pas par paramètre", action="store_true", default = False)
     return parser.parse_args()
 
 def taskPrincipale(options):
@@ -64,13 +65,15 @@ def taskPrincipale(options):
           dic_res[nom_metrique][f"{param}={valeur}"].append(this_res)
         this_res = [round(resultat, 5), moy, str(val)]
         dic_res[nom_metrique]["globale"].append(this_res)
-
   for mesure, dic_mesure in dic_res.items():
     for categorie, liste_res in dic_mesure.items():
+      if options.globale_only==True:
+        if "globale" not in categorie:
+            continue
       print("-"*20)
       print(categorie, mesure)
       print("-"*20)
-      for r in sorted(liste_res, reverse=True)[:5]:
+      for r in sorted(liste_res, reverse=True)[:10]:
           print(r[0], r[1:])
   log.close()
   print(stats_errors)
