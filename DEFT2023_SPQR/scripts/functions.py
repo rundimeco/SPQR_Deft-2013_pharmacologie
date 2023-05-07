@@ -8,7 +8,7 @@ import string as strii
 
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics import pairwise_kernels
-from sklearn.metrics import DistanceMetric
+from sklearn.metrics import *#DistanceMetric
 from sklearn.metrics import pairwise_distances
 import scipy.sparse as ss
 #import numpy as np

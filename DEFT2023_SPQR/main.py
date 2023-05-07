@@ -3,6 +3,9 @@ from scripts.adaptData import *
 from scripts.adaptCorpus import *
 from scripts.task import *
 from scripts.eval import *
+import warnings
+warnings.filterwarnings('ignore')
+
 
 def proceed(args):
   
