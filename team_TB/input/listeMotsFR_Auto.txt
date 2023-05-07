@@ -167,9 +167,10 @@ heure
 prévenir
 verre
 traitement
-héparine
 standard
 dose
+traverser
+barrière
 curatif
 appareil
 exploiter
@@ -218,7 +219,6 @@ aide
 potentiel
 mesurer
 correspondre
-remplissage
 agent
 transmettre
 quelles
@@ -243,7 +243,6 @@ hépatite
 libre
 obligatoire
 débit
-sanguin
 diminue
 fabrication
 bas
@@ -290,6 +289,7 @@ jour
 exclusivement
 conjugué
 indirect
+direct
 constituer
 attendre
 question
@@ -389,7 +389,6 @@ utilisable
 mission
 obligation
 service
-facteur
 révolution
 éliminer
 essentiellement
@@ -398,7 +397,6 @@ sous
 inchangé
 ainsi
 assurance
-hauteur
 dizaine
 millier
 euro
@@ -480,16 +478,10 @@ rapporter
 autre
 apparaître
 décours
-pancréatite
-cholestérol
-migraine
-anticancéreux
 appartenir
-intercalant
 mise
 dispositif
 tube
-digestif
 pathologique
 champ
 compétence
@@ -528,7 +520,6 @@ fluidiser
 urée
 contre-indiquer
 utilisation
-tétracycline
 compensation
 préciser
 immunité
@@ -580,7 +571,6 @@ validation
 finit
 aquatique
 améliorer
-résolution
 famille
 libération
 administrer
@@ -592,6 +582,7 @@ sévère
 si
 longueur
 colonne
+entrer
 bile
 contenir
 fond
@@ -693,9 +684,12 @@ celles
 }
 {
 l’
+l
 n’
 d’
 d'
+d
+b
 s’
 c'
 qu'
@@ -706,6 +700,13 @@ n
 ;
 s'
 ®
+°
+4
++
+%
+-t
+consister
+ 
 
 …
 sont
@@ -799,3 +800,5 @@ pertes
 durent
 composer
 h
+repose
+expose

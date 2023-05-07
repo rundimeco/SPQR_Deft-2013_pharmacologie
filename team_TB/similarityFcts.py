@@ -34,7 +34,7 @@ def count_words(keywordQ, KwCorpus):
             if re.search(r'\b{}\b'.format(word), text, re.IGNORECASE):
                 cpt += 1
                 # word_counter[word] += 1
-    return cpt
+    return cpt#,word_counter
 
 # Search for Medkeywords in the DB 
 def getRepDB(keywordQ,keywordQP,corpus,nwQstp):
@@ -48,18 +48,24 @@ def getRepDB(keywordQ,keywordQP,corpus,nwQstp):
 
     for ikA in range(len(keywordA)):
         rateA = count_words(keywordQ, keywordA[ikA])
-        if rateA >0:
+        if rateA > taux_sim:
             rateAP = count_words(keywordQP, keywordA[ikA])
-            if rateA > taux_sim:
-                if rateAP >=len(keywordQP):#> taux_simP:
-                    indxStc = ikA
-                    taux_sim = rateA
-                    taux_simP = rateAP
+                # print(rateA/len(keywordQ))
+                # print(rateAP/len(keywordQP))
+                # print("---")
+            if rateAP > taux_simP:#> taux_simP:
+                indxStc = ikA
+                taux_sim = rateA
+                taux_simP = rateAP
                     # print(indxStc)
     
     # if indxStc !=0:
-    if taux_simP !=0:
+    if taux_simP/len(keywordQP)>=0.7:
+        # print(rateAP)
+        # print(keywordQP)
+        # print(rateAP/len(keywordQP))
         # print(corpus[indxStc]['sentence'])
+        # print("----")
         taux_simStc = similTestStcs(nwQstp,corpus[indxStc]['sentence'])
         # print(taux_simStc)
     return taux_simStc

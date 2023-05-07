@@ -74,13 +74,14 @@ def RecoverListMed(qst):
     listMed = []
     qst = qst.lstrip()
     qst = qst.rstrip()
-    # liste = "./input/listeMots_fr.txt"
+    qst = qst.replace('(',"")
+    qst = qst.replace(')',"")
     liste = "./input/listeMotsFR_Auto.txt"
     with open(liste,'r',encoding='utf-8') as f:
         liste_mots = [line.rstrip('\n').lower() for line in f]
     doc = nlp(qst.lower())
     for token in doc:
-        if token.text not in liste_mots and token.lemma_ not in listMed and not "":
+        if token.lemma_ not in liste_mots and token.text not in listMed and not "":
             listMed.append(token.text)
     if listMed==[]:
         listMed = ['']
