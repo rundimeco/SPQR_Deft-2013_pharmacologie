@@ -42,6 +42,7 @@ def taskPrincipale(options):
     json_files.append(out_json)
   for out_json in set(json_files):
     name_corpus = re.split("/", out_json)[-2]
+    seuil = re.findall("0\.[0-9]{1,2}", re.split("/", out_json)[-1])[0]
     with open(out_json) as f:
       try:
         res_file = eval(f.read())
@@ -61,20 +62,25 @@ def taskPrincipale(options):
           if param =="score":
             continue
           dic_res[nom_metrique].setdefault(f"{param}={valeur}", [])
-          this_res = [round(resultat, 5), moy, f"{param}={valeur}", str(val)]
+          this_res = [round(resultat, 5), moy, f"{param}={valeur}", str(val), out_json]
           dic_res[nom_metrique][f"{param}={valeur}"].append(this_res)
-        this_res = [round(resultat, 5), moy, str(val)]
+        this_res = [round(resultat, 5), moy, str(val), out_json]
         dic_res[nom_metrique]["globale"].append(this_res)
   for mesure, dic_mesure in dic_res.items():
     for categorie, liste_res in dic_mesure.items():
+      NB=5
+      if "globale" in categorie:
+          NB=20
       if options.globale_only==True:
         if "globale" not in categorie:
             continue
       print("-"*20)
       print(categorie, mesure)
       print("-"*20)
-      for r in sorted(liste_res, reverse=True)[:10]:
-          print(r[0], r[1:])
+      for r in sorted(liste_res, reverse=True)[:NB]:
+          dd = eval(r[2])
+          print(r[0], r[1], [dd[cle] for cle in sorted(list(dd.keys()))])
+          #print("  ", r[3])#display the filenames for possible doubloons
   log.close()
   print(stats_errors)
 def sortEvals(resultsFile):
