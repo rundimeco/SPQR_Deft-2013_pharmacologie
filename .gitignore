@@ -1,13 +1,6 @@
-/home/julienb/Documents/python-envs/DEFT2023/SPQR_Deft-2013_pharmacologie/Similarités questions/sims.json
+output/Results/*.txt
+output/Results/**/*.csv
 
-### OSX ###
-.DS_Store
-.AppleDouble
-.LSOverride
+data/*.csv
 
-### Python ###
-**/.venv
-__pycache__
-
-### Misc ###
-*.csv
+input/evaluation/*.csv
