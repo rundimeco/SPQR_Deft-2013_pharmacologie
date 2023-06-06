@@ -1,8 +1,6 @@
-# À propos
+# DEFT2023
 
 Ce répertoire contient les scripts que nous avons utilisé pour le challenge DEFT 2023 (https://deft2023.univ-avignon.fr/#format). Le but était de trouver toutes les réponses des questions d'un jeu de données fournit pour l'occasion par les organisateurs du DEFT (FrenchMedMCQA).
-
-# DEFT2023
 
 Nous souhaitons, étant donné une question de notre jeu de données, trouver toutes les réponses à cette question. Nous procédons par similarité. Pour une question, nous créons 5 listes de mot-clefs. Chacune de ces listes de mot-clefs est le résultat de la concaténation des mot-clefs de la question (Q) et des mot-clefs d'une des 5 réponses possibles à la question (R1,R2,R3,R4,R5). On a donc pour chaque question : 
 
